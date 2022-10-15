@@ -1,24 +1,46 @@
-import logo from './logo.svg';
-import './App.css';
+import "./css/app.css";
+
+// components
+import styled, { ThemeProvider } from "styled-components";
+// BrowserRouter
+import { BrowserRouter, Routes, Route } from "react-router-dom";
+// Framer Motion
+import { motion } from "framer-motion";
+// Context api
+import { Theme } from "./contextapi/ThemeContext";
+import { useContext } from "react";
+import NotFound from "./pages/NotFound";
+import { GlobalStyles, lightTheme, darkTheme } from "./theme/global.styled";
+import Home from "./pages/Home";
+
+const StyledApp = styled.div`
+  background-color: ${(props) => props.theme.colors.background};
+`;
 
 function App() {
+  const [theme, setTheme] = useContext(Theme);
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+      <ThemeProvider theme={theme === "light" ? lightTheme : darkTheme}>
+        <motion.div
+          animate={{ x: "-150%" }}
+          transition={{ delay: 0.1, duration: 0.5 }}
+          className="animated-overlay"
+        />
+        <StyledApp>
+          <GlobalStyles />
+          <div className="app">
+            <BrowserRouter>
+              <Routes>
+                <Route path="/" element={<Home />} />
+                <Route path="*" element={<NotFound />} />
+              </Routes>
+            </BrowserRouter>
+          </div>
+        </StyledApp>
+      </ThemeProvider>
+    </>
   );
 }
 
