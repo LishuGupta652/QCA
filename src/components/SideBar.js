@@ -1,6 +1,7 @@
 import React from "react";
 import styled from "styled-components";
 import { TwitterTimelineEmbed } from "react-twitter-embed";
+import { FacebookProvider, Page } from "react-facebook";
 
 const SideBarStyled = styled.div`
   grid-area: sidebar;
@@ -20,6 +21,13 @@ const SideBarStyled = styled.div`
 const SideBar = () => {
   return (
     <SideBarStyled>
+      <FacebookProvider>
+        <Page
+          href="https://www.facebook.com/ashutosh.kumarsingh.127"
+          tabs="timeline"
+        />
+      </FacebookProvider>
+
       <div className="twitter-bar">
         <TwitterTimelineEmbed
           sourceType="profile"

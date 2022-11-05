@@ -7,7 +7,7 @@ import SideBar from "./SideBar";
 const TemplateGridStyled = styled.div`
   display: grid;
   grid-template-columns: repeat(12, 1fr);
-  grid-template-rows: 80px 1fr 100px;
+  grid-template-rows: 100px 1fr 100px;
 
   grid-template-areas:
     "header header header header header header header header header header header header"

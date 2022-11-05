@@ -1,4 +1,5 @@
 import styled from "styled-components";
+import { APP_NAME } from "../../config";
 
 const HomeBannerStyled = styled.div`
   margin: 60px 0;
@@ -22,7 +23,7 @@ const HomeBannerStyled = styled.div`
 const HomeBanner = () => {
   return (
     <HomeBannerStyled>
-      <h2> QCA (Quantum Cloud AI)</h2>
+      <h2> {APP_NAME} (Quantum Machine Learning Artificial Intelligence)</h2>
       <h4>
         Empowering the next generation of Cyber Physical Systems through the
         power of Data and AI

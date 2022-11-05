@@ -1,13 +1,16 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import styled from "styled-components";
-import { APP_NAME } from "../config";
 import { Container, Flex } from "../theme/global.styled";
 
 const HeaderStyled = styled.header`
   grid-area: header;
-  padding: 25px 0;
+  align-self: center;
   background-color: #fff;
+
+  .logo img {
+    width: 120px;
+  }
 
   nav ul {
     display: flex;
@@ -31,9 +34,9 @@ const Header = () => {
       <Container>
         <Flex spaceBetween>
           <div className="logo">
-            <h1>
-              <span className="app_name"> {APP_NAME} </span>
-            </h1>
+            <span className="app_name">
+              <img src={require("../img/logo.png")} alt="" />
+            </span>
           </div>
           <nav>
             <ul>
