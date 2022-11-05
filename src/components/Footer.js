@@ -1,5 +1,6 @@
 import React from "react";
 import styled from "styled-components";
+import { APP_NAME } from "../config";
 import { Container } from "../theme/global.styled";
 
 const FooterStyled = styled.div`
@@ -19,7 +20,9 @@ const Footer = () => {
   return (
     <FooterStyled>
       <Container>
-        <div>QCA @ {currentYear}</div>
+        <div>
+          {APP_NAME} @ {currentYear}
+        </div>
       </Container>
     </FooterStyled>
   );
