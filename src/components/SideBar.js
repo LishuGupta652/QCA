@@ -23,7 +23,7 @@ const SideBar = () => {
       <div className="twitter-bar">
         <TwitterTimelineEmbed
           sourceType="profile"
-          screenName="elonmusk"
+          screenName="ProfAKSinghNIT"
           options={{ height: 400 }}
         />
       </div>
