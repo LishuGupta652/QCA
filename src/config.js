@@ -1,4 +1,4 @@
-export const APP_NAME = "QMA";
+export const APP_NAME = "QMC";
 
 /**
  * AUTHOR
