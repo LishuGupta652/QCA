@@ -34,9 +34,11 @@ const Header = () => {
       <Container>
         <Flex spaceBetween>
           <div className="logo">
-            <span className="app_name">
-              <img src={require("../img/logo.png")} alt="" />
-            </span>
+            <Link to="/">
+              <span className="app_name">
+                <img src={require("../img/logo.png")} alt="" />
+              </span>
+            </Link>
           </div>
           <nav>
             <ul>
@@ -44,7 +46,9 @@ const Header = () => {
                 <Link to="/">Home</Link>
               </li>
               <li>News</li>
-              <li>Team</li>
+              <li>
+                <Link to="/teams">Teams</Link>
+              </li>
               <li>Research</li>
               <li>Publications</li>
               <li>Resources</li>

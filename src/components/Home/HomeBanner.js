@@ -18,12 +18,20 @@ const HomeBannerStyled = styled.div`
     border: 1px solid rgba(0, 0, 0, 0.1);
     width: 75%;
   }
+  .red {
+    color: #ff0000;
+  }
 `;
 
 const HomeBanner = () => {
   return (
     <HomeBannerStyled>
-      <h2> {APP_NAME} (Quantum Machine Learning Cloud Computing)</h2>
+      <h2>
+        {" "}
+        {APP_NAME} (<span className="red">Q</span>uantum,{" "}
+        <span className="red">M</span>achine Learning,{" "}
+        <span className="red">C</span>loud Computing) Labs
+      </h2>
       <h4>
         Empowering the next generation of Cyber Physical Systems through the
         power of Data and AI

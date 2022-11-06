@@ -12,6 +12,7 @@ import { useContext } from "react";
 import NotFound from "./pages/NotFound";
 import { GlobalStyles, lightTheme, darkTheme } from "./theme/global.styled";
 import Home from "./pages/Home";
+import Teams from "./pages/Teams";
 
 const StyledApp = styled.div`
   background-color: ${(props) => props.theme.colors.background};
@@ -34,6 +35,7 @@ function App() {
             <BrowserRouter>
               <Routes>
                 <Route path="/" element={<Home />} />
+                <Route path="/teams" element={<Teams />} />
                 <Route path="*" element={<NotFound />} />
               </Routes>
             </BrowserRouter>
