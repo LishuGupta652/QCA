@@ -23,7 +23,7 @@ const HomeBannerStyled = styled.div`
 const HomeBanner = () => {
   return (
     <HomeBannerStyled>
-      <h2> {APP_NAME} (Quantum Machine Learning Artificial Intelligence)</h2>
+      <h2> {APP_NAME} (Quantum Machine Learning Cloud Computing)</h2>
       <h4>
         Empowering the next generation of Cyber Physical Systems through the
         power of Data and AI
