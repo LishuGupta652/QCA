@@ -1,5 +1,5 @@
 import styled from "styled-components";
-import { APP_NAME } from "../../config";
+import { APP_NAME, TAGlINE } from "../../config";
 
 const HomeBannerStyled = styled.div`
   margin: 60px 0;
@@ -32,10 +32,7 @@ const HomeBanner = () => {
         <span className="red">M</span>achine Learning,{" "}
         <span className="red">C</span>loud Computing) Labs
       </h2>
-      <h4>
-        Empowering the next generation of Cyber Physical Systems through the
-        power of Data and AI
-      </h4>
+      <h4>{TAGlINE}</h4>
 
       <hr />
     </HomeBannerStyled>

@@ -1,5 +1,5 @@
 export const APP_NAME = "QMC";
-
+export const TAGlINE = `Enhancing the global technologies for humanity with innovative and focused research`;
 /**
  * AUTHOR
  */
