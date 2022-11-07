@@ -33,7 +33,7 @@ export const profileCardConfigs = [
     email: "smruti.sai90@gmail.com",
     title: "Smruti Rekha Sasamal",
     designation: "Research scholar",
-    department: "Computer Application, NIT Kurukshetra, Haryana, India",
+    department: " National Institute of Technology Kurukshetra, India ",
     siteLink: null,
     scholarLink: null,
     image: "smruti.jpg",
@@ -42,7 +42,7 @@ export const profileCardConfigs = [
     email: "jatinderkumar2851@gmail.com",
     title: "Jatinder Kumar",
     designation: "Research Scholar",
-    department: "National Institute of Technology, Kurukshetra, India",
+    department: "National Institute of Technology Kurukshetra, India",
     siteLink: null,
     scholarLink: null,
     image: "jatinder.jpg",
@@ -52,7 +52,7 @@ export const profileCardConfigs = [
     title: "Rishabh Gupta",
     designation: "Research Scholar",
     department:
-      "Computer Applications, National Institute of Technology, Kurukshetra, Haryana, India",
+      " National Institute of Technology Kurukshetra, India ",
     siteLink: null,
     scholarLink: "https://scholar.google.com/citations?hl=en&user=UVo-Af4AAAAJ",
     image: "rishabh.jpg",
@@ -60,8 +60,8 @@ export const profileCardConfigs = [
   {
     email: "13deepikasaxena@gmail.com",
     title: "Dr. Deepika Saxena",
-    designation: "Postdoc Research Fellow",
-    department: "Frankfurt University, Germany",
+    designation: "Postdoc Research Associate",
+    department: "FIAS Goethe University Frankfurt, Germany",
     siteLink: null,
     scholarLink:
       "https://scholar.google.com/citations?user=NajK_n8AAAAJ&hl=en&oi=ao",
@@ -71,7 +71,7 @@ export const profileCardConfigs = [
     email: "ishugupta23@gmail.com",
     title: "Dr. Ishu Gupta",
     designation: "Postdoc Research Fellow",
-    department: `Department of Computer Science and Engineering, Cloud Computing Research Center, National Sun Yat-Sen University, Kaohsiung, Taiwan`,
+    department: `National Sun Yat-Sen University, Kaohsiung, Taiwan`,
     siteLink: "https://sites.google.com/view/ishugupta",
     scholarLink: "https://scholar.google.com/citations?user=7Z457joAAAAJ&hl=en",
     image: "ishu.jpg",
@@ -81,7 +81,7 @@ export const profileCardConfigs = [
     title: "Dr. Jitendra Kumar",
     designation: "Assistant Professor",
     department:
-      "Department of Computer Applications, National Institute of Technology Tiruchirappalli, Tamilnadu, India",
+      "National Institute of Technology Tiruchirappalli, Tamilnadu, India",
     siteLink:
       "https://www.nitt.edu/home/academics/departments/ca/facultymca/jitendrakumar/",
     scholarLink: "https://scholar.google.com/citations?user=-fEn1ToAAAAJ&hl=en",
@@ -92,7 +92,7 @@ export const profileCardConfigs = [
     title: "Dr. Hari Mohan Gaur",
     designation: "Assistant Professor",
     department:
-      "School of Computer Science Engineering and Technology, Bennett University, Greater Noida, UP India",
+      "Bennett University, Greater Noida, India",
     siteLink: null,
     scholarLink:
       "https://scholar.google.co.in/citations?user=kwaR2-cAAAAJ&hl=en",
@@ -102,7 +102,7 @@ export const profileCardConfigs = [
     email: "nikhilquick@gmail.com",
     title: "Dr. Nikhil Raj",
     designation: "Assistant Professor",
-    department: "ECE LNMIT JAIPUR",
+    department: "LMNIT Jaipur, India",
     siteLink: null,
     scholarLink:
       "https://scholar.google.co.in/citations?user=ZZa7ooAAAAAJ&hl=en",
@@ -124,7 +124,7 @@ export const profileCardConfigs = [
     title: "Dr. Niharika Singh",
     designation: "Assistant Professor",
     department:
-      "School of Computer Science Engineering and Technology, Bennett University, Greater Noida, UP India",
+      "Bennett University, Greater Noida, India",
     siteLink: null,
     scholarLink:
       "https://scholar.google.com/citations?hl=en&user=x2etUsgAAAAJ&view_op=list_works&gmla=AJsN-F5nivhrbuP9avDndSDcfNdDKyDdEDTD99xFgNc8Kzs1Ofe9NWuRgLxD1hbRVsKkZvaoagmloEkw-F9PvAKc7XOIYmF_-bvJ44tFxgGl5xCNwxgXYhQ",

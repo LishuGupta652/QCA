@@ -28,9 +28,9 @@ const HomeBanner = () => {
     <HomeBannerStyled>
       <h2>
         {" "}
-        {APP_NAME} (<span className="red">Q</span>uantum,{" "}
+        {APP_NAME} (<span className="red">Q</span>uantum Computing,{" "}
         <span className="red">M</span>achine Learning,{" "}
-        <span className="red">C</span>loud Computing) Labs
+        <span className="red">C</span>loud Computing) Lab
       </h2>
       <h4>{TAGlINE}</h4>
 

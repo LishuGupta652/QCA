@@ -1,5 +1,9 @@
 import React from "react";
 import styled from "styled-components";
+import Footer from "../components/Footer";
+import Header from "../components/Header";
+import SideBar from "../components/SideBar";
+import ProfileCardTeam from "../components/Team/ProfileCardTeams";
 import Template from "../components/Template";
 import { profileCardConfigs } from "../config";
 import { Container } from "../theme/global.styled";
@@ -23,11 +27,11 @@ const Teams = () => {
       <TeamsStyled>
         <Template>
           <Container>
-            <h1>Teams</h1>
+            <h1>Team</h1>
 
             <div className="flex">
               {profileCardConfigs.map((profileCardConfig) => {
-                return <ProfileCard {...profileCardConfig} />;
+                return <ProfileCardTeam {...profileCardConfig} />;
               })}
             </div>
           </Container>
@@ -37,75 +41,4 @@ const Teams = () => {
   );
 };
 
-const ProfileCard = ({
-  email,
-  title,
-  designation,
-  department,
-  siteLink,
-  scholarLink,
-  image,
-}) => {
-  return (
-    <ProfileCardStyled>
-      <div className="profile_card">
-        <div className="profile_card_image">
-          <img src={require(`../img/teams/${image}`)} alt="" />
-        </div>
-        <div className="profile_card_info">
-          <h3>
-            <a href={siteLink}>{title}</a> ({designation})
-          </h3>
-          <p className="department">{department}</p>
-          <div className="email">
-            <a href={`mailto:${email}`}>{email}</a>
-
-            {scholarLink && (
-              <a href={scholarLink} className="scholar">
-                <img src={require("../img/scholar.png")} alt="" />
-              </a>
-            )}
-          </div>
-        </div>
-      </div>
-    </ProfileCardStyled>
-  );
-};
-
-const ProfileCardStyled = styled.div`
-  .profile_card {
-    display: flex;
-    align-items: center;
-    margin: 30px 0;
-
-    .profile_card_image {
-    }
-    img {
-      width: 120px;
-      height: 100%;
-      object-fit: cover;
-    }
-
-    .profile_card_info {
-      width: 400px;
-      background-color: #f5f5f5;
-      padding: 30px;
-
-      h3 {
-        font-size: 1rem;
-      }
-      .department {
-        font-size: 0.8rem;
-      }
-      .email {
-        font-size: 0.8rem;
-        color: blue;
-      }
-      .scholar img {
-        width: 30px;
-        padding: 0px 5px;
-      }
-    }
-  }
-`;
 export default Teams;
