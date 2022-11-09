@@ -9,6 +9,26 @@ const PublicationsStyled = styled.div`
   h1 {
     margin: 2rem 0;
   }
+
+  .resetButton,
+  select {
+    background-color: #4caf50; /* Green */
+    border: none;
+    color: white;
+    padding: 5px 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    background-color: white;
+    color: black;
+    border: 2px solid #343434;
+    border-radius: 5px;
+    margin-right: 10px;
+    margin-bottom: 40px;
+  }
 `;
 
 const Publications = () => {
@@ -78,8 +98,6 @@ const Publications = () => {
         <h1>Publications</h1>
 
         <div className="filters">
-          <button onClick={resetPublications}>Reset</button>
-
           {/* create option to select year */}
           <select
             onChange={(e) => {
@@ -90,6 +108,10 @@ const Publications = () => {
               <option value={year}>{year}</option>
             ))}
           </select>
+
+          <button className="resetButton" onClick={resetPublications}>
+            Reset
+          </button>
         </div>
 
         <ol>
@@ -133,6 +155,7 @@ const Publications = () => {
 
 const PublicationViewerStyled = styled.div`
   padding: 10px 0;
+  font-family: Arial, Helvetica, sans-serif;
   li {
     padding-left: 5px;
     margin-left: 30px;
@@ -141,11 +164,11 @@ const PublicationViewerStyled = styled.div`
   .author {
     font-weight: bold;
   }
+
   .title {
     font-style: italic;
   }
   .highlights {
-    font-weight: bold;
     color: #ff0000;
   }
 `;
