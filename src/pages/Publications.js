@@ -104,6 +104,7 @@ const Publications = () => {
               handleYearOptionChange(e);
             }}
           >
+            <option value="All">All</option>
             {years.map((year) => (
               <option value={year}>{year}</option>
             ))}
