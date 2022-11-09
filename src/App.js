@@ -13,6 +13,7 @@ import NotFound from "./pages/NotFound";
 import { GlobalStyles, lightTheme, darkTheme } from "./theme/global.styled";
 import Home from "./pages/Home";
 import Teams from "./pages/Teams";
+import Publications from "./pages/Publications";
 
 const StyledApp = styled.div`
   background-color: ${(props) => props.theme.colors.background};
@@ -36,6 +37,7 @@ function App() {
               <Routes>
                 <Route path="/" element={<Home />} />
                 <Route path="/team" element={<Teams />} />
+                <Route path="/publications" element={<Publications />} />
                 <Route path="*" element={<NotFound />} />
               </Routes>
             </BrowserRouter>

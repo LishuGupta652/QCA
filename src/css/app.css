@@ -55,6 +55,8 @@
     scroll-behavior: smooth;
     transition: 0.2s ease-in-out;
   }
-  ul {
-    list-style: none;
+
+  ol {
+    list-style-type: decimal;
+
   }

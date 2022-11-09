@@ -51,8 +51,7 @@ export const profileCardConfigs = [
     email: "rishabhgpt66@gmail.com",
     title: "Rishabh Gupta",
     designation: "Research Scholar",
-    department:
-      " National Institute of Technology Kurukshetra, India ",
+    department: " National Institute of Technology Kurukshetra, India ",
     siteLink: null,
     scholarLink: "https://scholar.google.com/citations?hl=en&user=UVo-Af4AAAAJ",
     image: "rishabh.jpg",
@@ -91,8 +90,7 @@ export const profileCardConfigs = [
     email: "leoharimohan84@gmail.com",
     title: "Dr. Hari Mohan Gaur",
     designation: "Assistant Professor",
-    department:
-      "Bennett University, Greater Noida, India",
+    department: "Bennett University, Greater Noida, India",
     siteLink: null,
     scholarLink:
       "https://scholar.google.co.in/citations?user=kwaR2-cAAAAJ&hl=en",
@@ -123,11 +121,61 @@ export const profileCardConfigs = [
     email: "niharika.academics@gmail.com",
     title: "Dr. Niharika Singh",
     designation: "Assistant Professor",
-    department:
-      "Bennett University, Greater Noida, India",
+    department: "Bennett University, Greater Noida, India",
     siteLink: null,
     scholarLink:
       "https://scholar.google.com/citations?hl=en&user=x2etUsgAAAAJ&view_op=list_works&gmla=AJsN-F5nivhrbuP9avDndSDcfNdDKyDdEDTD99xFgNc8Kzs1Ofe9NWuRgLxD1hbRVsKkZvaoagmloEkw-F9PvAKc7XOIYmF_-bvJ44tFxgGl5xCNwxgXYhQ",
     image: "niharika.jpg",
+  },
+];
+
+export const PublicationsCategory = ["book", "journal", "conference", "other"];
+
+export const publicationsConfig = [
+  // Jitendra Kumar, Ashutosh Kumar Singh, Anand Mohan, Rajkumar Buyya, ‘‘Machine Learning for Cloud Management’’, Chapman and Hall/CRC , 1st edition, 2021. (ISBN: 9780367626488)
+  {
+    authors: [
+      "Jitendra Kumar",
+      "Ashutosh Kumar Singh",
+      "Anand Mohan",
+      "Rajkumar Buyya",
+    ],
+    title: '"Machine Learning for Cloud Management"',
+    link: "https://www.routledge.com/Machine-Learning-for-Cloud-Management/Kumar-Singh-Mohan-Buyya/p/book/9780367622565",
+    venue: "",
+    publisher: "Chapman and Hall/CRC",
+    otherDetails: "1st edition, 2021. (ISBN: 9780367626488)",
+    highlights: "",
+    category: "book",
+    year: "2019",
+  },
+
+  // Jitendra Kumar, Ashutosh Kumar Singh, ‘‘Performance evaluation of metaheuristic algorithms for workload prediction in cloud environment’’, Applied Soft Computing, vol. 113, Part A, 2021, pp. 107895. (SCI, Q1, IF= 6.725 , ISSN: 1568-4946)
+  {
+    authors: ["Jitendra Kumar", "Ashutosh Kumar Singh"],
+    title:
+      '"Performance evaluation of metaheuristic algorithms for workload prediction in cloud environment"',
+    link: "https://doi.org/10.1016/j.asoc.2021.107895",
+    venue: "Applied Soft Computing",
+    publisher: "",
+    otherDetails:
+      "vol. 113, Part A, 2021, pp. 107895. (SCI, Q1, IF= 6.725 , ISSN: 1568-4946)",
+    highlights: "",
+    category: "journal",
+    year: "2021",
+  },
+  // Jitendra Kumar, Ashutosh Kumar Singh, ‘‘Cloud resource demand prediction using differential evolution based learning’’, 2019 7th International Conference on Smart Computing & Communications (ICSCC), Sarawak, Malaysia, Malaysia, 2019, pp. 1-5. (Best Paper Award), (Scopus)
+  {
+    authors: ["Jitendra Kumar", "Ashutosh Kumar Singh"],
+    title:
+      '"Cloud resource demand prediction using differential evolution based learning"',
+    link: "https://ieeexplore.ieee.org/document/8843680",
+    venue:
+      "2019 7th International Conference on Smart Computing & Communications (ICSCC)",
+    publisher: "",
+    otherDetails: "Sarawak, Malaysia, Malaysia, 2019, pp. 1-5. , (Scopus)",
+    highlights: "(Best Paper Award)",
+    category: "conference",
+    year: "2019",
   },
 ];
