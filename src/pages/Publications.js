@@ -141,6 +141,13 @@ const Publications = () => {
         categoriesToSelect.push(pub.category);
       }
     });
+    yearsToSelect.sort();
+
+    authorsToSelect.sort();
+
+    console.log("yearsToSelect", yearsToSelect);
+    console.log("authorsToSelect", authorsToSelect);
+    console.log("categoriesToSelect", categoriesToSelect);
 
     setYears(yearsToSelect);
     setAuthors(authorsToSelect);

@@ -149,7 +149,6 @@ export const publicationsConfig = [
     category: "book",
     year: "2019",
   },
-
   // Jitendra Kumar, Ashutosh Kumar Singh, ‘‘Performance evaluation of metaheuristic algorithms for workload prediction in cloud environment’’, Applied Soft Computing, vol. 113, Part A, 2021, pp. 107895. (SCI, Q1, IF= 6.725 , ISSN: 1568-4946)
   {
     authors: ["Jitendra Kumar", "Ashutosh Kumar Singh"],
@@ -176,6 +175,6 @@ export const publicationsConfig = [
     otherDetails: "Sarawak, Malaysia, Malaysia, 2019, pp. 1-5. , (Scopus)",
     highlights: "(Best Paper Award)",
     category: "conference",
-    year: "2019",
+    year: "2017",
   },
 ];
