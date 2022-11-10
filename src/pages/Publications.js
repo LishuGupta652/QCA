@@ -38,6 +38,8 @@ const Publications = () => {
   const [conferences, setConferences] = React.useState([]);
   const [otherPublications, setOtherPublications] = React.useState([]);
   const [years, setYears] = React.useState([]);
+  const [authors, setAuthors] = React.useState([]);
+  const [categories, setCategories] = React.useState([]);
 
   const [sortedPublications, setSortedPublications] =
     React.useState(publications);
@@ -67,6 +69,38 @@ const Publications = () => {
     });
   };
 
+  const handleAuthorOptionChange = (e) => {
+    const author = e.target.value;
+    console.log(author);
+    console.log(publications);
+
+    if (author === "All") {
+      resetPublications();
+    } else {
+      const filteredPublications = publicationsConfig.filter((publication) =>
+        publication.authors.includes(author)
+      );
+      console.log(filteredPublications);
+      setPublications(filteredPublications);
+    }
+  };
+
+  const handleCategoryOptionChange = (e) => {
+    const category = e.target.value;
+    console.log(category);
+    console.log(publications);
+
+    if (category === "All") {
+      resetPublications();
+    } else {
+      const filteredPublications = publicationsConfig.filter(
+        (publication) => publication.category === category
+      );
+      console.log(filteredPublications);
+      setPublications(filteredPublications);
+    }
+  };
+
   useEffect(() => {
     setBooks(publications.filter((pub) => pub.category === "book"));
     setJournals(publications.filter((pub) => pub.category === "journal"));
@@ -81,13 +115,27 @@ const Publications = () => {
     setPublications(sortPublications(publications));
 
     const yearsToSelect = [];
+    const authorsToSelect = [];
+    const categoriesToSelect = [];
     publications.forEach((pub) => {
       if (!yearsToSelect.includes(pub.year)) {
         yearsToSelect.push(pub.year);
       }
+
+      pub.authors.forEach((author) => {
+        if (!authorsToSelect.includes(author)) {
+          authorsToSelect.push(author);
+        }
+      });
+
+      if (!categoriesToSelect.includes(pub.category)) {
+        categoriesToSelect.push(pub.category);
+      }
     });
 
     setYears(yearsToSelect);
+    setAuthors(authorsToSelect);
+    setCategories(categoriesToSelect);
   }, []);
 
   return (
@@ -104,9 +152,33 @@ const Publications = () => {
               handleYearOptionChange(e);
             }}
           >
-            <option value="All">All</option>
+            <option value="All">Select Year</option>
             {years.map((year) => (
               <option value={year}>{year}</option>
+            ))}
+          </select>
+
+          {/* create option to select author */}
+          <select
+            onChange={(e) => {
+              handleAuthorOptionChange(e);
+            }}
+          >
+            <option value="All">Select Author</option>
+            {authors.map((author) => (
+              <option value={author}>{author}</option>
+            ))}
+          </select>
+
+          {/* create option to select category */}
+          <select
+            onChange={(e) => {
+              handleCategoryOptionChange(e);
+            }}
+          >
+            <option value="All">Select Category</option>
+            {categories.map((category) => (
+              <option value={category}>{category}</option>
             ))}
           </select>
 
@@ -167,6 +239,9 @@ const PublicationViewerStyled = styled.div`
   }
 
   .title {
+  }
+  .venue,
+  .publisher {
     font-style: italic;
   }
   .highlights {
