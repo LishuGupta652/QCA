@@ -41,62 +41,71 @@ const Publications = () => {
   const [authors, setAuthors] = React.useState([]);
   const [categories, setCategories] = React.useState([]);
 
+  const [selectedYear, setSelectedYear] = React.useState("All");
+  const [selectedAuthor, setSelectedAuthor] = React.useState("All");
+  const [selectedCategory, setSelectedCategory] = React.useState("All");
+
   const [sortedPublications, setSortedPublications] =
     React.useState(publications);
 
   const resetPublications = () => {
     setPublications(publicationsConfig);
+
+    setSelectedYear("All");
+    setSelectedAuthor("All");
+    setSelectedCategory("All");
   };
 
-  const handleYearOptionChange = (e) => {
-    const year = e.target.value;
-    console.log(year);
-    console.log(publications);
-
-    if (year === "All") {
-      resetPublications();
-    } else {
-      const filteredPublications = publicationsConfig.filter(
-        (publication) => publication.year === year
-      );
-      console.log(filteredPublications);
-      setPublications(filteredPublications);
-    }
-  };
   const sortPublications = (pub) => {
     return pub.sort((a, b) => {
       return a.year < b.year;
     });
   };
 
+  const handleYearOptionChange = (e) => {
+    const year = e.target.value;
+
+    if (year === "All") {
+      resetPublications();
+    } else {
+      resetPublications();
+      const filteredPublications = publicationsConfig.filter(
+        (publication) => publication.year === year
+      );
+
+      setSelectedYear(year);
+      setPublications(filteredPublications);
+    }
+  };
+
   const handleAuthorOptionChange = (e) => {
     const author = e.target.value;
-    console.log(author);
-    console.log(publications);
 
     if (author === "All") {
       resetPublications();
     } else {
+      resetPublications();
       const filteredPublications = publicationsConfig.filter((publication) =>
         publication.authors.includes(author)
       );
-      console.log(filteredPublications);
+
+      setSelectedAuthor(author);
       setPublications(filteredPublications);
     }
   };
 
   const handleCategoryOptionChange = (e) => {
     const category = e.target.value;
-    console.log(category);
-    console.log(publications);
 
     if (category === "All") {
       resetPublications();
     } else {
+      resetPublications();
       const filteredPublications = publicationsConfig.filter(
         (publication) => publication.category === category
       );
-      console.log(filteredPublications);
+
+      setSelectedCategory(category);
       setPublications(filteredPublications);
     }
   };
@@ -151,6 +160,7 @@ const Publications = () => {
             onChange={(e) => {
               handleYearOptionChange(e);
             }}
+            value={selectedYear}
           >
             <option value="All">Select Year</option>
             {years.map((year) => (
@@ -163,6 +173,7 @@ const Publications = () => {
             onChange={(e) => {
               handleAuthorOptionChange(e);
             }}
+            value={selectedAuthor}
           >
             <option value="All">Select Author</option>
             {authors.map((author) => (
@@ -175,6 +186,7 @@ const Publications = () => {
             onChange={(e) => {
               handleCategoryOptionChange(e);
             }}
+            value={selectedCategory}
           >
             <option value="All">Select Category</option>
             {categories.map((category) => (
