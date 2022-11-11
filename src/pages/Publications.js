@@ -145,10 +145,6 @@ const Publications = () => {
 
     authorsToSelect.sort();
 
-    console.log("yearsToSelect", yearsToSelect);
-    console.log("authorsToSelect", authorsToSelect);
-    console.log("categoriesToSelect", categoriesToSelect);
-
     setYears(yearsToSelect);
     setAuthors(authorsToSelect);
     setCategories(categoriesToSelect);
@@ -254,7 +250,6 @@ const PublicationViewerStyled = styled.div`
   }
 
   .author {
-    font-weight: bold;
   }
 
   .title {
@@ -288,7 +283,9 @@ const PublicationViewer = ({
           })}
         </span>
         <span className="title">
-          <a href={link}>{title}</a>
+          <a href={link} target="_blank" rel="noopener noreferrer">
+            {title}
+          </a>
         </span>
         {venue && <span className="venue">, {venue}</span>}
         {publisher && <span className="publisher">, {publisher}</span>}
