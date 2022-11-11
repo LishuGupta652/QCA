@@ -14,6 +14,7 @@ import { GlobalStyles, lightTheme, darkTheme } from "./theme/global.styled";
 import Home from "./pages/Home";
 import Teams from "./pages/Teams";
 import Publications from "./pages/Publications";
+import COTBlog01 from "./pages/COTBlog01";
 
 const StyledApp = styled.div`
   background-color: ${(props) => props.theme.colors.background};
@@ -38,6 +39,7 @@ function App() {
                 <Route path="/" element={<Home />} />
                 <Route path="/team" element={<Teams />} />
                 <Route path="/publications" element={<Publications />} />
+                <Route path="/cloud-of-things-blog01" element={<COTBlog01 />} />
                 <Route path="*" element={<NotFound />} />
               </Routes>
             </BrowserRouter>
