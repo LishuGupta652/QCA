@@ -79,7 +79,7 @@ const COTBlog01 = () => {
         </p>
 
         <div className="para1">
-          <span className="highlight">Introduction:</span> Cloud computing has
+          <span className="highlight">Introduction:</span> Cloud  has
           received a tremendous acceptance across the globe due to its
           characteristics including on-demand service, accessibility,
           reliability, scalability, elasticity, and many others. In modern
