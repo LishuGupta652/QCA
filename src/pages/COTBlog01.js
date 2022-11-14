@@ -4,7 +4,6 @@ import Header from "../components/Header";
 import { Container } from "../theme/global.styled";
 
 const COTBlog01Styled = styled.div`
-  text-align: justify;
   h1 {
     margin: 4rem 0 1rem 0;
     text-align: center;
@@ -29,6 +28,12 @@ const COTBlog01Styled = styled.div`
   .para3,
   .para4 {
     margin-bottom: 1rem;
+  }
+  .para1,
+  .para2,
+  .para3,
+  .para4 {
+    text-align: justify;
   }
 
   .topics ol {

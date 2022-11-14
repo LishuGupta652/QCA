@@ -1,0 +1,11 @@
+Jitendra Kumar, Rimsha Goomer, Ashutosh Kumar Singh,
+Long Short Term Memory Recurrent Neural Network (LSTM-RNN) Based Workload Forecasting Model For Cloud Datacenters,
+Procedia Computer Science,
+Volume 125,
+2018,
+Pages 676-682,
+ISSN 1877-0509,
+https://doi.org/10.1016/j.procs.2017.12.087.
+(https://www.sciencedirect.com/science/article/pii/S1877050917328557)
+Abstract: In spite of various gains, cloud computing has got few challenges and issues including dynamic resource scaling and power consumption. Such affairs cause a cloud system to be fragile and expensive. In this paper we address both issues in cloud datacenter through workload prediction. The workload prediction model is developed using long short term memory (LSTM) networks. The proposed model is tested on three benchmark datasets of web server logs. The empirical results show that the proposed method achieved high accuracy in predictions by reducing the mean squared error up to 3.17 x 10-3.
+Keywords: Cloud Computing; Resource Scaling; Forecasting; Deep Learning

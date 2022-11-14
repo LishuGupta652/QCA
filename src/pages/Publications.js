@@ -1,6 +1,7 @@
 import React from "react";
 import { useEffect } from "react";
 import styled from "styled-components";
+import Footer from "../components/Footer";
 import Header from "../components/Header";
 import { publicationsConfig } from "../config";
 import { Container } from "../theme/global.styled";
@@ -237,6 +238,8 @@ const Publications = () => {
           )}
         </ol>
       </Container>
+
+      <Footer />
     </PublicationsStyled>
   );
 };
