@@ -75,7 +75,7 @@ const COTBlog01 = () => {
           <span className="dateSubmitText">
             Last date of chapter submission:
           </span>
-          <span className="dateVal"> 15.02.2023</span>
+          <span className="dateVal"> 31.02.2023</span>
         </p>
 
         <div className="para1">
