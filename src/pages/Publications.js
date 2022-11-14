@@ -30,6 +30,10 @@ const PublicationsStyled = styled.div`
     margin-right: 10px;
     margin-bottom: 40px;
   }
+
+  .soon {
+    color: #4caf50;
+  }
 `;
 
 const Publications = () => {
@@ -157,6 +161,10 @@ const Publications = () => {
 
       <Container>
         <h1>Publications</h1>
+
+        <h3 className="soon">
+          <span>Updates Coming Soon</span>
+        </h3>
 
         <div className="filters">
           {/* create option to select year */}
