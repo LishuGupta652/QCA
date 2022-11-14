@@ -84,10 +84,11 @@ const COTBlog01 = () => {
         </p>
 
         <div className="para1">
+          <div className="topicLine">
           Dear Researchers/Academicians, <br/>
           We invite you to contribute your quality research into our upcoming book to be published by CRC Press-Taylor & Francis Group.<br/>
-                    
-          <span className="highlight">Note: </span> <br/>
+          <span className="highlight">Note: </span> 
+          </div>
           <ol>
             <li>There is NO processing/publication charge for the book chapter.</li>
             <li>The book will be sent for possible indexing in Scopus.</li>
