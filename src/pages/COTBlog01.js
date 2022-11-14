@@ -214,13 +214,21 @@ const COTBlog01 = () => {
         </div>
 
         <div className="submission">
-          <div className="highlight">Submission</div>
+          <div className="highlight">Submission Guidelines</div>
           <p>
+            <ol>
+              <li>All Manuscripts must be original and not simultaneously submitted to another journal or conference. All the submissions should be made only through Microsoft CMT Only.</li>
+              <li>Plagiarism Policy: The submitted full chapter must not be submitted elsewhere for any type of consideration for publishing. The Author should ensure the Plagiarism % is less than 15% (from any single source < 2%).</li>
+              <li>Reviewing Policy: The editor(s) will engage two single-blind peer-reviewers to assess originality, clarity, usefulness, and adherence to the scope of the chapter.</li>
+            </ol>
+
             Please use templates given below: <br/>
             LaTeX: <a href="https://www.overleaf.com/latex/templates/taylor-and-francis-latex-template-for-authors-interact-layout-plus-apa-reference-style/jqhskrsqqzfz">https://www.overleaf.com/latex/templates/taylor-and-francis-latex-template-for-authors-interact-layout-plus-apa-reference-style/jqhskrsqqzfz</a> <br/>
             Microsoft Office Word: <a href="https://docs.google.com/document/d/1DKIFZAqO2LzzrurzeOFbSDh2qzL_tOo_/edit?usp=share_link&ouid=109550927316957289401&rtpof=true&sd=true">https://docs.google.com/document/d/1DKIFZAqO2LzzrurzeOFbSDh2qzL_tOo_/edit?usp=share_link&ouid=109550927316957289401&rtpof=true&sd=true</a> <br/>
 
           </p>
+          <div className="highlight">Important Guidelines for Manuscript Preparation</div>
+
         </div>
 
         <div className="editors">
@@ -229,15 +237,15 @@ const COTBlog01 = () => {
           <ol className="editor">
             <li>
               Dr. Jitendra Kumar, Department of Computer Applications, National
-              Institute of Technology Tiruchirappalli, India, 620015
+              Institute of Technology Tiruchirappalli, India
             </li>
             <li>
               Dr. G. R. Gangadharan, Department of Computer Applications,
-              National Institute of Technology Tiruchirappalli, India, 620015
+              National Institute of Technology Tiruchirappalli, India
             </li>
             <li>
               Prof. Ashutosh Kumar Singh, Department of Computer Applications,
-              National Institute of Technology Kurukshetra, India, 136119
+              National Institute of Technology Kurukshetra, India
             </li>
             <li>
               Prof. Chung-Nan Lee, Department of Computer Science and
