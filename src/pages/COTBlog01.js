@@ -202,10 +202,9 @@ const COTBlog01 = () => {
         <div className="submission">
           <div className="highlight">Submission</div>
           <p>
-            Please use templates given below:
-
-            LaTeX: <a href="https://www.overleaf.com/latex/templates/taylor-and-francis-latex-template-for-authors-interact-layout-plus-apa-reference-style/jqhskrsqqzfz">https://www.overleaf.com/latex/templates/taylor-and-francis-latex-template-for-authors-interact-layout-plus-apa-reference-style/jqhskrsqqzfz</a>
-            Microsoft Office Word: <a href="https://docs.google.com/document/d/1DKIFZAqO2LzzrurzeOFbSDh2qzL_tOo_/edit?usp=share_link&ouid=109550927316957289401&rtpof=true&sd=true">https://docs.google.com/document/d/1DKIFZAqO2LzzrurzeOFbSDh2qzL_tOo_/edit?usp=share_link&ouid=109550927316957289401&rtpof=true&sd=true</a>
+            Please use templates given below: <br/>
+            LaTeX: <a href="https://www.overleaf.com/latex/templates/taylor-and-francis-latex-template-for-authors-interact-layout-plus-apa-reference-style/jqhskrsqqzfz">https://www.overleaf.com/latex/templates/taylor-and-francis-latex-template-for-authors-interact-layout-plus-apa-reference-style/jqhskrsqqzfz</a> <br/>
+            Microsoft Office Word: <a href="https://docs.google.com/document/d/1DKIFZAqO2LzzrurzeOFbSDh2qzL_tOo_/edit?usp=share_link&ouid=109550927316957289401&rtpof=true&sd=true">https://docs.google.com/document/d/1DKIFZAqO2LzzrurzeOFbSDh2qzL_tOo_/edit?usp=share_link&ouid=109550927316957289401&rtpof=true&sd=true</a> <br/>
 
           </p>
         </div>
