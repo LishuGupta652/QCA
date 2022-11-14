@@ -80,7 +80,7 @@ const COTBlog01 = () => {
           <span className="dateSubmitText">
             Last date of chapter submission:
           </span>
-          <span className="dateVal"> 15.02.2023</span>
+          <span className="dateVal"> 31.01.2023</span>
         </p>
 
         <div className="para1">
@@ -191,26 +191,27 @@ const COTBlog01 = () => {
             </li>
             <li>
               First round decision notification:
-              <span className="dateIndex"> Feb 20, 2023</span>
+              <span className="dateIndex"> Feb 10, 2023</span>
             </li>
             <li>
               Revised full chapter submission deadline:
-              <span className="dateIndex"> March 5, 2023</span>
+              <span className="dateIndex"> Feb 25, 2023</span>
             </li>
             <li>
               Final decision notification:
-              <span className="dateIndex"> March 15, 2023</span>
-            </li>
-            <li>
-              Proceedings submission date:
-              <span className="dateIndex"> January 31, 2024</span>
+              <span className="dateIndex"> Feb 28, 2023</span>
             </li>
           </ul>
         </div>
 
         <div className="submission">
           <div className="highlight">Submission</div>
-          <p>Comming soon...</p>
+          <p>
+            Please use templates given below: <br/>
+            LaTeX: <a href="https://www.overleaf.com/latex/templates/taylor-and-francis-latex-template-for-authors-interact-layout-plus-apa-reference-style/jqhskrsqqzfz">https://www.overleaf.com/latex/templates/taylor-and-francis-latex-template-for-authors-interact-layout-plus-apa-reference-style/jqhskrsqqzfz</a> <br/>
+            Microsoft Office Word: <a href="https://docs.google.com/document/d/1DKIFZAqO2LzzrurzeOFbSDh2qzL_tOo_/edit?usp=share_link&ouid=109550927316957289401&rtpof=true&sd=true">https://docs.google.com/document/d/1DKIFZAqO2LzzrurzeOFbSDh2qzL_tOo_/edit?usp=share_link&ouid=109550927316957289401&rtpof=true&sd=true</a> <br/>
+
+          </p>
         </div>
 
         <div className="editors">
