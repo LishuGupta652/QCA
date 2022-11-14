@@ -84,8 +84,15 @@ const COTBlog01 = () => {
         </p>
 
         <div className="para1">
-        
-
+          Dear Researchers/Academicians, <br/>
+          We invite you to contribute your quality research into our upcoming book to be published by CRC Press-Taylor & Francis Group.
+                    
+          <span className="highlight">Note: </span> <br/>
+          <ol>
+            <li>There is NO processing/publication charge for the book chapter.</li>
+            <li>The book will be sent for possible indexing in Scopus.</li>
+          </ol>
+      
           <span className="highlight">About the Book:</span> Cloud computing has
           received a tremendous acceptance across the globe due to its
           characteristics including on-demand service, accessibility,
@@ -211,7 +218,7 @@ const COTBlog01 = () => {
           <p>
             <ol>
               <li>All Manuscripts must be original and not simultaneously submitted to another journal or conference. All the submissions should be made only through Microsoft CMT Only.</li>
-              <li>Plagiarism Policy: The submitted full chapter must not be submitted elsewhere for any type of consideration for publishing. The Author should ensure the Plagiarism % is less than 15% (from any single source < 2%).</li>
+              <li>Plagiarism Policy: The submitted full chapter must not be submitted elsewhere for any type of consideration for publishing. The Author should ensure the Plagiarism % is less than 15% (from any single source less than 2%).</li>
               <li>Reviewing Policy: The editor(s) will engage two single-blind peer-reviewers to assess originality, clarity, usefulness, and adherence to the scope of the chapter.</li>
             </ol>
 
