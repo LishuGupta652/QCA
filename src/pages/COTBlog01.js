@@ -201,7 +201,12 @@ const COTBlog01 = () => {
 
         <div className="submission">
           <div className="highlight">Submission</div>
-          <p>Comming soon...</p>
+          <p>
+            Please use templates given below:
+            LaTeX: https://www.overleaf.com/latex/templates/taylor-and-francis-latex-template-for-authors-interact-layout-plus-apa-reference-style/jqhskrsqqzfz.
+            Microsoft Office Word: https://docs.google.com/document/d/1DKIFZAqO2LzzrurzeOFbSDh2qzL_tOo_/edit?usp=share_link&ouid=109550927316957289401&rtpof=true&sd=true
+            
+          </p>
         </div>
 
         <div className="editors">
