@@ -29,8 +29,8 @@ const News = () => {
         <div className="article">
           <ol>
             <li>
-              <Link to="/cloud-of-things-blog01">
-                Call for book chapters on Cloud of Things: Foundations,
+            Call for book chapters on <Link to="/cloud-of-things-blog01">
+                Cloud of Things: Foundations,
                 Applications, and Challenges.
               </Link>
             </li>
