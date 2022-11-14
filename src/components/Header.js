@@ -12,6 +12,7 @@ const HeaderStyled = styled.header`
   background-color: white;
   width: 100%;
   z-index: 1000;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
 
   .logo img {
     width: 120px;
