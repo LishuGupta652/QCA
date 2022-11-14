@@ -228,16 +228,16 @@ const COTBlog01 = () => {
             <ol>
               <li>The formatting of manuscripts should follow: A4 page format, single column with 11 point Times New Roman font with 1.5 line spacing, while submitting your manuscript as a Microsoft Office Word document. Use the number referencing style is usually used for regular research papers, NOT APA style.</li>
               <li>Article of 15-20 pages should be submitted for a single chapter.</li>
-              <li>Authors must provide a chapter abstract (approximately 150-200 words each).</li>
+              <li>Authors must provide a chapter abstract (no more than 150 words each).</li>
               <li>Original articles with significant contributions from the Author(s) will be the major consideration for shortlisting the received chapters.</li>
               <li>We are collaborating with an international publisher, it is mandatory that emphasis should be given for the correct use of English in the chapters. Use online grammar checking tools like ginger or Grammarly.</li>
               <li>The title of the chapter should be concise, precise and should clearly state the main aim of the chapter. It must correlate to the proposed book chapter titles conveyed during the call of book chapter submission. Editors will arrange the chapters in a sequence so that they must be well synchronized and are in line with the title of the book. Thus, the title of the chapters can be re-framed to go well with the theme of the book, if required.</li>
               <li>Figures should NOT be copied from different websites or research articles. If they are copied, please add a reference or re-draw the diagrams.</li>
               <li>If you incorporate in the Work any material from third parties, then you have to take permission in writing from each copyright holder of such material to use and reprint such material in the Work consistent with the terms of the rights.</li>
               <li>Customized Copyright Form and Permission Verification Form (PVF) will be shared among all authors in the last stage of this book submission to the publisher</li>
+              <li>Please use templates given below:</li>
             </ol>
-            
-            Please use templates given below: <br/>
+
             LaTeX: <a href="https://www.overleaf.com/latex/templates/taylor-and-francis-latex-template-for-authors-interact-layout-plus-apa-reference-style/jqhskrsqqzfz">https://www.overleaf.com/latex/templates/taylor-and-francis-latex-template-for-authors-interact-layout-plus-apa-reference-style/jqhskrsqqzfz</a> <br/>
             Microsoft Office Word: <a href="https://docs.google.com/document/d/1DKIFZAqO2LzzrurzeOFbSDh2qzL_tOo_/edit?usp=share_link&ouid=109550927316957289401&rtpof=true&sd=true">https://docs.google.com/document/d/1DKIFZAqO2LzzrurzeOFbSDh2qzL_tOo_/edit?usp=share_link&ouid=109550927316957289401&rtpof=true&sd=true</a> <br/>
           </p>
