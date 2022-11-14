@@ -7,6 +7,11 @@ const HeaderStyled = styled.header`
   grid-area: header;
   align-self: center;
   background-color: #fff;
+  position: fixed;
+  top: 0;
+  background-color: white;
+  width: 100%;
+  z-index: 1000;
 
   .logo img {
     width: 120px;
@@ -30,37 +35,45 @@ const HeaderStyled = styled.header`
 
 const Header = () => {
   return (
-    <HeaderStyled>
-      <Container>
-        <Flex spaceBetween>
-          <div className="logo">
-            <Link to="/">
-              <span className="app_name">
-                <img src={require("../img/logo.png")} alt="" />
-              </span>
-            </Link>
-          </div>
-          <nav>
-            <ul>
-              <li>
-                <Link to="/">Home</Link>
-              </li>
-              <li>
-                <Link to="/news">News</Link>
-              </li>
-              <li>
-                <Link to="/team">Team</Link>
-              </li>
-              <li>Research</li>
-              <li>
-                <Link to="/publications">Publications</Link>
-              </li>
-              <li>Resources</li>
-            </ul>
-          </nav>
-        </Flex>
-      </Container>
-    </HeaderStyled>
+    <>
+      <HeaderStyled>
+        <Container>
+          <Flex spaceBetween>
+            <div className="logo">
+              <Link to="/">
+                <span className="app_name">
+                  <img src={require("../img/logo.png")} alt="" />
+                </span>
+              </Link>
+            </div>
+            <nav>
+              <ul>
+                <li>
+                  <Link to="/">Home</Link>
+                </li>
+                <li>
+                  <Link to="/news">News</Link>
+                </li>
+                <li>
+                  <Link to="/team">Team</Link>
+                </li>
+                <li>Research</li>
+                <li>
+                  <Link to="/publications">Publications</Link>
+                </li>
+                <li>Resources</li>
+              </ul>
+            </nav>
+          </Flex>
+        </Container>
+      </HeaderStyled>
+      <div
+        className="height100"
+        style={{
+          height: "100px",
+        }}
+      ></div>
+    </>
   );
 };
 
