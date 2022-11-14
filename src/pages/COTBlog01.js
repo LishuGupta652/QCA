@@ -93,7 +93,7 @@ const COTBlog01 = () => {
             <li>The book will be sent for possible indexing in Scopus.</li>
           </ol>
 
-          <span className="highlight">Introduction:</span> Cloud computing has
+          <span className="highlight">About the Book:</span> Cloud computing has
           received a tremendous acceptance across the globe due to its
           characteristics including on-demand service, accessibility,
           reliability, scalability, elasticity, and many others. In modern
