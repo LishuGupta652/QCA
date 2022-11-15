@@ -8,6 +8,9 @@ const COTBlog01Styled = styled.div`
     margin: 4rem 0 1rem 0;
     text-align: center;
   }
+  h3 {
+    text-align: center;
+  }
   .subtitle {
     text-align: center;
   }
