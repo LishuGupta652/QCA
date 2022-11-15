@@ -86,7 +86,9 @@ const COTBlog01 = () => {
           <span className="dateVal"> 31.01.2023</span>
         </p>
 
-        <h3><a href="https://cmt3.research.microsoft.com/CoT2023" target="_blank" rel="noopener noreferrer">Click here</a> to submit your chapter.</h3>
+        <marqee><h3><a href="https://cmt3.research.microsoft.com/CoT2023" target="_blank" rel="noopener noreferrer">Click here</a> to submit your chapter.</h3></marqee>
+
+        
 
         <div className="para1">
          
