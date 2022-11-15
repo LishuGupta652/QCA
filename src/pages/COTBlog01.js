@@ -218,7 +218,7 @@ const COTBlog01 = () => {
           <div className="highlight">Submission Guidelines</div>
           <p>
             <ol>
-              <li>All Manuscripts must be original and not simultaneously submitted to another journal or conference. All the submissions should be made only through Microsoft CMT Only.</li>
+              <li>All Manuscripts must be original and not simultaneously submitted to another journal or conference. All the submissions should be made only through Microsoft CMT Only. [<a href="https://cmt3.research.microsoft.com/CoT2023" target="_blank" rel="noopener noreferrer">SUBMISSION LINK</a>]</li>
               <li>Plagiarism Policy: The submitted full chapter must not be submitted elsewhere for any type of consideration for publishing. The Author should ensure the Plagiarism % is less than 15% (from any single source less than 2%).</li>
               <li>Reviewing Policy: The editor(s) will engage two single-blind peer-reviewers to assess originality, clarity, usefulness, and adherence to the scope of the chapter.</li>
             </ol>
