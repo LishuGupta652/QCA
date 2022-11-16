@@ -280,8 +280,8 @@ const COTBlog01 = () => {
         </div>
 
         <div className="questions">
-          <div className="highlight">Questions ?</div>
-          <p>cot23crc@gmail.com</p>
+          <div className="highlight">Questions?</div>
+          <p><a href = "mailto: cot23crc@gmail.com">Contact Us</a></p>
         </div>
       </Container>
     </COTBlog01Styled>
