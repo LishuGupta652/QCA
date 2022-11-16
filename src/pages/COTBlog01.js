@@ -256,20 +256,16 @@ const COTBlog01 = () => {
 
           <ol className="editor">
             <li>
-              Dr. Jitendra Kumar, Department of Computer Applications, National
-              Institute of Technology Tiruchirappalli, India [<a href = "mailto: jitendra@nitt.edu">jitendra@nitt.edu</a>]
+              Dr. Jitendra Kumar, National Institute of Technology Tiruchirappalli, India [<a href = "mailto: jitendra@nitt.edu">jitendra@nitt.edu</a>]
             </li>
             <li>
-              Dr. G. R. Gangadharan, Department of Computer Applications,
-              National Institute of Technology Tiruchirappalli, India [<a href = "mailto: ganga@nitt.edu">ganga@nitt.edu</a>]
+              Dr. G. R. Gangadharan, National Institute of Technology Tiruchirappalli, India [<a href = "mailto: ganga@nitt.edu">ganga@nitt.edu</a>]
             </li>
             <li>
-              Prof. Ashutosh Kumar Singh, Department of Computer Applications,
-              National Institute of Technology Kurukshetra, India [<a href = "mailto: ashutosh@nitkkr.ac.in">ashutosh@nitkkr.ac.in</a>]
+              Prof. Ashutosh Kumar Singh, National Institute of Technology Kurukshetra, India [<a href = "mailto: ashutosh@nitkkr.ac.in">ashutosh@nitkkr.ac.in</a>]
             </li>
             <li>
-              Prof. Chung-Nan Lee, Department of Computer Science and
-              Engineering, National Sun Yat-sen University, Kaohsiung, Taiwan [<a href = "mailto: cnlee@mail.cse.nsysu.edu.tw">cnlee@mail.cse.nsysu.edu.tw</a>]
+              Prof. Chung-Nan Lee, National Sun Yat-sen University, Kaohsiung, Taiwan [<a href = "mailto: cnlee@mail.cse.nsysu.edu.tw">cnlee@mail.cse.nsysu.edu.tw</a>]
             </li>
           </ol>
         </div>
