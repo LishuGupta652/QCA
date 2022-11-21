@@ -35,10 +35,13 @@ const News = () => {
               </Link>
             </li>
             <li>
-              Ms. Deepika Saxena has joined FIAS Goethe University Frankfurt, Germany
+              Dr. Sakshi Patni has received a Post-Doc offer from Department of Conputer Science and Engineering, National Sun Yat-Sen University, Taiwan.
             </li>
             <li>
-              Dr. Hari Mohan Gaur has joined School of Computer Science, Engineering, and Technology, Bennett University, India
+              Ms. Deepika Saxena has joined Frankfurt Institute of Advanced Studies, Goethe University, Frankfurt, Germany as Post-Doc Research Associate.
+            </li>
+            <li>
+              Dr. Hari Mohan Gaur has joined School of Computer Science, Engineering, and Technology, Bennett University, India as Assistant Professor.
             </li>
           </ol>
         </div>
