@@ -39,7 +39,7 @@ const NewsHome = ({ count = 3 }) => {
   const newsList = NewsList.slice(0, count);
   return (
     <NewsHomeStyled>
-      <h1>News</h1>
+      <h1>Updates</h1>
 
       <ol>
         {newsList.map((item, index) => (
