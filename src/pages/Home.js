@@ -5,6 +5,7 @@ import HomeBanner from "../components/Home/HomeBanner";
 import ProfileCard from "../components/Home/ProfileCard";
 import ResearchCard from "../components/Home/ResearchCard";
 import ResearchTheme from "../components/Home/ResearchTheme";
+import NewsHome from "../components/News/NewsHome";
 import Template from "../components/Template";
 
 import { Container } from "../theme/global.styled";
@@ -20,6 +21,8 @@ const Home = () => {
           <ProfileCard />
           <ResearchCard />
           <ResearchTheme />
+
+          <NewsHome count={3} />
         </Container>
       </Template>
     </HomeStyled>

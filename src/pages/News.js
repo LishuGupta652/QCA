@@ -18,6 +18,27 @@ const NewsStyled = styled.div`
   }
 `;
 
+export const NewsList = [
+  <>
+    Call for book chapters on{" "}
+    <Link to="/cloud-of-things-blog01">
+      Cloud of Things: Foundations, Applications, and Challenges.
+    </Link>
+  </>,
+  <>
+    Dr. Sakshi Patni has received a Post-Doc offer from Department of Conputer
+    Science and Engineering, National Sun Yat-Sen University, Taiwan.
+  </>,
+  <>
+    Ms. Deepika Saxena has joined Frankfurt Institute of Advanced Studies,
+    Goethe University, Frankfurt, Germany as Post-Doc Research Associate.
+  </>,
+  <>
+    Dr. Hari Mohan Gaur has joined School of Computer Science, Engineering, and
+    Technology, Bennett University, India as Assistant Professor.
+  </>,
+];
+
 const News = () => {
   return (
     <NewsStyled>
@@ -28,21 +49,9 @@ const News = () => {
 
         <div className="article">
           <ol>
-            <li>
-            Call for book chapters on <Link to="/cloud-of-things-blog01">
-                Cloud of Things: Foundations,
-                Applications, and Challenges.
-              </Link>
-            </li>
-            <li>
-              Dr. Sakshi Patni has received a Post-Doc offer from Department of Conputer Science and Engineering, National Sun Yat-Sen University, Taiwan.
-            </li>
-            <li>
-              Ms. Deepika Saxena has joined Frankfurt Institute of Advanced Studies, Goethe University, Frankfurt, Germany as Post-Doc Research Associate.
-            </li>
-            <li>
-              Dr. Hari Mohan Gaur has joined School of Computer Science, Engineering, and Technology, Bennett University, India as Assistant Professor.
-            </li>
+            {NewsList.map((item, index) => (
+              <li key={index}>{item}</li>
+            ))}
           </ol>
         </div>
       </Container>
