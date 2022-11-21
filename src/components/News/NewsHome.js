@@ -6,6 +6,10 @@ import { NewsList } from "../../pages/News";
 const NewsHomeStyled = styled.div`
   margin: 60px 0;
 
+  h1 {
+    margin: 20px 0;
+  }
+
   p {
     margin: 1rem 0;
   }
