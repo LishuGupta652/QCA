@@ -34,6 +34,12 @@ const News = () => {
                 Applications, and Challenges.
               </Link>
             </li>
+            <li>
+              Ms. Deepika Saxena has joined FIAS Goethe University Frankfurt, Germany
+            </li>
+            <li>
+              Dr. Hari Mohan Gaur has joined School of Computer Science, Engineering, and Technology, Bennett University, India
+            </li>
           </ol>
         </div>
       </Container>
