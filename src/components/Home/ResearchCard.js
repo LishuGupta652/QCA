@@ -1,6 +1,7 @@
 import React from "react";
 import styled from "styled-components";
 import { RESEARCH_1, RESEARCH_2 } from "../../config";
+import ImageCarousel from "../ImageCarousel";
 
 const ResearchCardStyled = styled.div`
   .img-grid {
@@ -29,25 +30,7 @@ const ResearchCard = () => {
 
       <p>{RESEARCH_2}</p>
 
-      <div className="img-grid">
-        <div className="img-grid-item">
-          <img src="https://via.placeholder.com/150" alt="" />
-          <p>Image 1</p>
-        </div>
-
-        <div className="img-grid-item">
-          <img src="https://via.placeholder.com/150" alt="" />
-          <p>Image 2</p>
-        </div>
-        <div className="img-grid-item">
-          <img src="https://via.placeholder.com/150" alt="" />
-          <p>Image 2</p>
-        </div>
-        <div className="img-grid-item">
-          <img src="https://via.placeholder.com/150" alt="" />
-          <p>Image 2</p>
-        </div>
-      </div>
+      <ImageCarousel />
     </ResearchCardStyled>
   );
 };
