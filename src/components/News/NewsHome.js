@@ -45,11 +45,13 @@ const NewsHome = ({ count = 3 }) => {
     <NewsHomeStyled>
       <h1>Updates</h1>
 
-      <ol>
-        {newsList.map((item, index) => (
-          <li key={index}>{item}</li>
-        ))}
-      </ol>
+      <marquee direction="up">
+        <ol>
+          {newsList.map((item, index) => (
+            <li key={index}>{item}</li>
+          ))}
+        </ol>
+      </marquee>
 
       <Link to="news">
         <button className="show_more">Show more...</button>
