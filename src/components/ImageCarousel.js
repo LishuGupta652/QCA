@@ -6,6 +6,14 @@ import styled from "styled-components";
 const ImageCarouselStyled = styled.div`
   width: 100%;
   margin-top: 40px;
+
+  .legend {
+    color: white;
+  }
+
+  li *{
+    color: white;
+  }
 `;
 
 const ImageCarousel = () => {
@@ -22,15 +30,15 @@ const ImageCarousel = () => {
         swipeable
       >
         <div>
-          <img src={require(`../../img/recentResearch/${image}`)} alt="" />
+          <img src={require("../img/recentResearch/eqnn1.jpg")} alt="" />
           <p className="legend"><a href="https://ieeexplore.ieee.org/document/9428529" target="_blank" rel="noopener noreferrer">Quantum Approach to Forecast Cloud Workloads</a></p>
         </div>
         <div>
-          <img src="../../img/recentResearch/eqnn2.jpg" />
+          <img src={require("../img/recentResearch/eqnn2.jpg")}  />
           <p className="legend"><a href="https://ieeexplore.ieee.org/document/9428529" target="_blank" rel="noopener noreferrer">Quantum Approach to Forecast Cloud Workloads</a></p>
         </div>
         <div>
-          <img src="../../img/recentResearch/eqnn3.jpg" />
+          <img src={require("../img/recentResearch/eqnn3.jpg")}  />
           <p className="legend"><a href="https://ieeexplore.ieee.org/document/9428529" target="_blank" rel="noopener noreferrer">Quantum Approach to Forecast Cloud Workloads</a></p>
         </div>
       </Carousel>
