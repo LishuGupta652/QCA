@@ -22,7 +22,7 @@ const ImageCarousel = () => {
         swipeable
       >
         <div>
-          <img src="../../img/recentResearch/eqnn1.jpg" />
+          <img src={require(`../../img/recentResearch/${image}`)} alt="" />
           <p className="legend"><a href="https://ieeexplore.ieee.org/document/9428529" target="_blank" rel="noopener noreferrer">Quantum Approach to Forecast Cloud Workloads</a></p>
         </div>
         <div>
