@@ -23,15 +23,15 @@ const ImageCarousel = () => {
       >
         <div>
           <img src="../../img/recentResearch/eqnn1.jpg" />
-          <p className="legend"><a href="#" onClick="MyWindow=window.open('https://ieeexplore.ieee.org/document/9428529','MyWindow','width=300,height=200'); return false;">Quantum Approach to Forecast Cloud Workloads</a></p>
+          <p className="legend"><a href="https://ieeexplore.ieee.org/document/9428529" target="_blank" rel="noopener noreferrer">Quantum Approach to Forecast Cloud Workloads</a></p>
         </div>
         <div>
           <img src="../../img/recentResearch/eqnn2.jpg" />
-          <p className="legend">Quantum Approach to Forecast Cloud Workloads</p>
+          <p className="legend"><a href="https://ieeexplore.ieee.org/document/9428529" target="_blank" rel="noopener noreferrer">Quantum Approach to Forecast Cloud Workloads</a></p>
         </div>
         <div>
           <img src="../../img/recentResearch/eqnn3.jpg" />
-          <p className="legend">Quantum Approach to Forecast Cloud Workloads</p>
+          <p className="legend"><a href="https://ieeexplore.ieee.org/document/9428529" target="_blank" rel="noopener noreferrer">Quantum Approach to Forecast Cloud Workloads</a></p>
         </div>
       </Carousel>
     </ImageCarouselStyled>
