@@ -22,15 +22,15 @@ const ImageCarousel = () => {
         swipeable
       >
         <div>
-          <img src="/workspaces/QCA/src/img/recentResearch/eqnn1.jpg" />
+          <img src="../../img/recentResearch/eqnn1.jpg" />
           <p className="legend">Quantum Approach to Forecast Cloud Workloads</p>
         </div>
         <div>
-          <img src="/workspaces/QCA/src/img/recentResearch/eqnn2.jpg" />
+          <img src="../../img/recentResearch/eqnn2.jpg" />
           <p className="legend">Quantum Approach to Forecast Cloud Workloads</p>
         </div>
         <div>
-          <img src="/workspaces/QCA/src/img/recentResearch/eqnn3.jpg" />
+          <img src="../../img/recentResearch/eqnn3.jpg" />
           <p className="legend">Quantum Approach to Forecast Cloud Workloads</p>
         </div>
       </Carousel>
