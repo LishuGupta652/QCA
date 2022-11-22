@@ -30,12 +30,12 @@ const ImageCarousel = () => {
         swipeable
       >
         <div>
-          <img src={require("../img/recentResearch/EQNN.jpg")}  />
-          <p className="legend"><a href="https://ieeexplore.ieee.org/document/9428529" target="_blank" rel="noopener noreferrer">Quantum Approach to Forecast Cloud Workloads</a></p>
-        </div>
-        <div>
           <img src={require("../img/recentResearch/FT.jpg")}  />
           <p className="legend"><a href="https://ieeexplore.ieee.org/document/9891787" target="_blank" rel="noopener noreferrer">Fault-Tolerant Elastic Resource Management</a></p>
+        </div>
+        <div>
+          <img src={require("../img/recentResearch/EQNN.jpg")}  />
+          <p className="legend"><a href="https://ieeexplore.ieee.org/document/9428529" target="_blank" rel="noopener noreferrer">Quantum Approach to Forecast Cloud Workloads</a></p>
         </div>
         <div>
           <img src={require("../img/recentResearch/HAMM.jpg")}  />
