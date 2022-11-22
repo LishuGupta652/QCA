@@ -42,15 +42,15 @@ const ImageCarousel = () => {
           <p className="legend"><a href="https://ieeexplore.ieee.org/document/9428529" target="_blank" rel="noopener noreferrer">Quantum Approach to Forecast Cloud Workloads</a></p>
         </div>
         <div>
-          <img src={require("../img/recentResearch/ETERM (1).jpg")}  />
+          <img src={require("../img/recentResearch/ETERM (1).png")}  />
           <p className="legend"><a href="https://ieeexplore.ieee.org/document/9891787" target="_blank" rel="noopener noreferrer">Fault-Tolerant Elastic Resource Management</a></p>
         </div>
         <div>
-          <img src={require("../img/recentResearch/ETERM (2).jpg")}  />
+          <img src={require("../img/recentResearch/ETERM (2).png")}  />
           <p className="legend"><a href="https://ieeexplore.ieee.org/document/9891787" target="_blank" rel="noopener noreferrer">Fault-Tolerant Elastic Resource Management</a></p>
         </div>
         <div>
-          <img src={require("../img/recentResearch/ETERM (3).jpg")}  />
+          <img src={require("../img/recentResearch/ETERM (3).png")}  />
           <p className="legend"><a href="https://ieeexplore.ieee.org/document/9891787" target="_blank" rel="noopener noreferrer">Fault-Tolerant Elastic Resource Management</a></p>
         </div>
         <div>
