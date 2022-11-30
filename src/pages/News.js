@@ -37,6 +37,9 @@ export const NewsList = [
     Dr. Hari Mohan Gaur has joined School of Computer Science, Engineering, and
     Technology, Bennett University, India as Assistant Professor.
   </>,
+  <>
+  Dr. Ishu Gupta joined Department of Conputer Science and Engineering, National Sun Yat-Sen University, Taiwan as Post-doc Research Associate.
+  </>,
 ];
 
 const News = () => {

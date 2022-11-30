@@ -6,6 +6,14 @@ import styled from "styled-components";
 const ImageCarouselStyled = styled.div`
   width: 100%;
   margin-top: 40px;
+
+  .legend {
+    color: white;
+  }
+
+  li *{
+    color: white;
+  }
 `;
 
 const ImageCarousel = () => {
@@ -22,16 +30,16 @@ const ImageCarousel = () => {
         swipeable
       >
         <div>
-          <img src="https://images.unsplash.com/photo-1668881233694-1825a663b2a4?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80" />
-          <p className="legend">Cloud</p>
+          <img src={require("../img/recentResearch/FT.jpg")}  />
+          <p className="legend"><a href="https://doi.org/10.1109/TNSM.2022.3170379" target="_blank" rel="noopener noreferrer">Fault-Tolerant Elastic Resource Management</a></p>
         </div>
         <div>
-          <img src="https://images.unsplash.com/photo-1668881233694-1825a663b2a4?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80" />
-          <p className="legend">Cloud</p>
+          <img src={require("../img/recentResearch/EQNN.jpg")}  />
+          <p className="legend"><a href="https://doi.org/10.1109/TPDS.2021.3079341" target="_blank" rel="noopener noreferrer">Quantum Approach to Forecast Cloud Workloads</a></p>
         </div>
         <div>
-          <img src="https://images.unsplash.com/photo-1668881233694-1825a663b2a4?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80" />
-          <p className="legend">Cloud</p>
+          <img src={require("../img/recentResearch/HAMM.jpg")}  />
+          <p className="legend"><a href="https://doi.org/10.1109/TSC.2022.3206417" target="_blank" rel="noopener noreferrer">Significance Rank-Driven High Availability</a></p>
         </div>
       </Carousel>
     </ImageCarouselStyled>
