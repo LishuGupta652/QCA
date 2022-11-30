@@ -9,6 +9,8 @@ import { profileCardConfigs } from "../config";
 import { Container } from "../theme/global.styled";
 
 const TeamsStyled = styled.div`
+  width: 90%;
+  margin: 0 auto;
   h1 {
     text-align: center;
     margin: 2rem 0;
@@ -24,18 +26,17 @@ const TeamsStyled = styled.div`
 const Teams = () => {
   return (
     <>
+      <Header />
       <TeamsStyled>
-        <Header />
-        <Container>
-          <h1>Team</h1>
+        <h1>Team</h1>
 
-          <div className="flex">
-            {profileCardConfigs.map((profileCardConfig) => {
-              return <ProfileCardTeam {...profileCardConfig} />;
-            })}
-          </div>
-        </Container>
+        <div className="flex">
+          {profileCardConfigs.map((profileCardConfig) => {
+            return <ProfileCardTeam {...profileCardConfig} />;
+          })}
+        </div>
       </TeamsStyled>
+      <Footer />
     </>
   );
 };

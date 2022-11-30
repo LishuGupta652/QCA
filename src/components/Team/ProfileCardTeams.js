@@ -2,10 +2,14 @@ import React from "react";
 import styled from "styled-components";
 
 const ProfileCardTeamStyled = styled.div`
+  background-color: #f5f5f5;
+  border-radius: 10px;
+
   .profile_card {
     display: flex;
     align-items: center;
-    margin: 30px 0;
+    justify-content: center;
+    align-items: center;
     .profile_card_image {
     }
     img {
