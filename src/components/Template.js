@@ -18,7 +18,7 @@ const TemplateGridStyled = styled.div`
     grid-area: main;
   }
   width: 100vw;
-  height: 100vh;
+  min-height: 100vh;
 
   @media (max-width: 768px) {
     grid-template-columns: auto;
