@@ -25,17 +25,16 @@ const Teams = () => {
   return (
     <>
       <TeamsStyled>
-        <Template>
-          <Container>
-            <h1>Team</h1>
+        <Header />
+        <Container>
+          <h1>Team</h1>
 
-            <div className="flex">
-              {profileCardConfigs.map((profileCardConfig) => {
-                return <ProfileCardTeam {...profileCardConfig} />;
-              })}
-            </div>
-          </Container>
-        </Template>
+          <div className="flex">
+            {profileCardConfigs.map((profileCardConfig) => {
+              return <ProfileCardTeam {...profileCardConfig} />;
+            })}
+          </div>
+        </Container>
       </TeamsStyled>
     </>
   );

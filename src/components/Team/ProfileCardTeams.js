@@ -6,17 +6,16 @@ const ProfileCardTeamStyled = styled.div`
     display: flex;
     align-items: center;
     margin: 30px 0;
-
     .profile_card_image {
     }
     img {
       width: 120px;
-      height: 100%;
       object-fit: cover;
     }
 
     .profile_card_info {
       width: 400px;
+      height: 100%;
       background-color: #f5f5f5;
       padding: 30px;
 
