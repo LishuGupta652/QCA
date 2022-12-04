@@ -58,14 +58,22 @@ const ProfileCardTeam = ({
         </div>
         <div className="profile_card_info">
           <h3>
-            <a href={siteLink}>{title}</a> ({designation})
+            <a href={siteLink} target="_blank" rel="noopener noreferrer">
+              {title}
+            </a>{" "}
+            ({designation})
           </h3>
           <p className="department">{department}</p>
           <div className="email">
             <a href={`mailto:${email}`}>{email}</a>
 
             {scholarLink && (
-              <a href={scholarLink} className="scholar">
+              <a
+                href={scholarLink}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="scholar"
+              >
                 <div className="div">Google Scholar </div>
               </a>
             )}

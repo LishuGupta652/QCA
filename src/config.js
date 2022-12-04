@@ -129,7 +129,13 @@ export const profileCardConfigs = [
   },
 ];
 
-export const PublicationsCategory = ["book", "journal", "conference", "other"];
+export const PublicationsCategory = [
+  "book",
+  "book chapter",
+  "journal",
+  "conference",
+  "other",
+];
 
 export const publicationsConfig = [
   // Jitendra Kumar, Ashutosh Kumar Singh, Anand Mohan and Rajkumar Buyya, “Machine Learning for Cloud Management”, CRC Press, https://www.routledge.com/Machine-Learning-for-Cloud-Management/Kumar-Singh-Mohan-Buyya/p/book/9780367622565 (ISBN 9781003110101), 2021.

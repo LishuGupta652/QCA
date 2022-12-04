@@ -1,5 +1,4 @@
-import React from "react";
-import { useEffect } from "react";
+import React, { useEffect } from "react";
 import styled from "styled-components";
 import Footer from "../components/Footer";
 import Header from "../components/Header";
@@ -41,6 +40,7 @@ const Publications = () => {
   const [books, setBooks] = React.useState([]);
   const [journals, setJournals] = React.useState([]);
   const [conferences, setConferences] = React.useState([]);
+  const [bookChapters, setBookChapters] = React.useState([]);
   const [otherPublications, setOtherPublications] = React.useState([]);
   const [years, setYears] = React.useState([]);
   const [authors, setAuthors] = React.useState([]);
@@ -49,9 +49,6 @@ const Publications = () => {
   const [selectedYear, setSelectedYear] = React.useState("All");
   const [selectedAuthor, setSelectedAuthor] = React.useState("All");
   const [selectedCategory, setSelectedCategory] = React.useState("All");
-
-  const [sortedPublications, setSortedPublications] =
-    React.useState(publications);
 
   const resetPublications = () => {
     setPublications(publicationsConfig);
@@ -116,11 +113,22 @@ const Publications = () => {
   };
 
   useEffect(() => {
-    setBooks(publications.filter((pub) => pub.category === "book"));
-    setJournals(publications.filter((pub) => pub.category === "journal"));
-    setConferences(publications.filter((pub) => pub.category === "conference"));
+    setBooks(
+      publications.filter((pub) => pub.category.toLowerCase() === "book")
+    );
+    setBookChapters(
+      publications.filter((pub) => {
+        return pub.category.toLowerCase() === "book chapter";
+      })
+    );
+    setJournals(
+      publications.filter((pub) => pub.category.toLowerCase() === "journal")
+    );
+    setConferences(
+      publications.filter((pub) => pub.category.toLowerCase() === "conference")
+    );
     setOtherPublications(
-      publications.filter((pub) => pub.category === "other")
+      publications.filter((pub) => pub.category.toLowerCase() === "other")
     );
   }, [publications]);
 
@@ -147,7 +155,6 @@ const Publications = () => {
       }
     });
     yearsToSelect.sort();
-
     authorsToSelect.sort();
 
     setYears(yearsToSelect);
@@ -215,32 +222,57 @@ const Publications = () => {
           {books.length > 0 && (
             <div className="publish book">
               <h2>Books</h2>
-              {books.map((book) => {
-                return <PublicationViewer {...book} />;
+              {books.map((book, i) => {
+                return <PublicationViewer key={book.title + i} {...book} />;
+              })}
+            </div>
+          )}
+          {bookChapters.length > 0 && (
+            <div className="publish book">
+              <h2>Book Chapters</h2>
+              {bookChapters.map((bookChapter, i) => {
+                return (
+                  <PublicationViewer
+                    key={bookChapter.title + i}
+                    {...bookChapter}
+                  />
+                );
               })}
             </div>
           )}
           {journals.length > 0 && (
             <div className="publish journal">
               <h2>Journals</h2>
-              {journals.map((journal) => {
-                return <PublicationViewer {...journal} />;
+              {journals.map((journal, i) => {
+                return (
+                  <PublicationViewer key={journal.title + i} {...journal} />
+                );
               })}
             </div>
           )}
           {conferences.length > 0 && (
             <div className="publish conference">
               <h2>Conferences</h2>
-              {conferences.map((conference) => {
-                return <PublicationViewer {...conference} />;
+              {conferences.map((conference, i) => {
+                return (
+                  <PublicationViewer
+                    key={conference.title + i}
+                    {...conference}
+                  />
+                );
               })}
             </div>
           )}
           {otherPublications.length > 0 && (
             <div className="publish other">
               <h2>Other Publications</h2>
-              {otherPublications.map((otherPublication) => {
-                return <PublicationViewer {...otherPublication} />;
+              {otherPublications.map((otherPublication, i) => {
+                return (
+                  <PublicationViewer
+                    key={otherPublication.title + i}
+                    {...otherPublication}
+                  />
+                );
               })}
             </div>
           )}
