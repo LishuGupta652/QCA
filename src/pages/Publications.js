@@ -326,9 +326,17 @@ const PublicationViewer = ({
           })}
         </span>
         <span className="title">
-          <a href={link} target="_blank" rel="noopener noreferrer">
-            {title}
-          </a>
+          {link ? (
+            <a
+              href={link ? link : ""}
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              {title}
+            </a>
+          ) : (
+            <span>{title}</span>
+          )}
         </span>
         {venue && <span className="venue">, {venue}</span>}
         {publisher && <span className="publisher">, {publisher}</span>}
