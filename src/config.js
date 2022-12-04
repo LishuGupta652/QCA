@@ -276,7 +276,7 @@ export const publicationsConfig = [
     publisher: "Springer",
     otherDetails: "ISBN: 978-981-15-5341-7",
     highlights: "",
-    category: "Edited",
+    category: "book",
     year: "2020",
   },
 
@@ -289,7 +289,7 @@ export const publicationsConfig = [
     publisher: "Springer",
     otherDetails: "vol. 577 ISBN: 978-981-13-8820-0",
     highlights: "",
-    category: "Edited",
+    category: "book",
     year: "2020",
   },
 
@@ -303,7 +303,7 @@ export const publicationsConfig = [
     publisher: "Lambert Publications",
     otherDetails: "ISBN: 6135817388",
     highlights: "",
-    category: "Edited",
+    category: "book",
     year: "2018",
   },
   // Ishu Gupta, Ankit Tiwari, Priya Agarwal, Sloni Mittal, and Ashutosh Kumar Singh, “Dodging Security Attacks and Data Leakage Prevention for Cloud and IoT Environments”, in Intelligent Analytics for Industry 4.0 Applications, FL, USA, CRC Press-Taylor & Francis Group, 2022. (In Press)
