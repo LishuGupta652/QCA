@@ -29,7 +29,15 @@ const PublicationsStyled = styled.div`
     margin-right: 10px;
     margin-bottom: 40px;
   }
-
+  .error {
+    color: #f44336;
+    font-size: 8px;
+  }
+  .reset {
+    color: #4caf50;
+    text-decoration: underline ;
+    cursor: pointer;
+  }
   .soon {
     color: #4caf50;
   }
@@ -51,11 +59,13 @@ const Publications = () => {
   const [selectedCategory, setSelectedCategory] = React.useState("All");
 
   const resetPublications = () => {
+    resetFilterDetails();
     setPublications(publicationsConfig);
 
     setSelectedYear("All");
     setSelectedAuthor("All");
     setSelectedCategory("All");
+
   };
 
   const sortPublications = (pub) => {
@@ -64,53 +74,51 @@ const Publications = () => {
     });
   };
 
-  const handleYearOptionChange = (e) => {
-    const year = e.target.value;
-
-    if (year === "All") {
-      resetPublications();
-    } else {
-      resetPublications();
-      const filteredPublications = publicationsConfig.filter(
-        (publication) => publication.year === year
-      );
-
-      setSelectedYear(year);
-      setPublications(filteredPublications);
+  const handleFilterChange = (e, type) => {
+    const value = e.target.value;
+    console.log("value ", value, " type " , type)
+    
+    if (type === "year") {
+      setSelectedYear(value);
+    } 
+    if (type === "author") {
+      setSelectedAuthor(value);
+    } 
+    if (type === "category") {
+      setSelectedCategory(value);
     }
-  };
 
-  const handleAuthorOptionChange = (e) => {
-    const author = e.target.value;
-
-    if (author === "All") {
-      resetPublications();
-    } else {
-      resetPublications();
-      const filteredPublications = publicationsConfig.filter((publication) =>
-        publication.authors.includes(author)
-      );
-
-      setSelectedAuthor(author);
-      setPublications(filteredPublications);
+    console.log("selectedYear ", selectedYear, " selectedAuthor " , selectedAuthor, " selectedCategory ", selectedCategory)
+        
+    let filteredPublications = publicationsConfig;
+    if(selectedYear !== "All" && type !== "year") {
+    filteredPublications = filteredPublications.filter((pub) => pub.year === selectedYear)
     }
-  };
-
-  const handleCategoryOptionChange = (e) => {
-    const category = e.target.value;
-
-    if (category === "All") {
-      resetPublications();
-    } else {
-      resetPublications();
-      const filteredPublications = publicationsConfig.filter(
-        (publication) => publication.category === category
-      );
-
-      setSelectedCategory(category);
-      setPublications(filteredPublications);
+    if(selectedAuthor !== "All" && type !== "author") {
+    filteredPublications = filteredPublications.filter((pub) => pub.authors.includes(selectedAuthor))
     }
-  };
+    if(selectedCategory !== "All" && type !== "category") {
+    filteredPublications = filteredPublications.filter((pub) => pub.category === selectedCategory)
+    }
+
+    if(type === "year") {
+      filteredPublications = filteredPublications.filter((pub) => pub.year === value)
+    }
+    if(type === "author") {
+      filteredPublications = filteredPublications.filter((pub) => pub.authors.includes(value))
+    }
+    if(type === "category") {
+      filteredPublications = filteredPublications.filter((pub) => pub.category === value)
+    }
+
+
+
+    console.log(filteredPublications)
+
+    setPublications(filteredPublications);
+  
+  }
+
 
   useEffect(() => {
     setBooks(
@@ -132,14 +140,13 @@ const Publications = () => {
     );
   }, [publications]);
 
-  // for Initial Load
-  useEffect(() => {
-    setPublications(sortPublications(publications));
+  const resetFilterDetails = () => {
+    setPublications(sortPublications(publicationsConfig));
 
     const yearsToSelect = [];
     const authorsToSelect = [];
     const categoriesToSelect = [];
-    publications.forEach((pub) => {
+    publicationsConfig.forEach((pub) => {
       if (!yearsToSelect.includes(pub.year)) {
         yearsToSelect.push(pub.year);
       }
@@ -160,6 +167,11 @@ const Publications = () => {
     setYears(yearsToSelect);
     setAuthors(authorsToSelect);
     setCategories(categoriesToSelect);
+  }
+
+  // for Initial Load
+  useEffect(() => {
+    resetFilterDetails();
   }, []);
 
   return (
@@ -177,7 +189,7 @@ const Publications = () => {
           {/* create option to select year */}
           <select
             onChange={(e) => {
-              handleYearOptionChange(e);
+              handleFilterChange(e, "year");
             }}
             value={selectedYear}
           >
@@ -190,7 +202,7 @@ const Publications = () => {
           {/* create option to select author */}
           <select
             onChange={(e) => {
-              handleAuthorOptionChange(e);
+              handleFilterChange(e, "author");
             }}
             value={selectedAuthor}
           >
@@ -203,7 +215,7 @@ const Publications = () => {
           {/* create option to select category */}
           <select
             onChange={(e) => {
-              handleCategoryOptionChange(e);
+              handleFilterChange(e, "category");
             }}
             value={selectedCategory}
           >
@@ -216,6 +228,15 @@ const Publications = () => {
           <button className="resetButton" onClick={resetPublications}>
             Reset
           </button>
+        </div>
+
+        <div className="error">
+          {
+            books.length === 0 && bookChapters.length === 0 && journals.length === 0 && conferences.length===0 && otherPublications.length === 0 && 
+            <div>
+                <h1>No Publication found with current filter please <span className="reset" onClick={resetPublications}>Reset</span> filter</h1>
+            </div>
+          }
         </div>
 
         <ol>
