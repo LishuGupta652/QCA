@@ -410,6 +410,7 @@ export const publicationsConfig = [
     category: "book chapter",
     year: "2016",
   },
+
   // Ashutosh Kumar Singh, Sakshi Chhabra, Rishabh Gupta, and Deepika Saxena, “A Reliable Client Detection System during Load Balancing for Multi-tenant Cloud Environments”, SN Computer Science, 2022 (SCOPUS).
   {
     authors: [
@@ -650,6 +651,7 @@ export const publicationsConfig = [
     category: "journal",
     year: "2022",
   },
+
   //Deepika Saxena, Ishu Gupta, Jitendra Kumar, Ashutosh Kumar Singh, and Xiaoqing Wen, “A Secure and Multi-objective Virtual Machine Placement Framework for Cloud Datacenter”, IEEE Systems Journal, vol. 16, iss. 2, Jun 2022. (SCI, impact factor = 3.931) DOI: 10.1109/JSYST.2021.3092521
   {
     authors: [
@@ -1084,7 +1086,7 @@ export const publicationsConfig = [
     year: "2021",
   },
 
-  //Deepika Saxena, Ashutosh Kumar Singh, “A proactive autoscaling and energy-efficient VM allocation framework using online multi-resource neural network for cloud datacenter”, Neurocomputing, vol. 426, pp. 248- 264, Feb. 2021. (SCI, impact factor = 5.719) DOI: 10.1016/j.neucom.2020.08.076   {
+  //Deepika Saxena, Ashutosh Kumar Singh, “A proactive autoscaling and energy-efficient VM allocation framework using online multi-resource neural network for cloud datacenter”, Neurocomputing, vol. 426, pp. 248- 264, Feb. 2021. (SCI, impact factor = 5.719) DOI: 10.1016/j.neucom.2020.08.076
   {
     authors: ["Deepika Saxena", "Ashutosh Kumar Singh"],
     title:
@@ -1151,7 +1153,7 @@ export const publicationsConfig = [
     otherDetails: "[SCOPUS]",
     highlights: "",
     category: "journal",
-    year: "",
+    year: "2022",
   },
 
   //Ishu Gupta, Ashutosh Kumar Singh, “Online Information Leaker Identification Scheme for Secure Data Sharing”, Multimedia Tools And Applications, vol. 79, pp. 31165-31182, Aug. 2020. (SCI, impact factor = 2.757) DOI: 10.1007/s11042-020-09470-9
@@ -1720,6 +1722,7 @@ export const publicationsConfig = [
     category: "journal",
     year: "2017",
   },
+
   //Kamaljeet Kaur, Ishu Gupta and Ashutosh Kumar Singh, “A Comparative Study of the Approach Provided for Preventing the Data Leakage,” International Journal of Network Security & Its Applications, vol. 9, no. 5, pp. 21-32, Sep. 2017. DOI: 10.5121/ijnsa.2017.9502
 
   {
@@ -1940,9 +1943,9 @@ export const publicationsConfig = [
     year: "2016",
   },
 
-  //Adib Kabir Chowdhury, Ashutosh Kumar Singh, “Synthesis and Reduced Logic Gate Realization of Multi-Valued Logic (MVL) Functions using Neural Network Deployment Algorithm (NNDA)”, Journal of Engineering Science and Technology, vol. 11, iss. 5, pp. 177-192, Feb. 2016. (SCOPUS Indexed)
+  //Adib Kabir Chaudhari, Ashutosh Kumar Singh, “Synthesis and Reduced Logic Gate Realization of Multi-Valued Logic (MVL) Functions using Neural Network Deployment Algorithm (NNDA)”, Journal of Engineering Science and Technology, vol. 11, iss. 5, pp. 177-192, Feb. 2016. (SCOPUS Indexed)
   {
-    authors: ["Adib Kabir Chowdhury", "Ashutosh Kumar Singh"],
+    authors: ["Adib Kabir Chaudhari", "Ashutosh Kumar Singh"],
     title:
       "“Synthesis and ReducedLogic Gate Realization of Multi-Valued Logic(MVL) Functions using Neural Network Deployment Algorithm (NNDA)”",
     link: "",
@@ -1967,7 +1970,6 @@ export const publicationsConfig = [
     category: "journal",
     year: "2015",
   },
-
   //Billy Lau Pik Lik, Ashutosh Kumar Singh, Terence Tan Peng Lian, “TDepExp: Simulating Transitive Dependence Based Coalition Formation”, Pertanika Journal of Science and Technology, vol. 23, iss. 1, pp. 105-117, 2015. (SCOPUS Indexed)
   {
     authors: [
@@ -2012,6 +2014,7 @@ export const publicationsConfig = [
     category: "journal",
     year: "2015",
   },
+
   //Billy Lau Pik Lik, Ashutosh Kumar Singh, Terence Tan Peng Lian, “A Review on Dependence Graph in Social Reasoning Mechanism”, Artificial Intelligence Review, vol. 43, iss. 2, pp. 229-242, Feb. 2015. (SCI, impact factor = 8.139) DOI: 10.1007/s10462-012-9371-x
   {
     authors: [
@@ -2028,7 +2031,6 @@ export const publicationsConfig = [
     category: "journal",
     year: "2015",
   },
-
   //Shin Cheng Chua, Ashutosh Kumar Singh, “Heuristic Synthesis of Reversible Logic – A Comparative Study”, Advances in Electrical and Electronics Engineering, vol. 12, no. 3 pp. 210-225, Sep. 2014. (SCOPUS Indexed) DOI: 10.15598/aeee.v12i3.916
   {
     authors: ["Shin Cheng Chua", "Ashutosh Kumar Singh"],
@@ -2041,7 +2043,6 @@ export const publicationsConfig = [
     category: "journal",
     year: "2014",
   },
-
   //Harsh Vikarm Singh, Ashutosh Kumar Singh, Anand Mohan, “DCT based Secure Data Hiding for Intellectual Property Right Protection”, CSI Transaction on ICT, vol. 2, iss. 3, pp. 163-168, Nov. 2014. DOI: 10.1007/s40012-014-0052-6
   {
     authors: ["Harsh Vikarm Singh", "Ashutosh Kumar Singh", "Anand Mohan"],
@@ -2129,7 +2130,6 @@ export const publicationsConfig = [
     category: "journal",
     year: "2014",
   },
-
   //N. Raj, Ashutosh Kumar Singh, A. K. Gupta, “Low Voltage Bulk-Driven Selfbiased Cascode Current Mirror with Bandwidth Enhancement”, Electronics Letters, vol. 50, pp. 23-25, Jan. 2014. (SCI, impact factor = 1.314) DOI: 10.1049/el.2013.3600
   {
     authors: ["N. Raj", "Ashutosh Kumar Singh", "A. K. Gupta"],
@@ -2169,7 +2169,6 @@ export const publicationsConfig = [
     category: "journal",
     year: "2012",
   },
-
   //Winsy Dissanayake, P. W. C. Prasad, Ashutosh Kumar Singh, “Empowering Communications Challenged Users Using Development Kit” World Academy of Science, Engineering and Technology, vol. 5, pp. 616-620, Aug. 2012. (SCOPUS Indexed) DOI: 10.5281/zenodo.1329448
   {
     authors: ["Winsy Dissanayake", " P. W. C. Prasad", "Ashutosh Kumar Singh"],
@@ -2182,7 +2181,6 @@ export const publicationsConfig = [
     category: "journal",
     year: "2012",
   },
-
   //Ashutosh Kumar Singh, Ravi Kumar P, Alex Goh Kwang Leng, “Efficient Methodologies to Handle Hanging Pages using Virtual Node”, Cybernetics and Systems: An International Journal, vol. 42, pp. 621-635, Dec 2011. (SCI, impact factor = 1.879, Bintulu Development Authority Best Postgraduate Research Paper Award) DOI: 10.1080/01969722.2011.634679
   {
     authors: ["Ashutosh Kumar Singh", "Ravi Kumar P", "Alex Goh Kwang Leng"],
@@ -2196,7 +2194,6 @@ export const publicationsConfig = [
     category: "journal",
     year: "2011",
   },
-
   //Jimson Mathew, Abusaleh M. Jabir Ashutosh Kumar Singh Hafizur Rahaman, Dhiraj K. Pradhan, “A Galois Field Based Logic Synthesis Approach with Testability”, IET Computers & Digital Techniques, vol. 4, iss. 4, pp. 263–273, Jul. 2010. (SCI, impact factor = 0.803) DOI: 10.1109/VLSI.2008.88
   {
     authors: [
@@ -2215,7 +2212,6 @@ export const publicationsConfig = [
     category: "journal",
     year: "2010",
   },
-
   //Ravi Kumar P. and Ashutosh Kumar Singh, “Web Structure Mining Exploring Hyperlinks and Algorithms for Information Retrieval”, American Journal of Applied Sciences, vol. 7, pp. 840-845, 2010. (SCOPUS Indexed, Bintulu Development Authority Best Postgraduate Research Paper Award) DOI: 10.3844/ajassp.2010.840.845
   {
     authors: ["Ravi Kumar P.", "Ashutosh Kumar Singh"],
@@ -2229,7 +2225,6 @@ export const publicationsConfig = [
     category: "journal",
     year: "2010",
   },
-
   //Ashutosh Kumar Singh, Asish Bera, H. Rahaman, J. Mathew, and D. K. Pradhan, “Error Detecting Dual Basis Bit Parallel Systolic Multiplication Architecture over GF(2m)”, Journal of Electronic Science and Technology, vol. 7, no. 4, pp. 336-342, Dec. 2009. DOI: 10.1109/CAS-ICTD.2009.4960812
 
   {
@@ -2265,7 +2260,6 @@ export const publicationsConfig = [
     category: "journal",
     year: "2009",
   },
-
   //Ashutosh Kumar Singh, Anand Mohan, “Computation of Probability Coefficients using Binary Decision Diagram and their Application in Test Vector Generation”, International Journal of Computer, Electrical, Automation, Control and Information Engineering, vol. 3, no. 3, pp. 787– 794, 2009. (SCOPUS Indexed) DOI: 10.5281/zenodo.1080985
   {
     authors: ["Ashutosh Kumar Singh", "Anand Mohan"],
@@ -2300,7 +2294,6 @@ export const publicationsConfig = [
     category: "journal",
     year: "2008",
   },
-
   //Lenin Gopal, Ashutosh Kumar Singh, Veeramani Shanmugam, “Power Estimation in Mobile Communication Systems”, Computer and Information Science, vol. 1, no. 3, pp. 88-94, Aug. 2008. DOI: 10.5539/cis.v1n3p88
   {
     authors: ["Lenin Gopal", "Ashutosh Kumar Singh", "Veeramani Shanmugam"],
@@ -2313,7 +2306,6 @@ export const publicationsConfig = [
     category: "journal",
     year: "2008",
   },
-
   //Ashutosh Kumar Singh and Anand Mohan, “An Efficient Method for Generating Optimal OBDD of Boolean Functions”, Computer and Information Science, vol. 1, no. 2, pp. 56–62, May 2008. DOI: 10.5539/cis.v1n2p56
   {
     authors: ["Ashutosh Kumar Singh", "Anand Mohan"],
@@ -2370,7 +2362,7 @@ export const publicationsConfig = [
     publisher: "Infona",
     otherDetails: "[]",
     highlights: "",
-    category: "journal",
+    category: "",
     year: "2007",
   },
 
@@ -2387,26 +2379,6 @@ export const publicationsConfig = [
     category: "journal",
     year: "2007",
   },
-
-  //Smruti Rekha, Ashutosh Kumar Singh, Deepika Saxena, Chung Nan Lee, “An AI-driven Intelligent Traffic Management Model for 6G Cloud Radio Access Networks”, IEEE Wireless Communications Letters. (SCI)
-  {
-    authors: [
-      "Smruti Rekha",
-      "Ashutosh Kumar Singh",
-      "Deepika Saxena",
-      "Chung Nan Lee",
-    ],
-    title:
-      "“An AI-driven Intelligent Traffic Management Model for 6G Cloud Radio Access Networks”",
-    link: "",
-    venue: "IEEE Wireless Communications Letters",
-    publisher: "IEEE",
-    otherDetails: "[SCI]",
-    highlights: "",
-    category: "journal",
-    year: "",
-  },
-
   //Deepika Saxena, Jitendra Kumar, Ashutosh Kumar Singh, Stefan Schmid, “Performance Analysis of Machine Learning Centered Workload Prediction Models for Cloud’, IEEE Transactions on Parallel and Distributed Systems.(SCI)
   {
     authors: [
@@ -2423,60 +2395,7 @@ export const publicationsConfig = [
     otherDetails: "[SCI]",
     highlights: "",
     category: "journal",
-    year: "",
-  },
-
-  //Smruti Rekha, Ashutosh Kumar Singh, Deepika Saxena, Chung Nan Lee, “A Bio-inspired Virtual Machine Placement towards Sustainable Cloud Resource Management”, IEEE System Journal. (SCI)
-  {
-    authors: [
-      "Smruti Rekha",
-      "Ashutosh Kumar Singh",
-      "Deepika Saxena",
-      "Chung Nan Lee",
-    ],
-    title:
-      "“A Bio-inspired Virtual Machine Placement towards Sustainable Cloud Resource Management”",
-    link: "",
-    venue: "IEEE System Journal",
-    publisher: "IEEE",
-    otherDetails: "[SCI]",
-    highlights: "",
-    category: "journal",
-    year: "",
-  },
-
-  //Deepika Saxena, Ashutosh Kumar Singh, “A Sustainable Resource Management Model Towards High Availability and Security for Cloud Environments”, IEEE Transactions on Sustainable Computing. (SCI)
-  {
-    authors: ["Deepika Saxena", "Ashutosh Kumar Singh"],
-    title:
-      "“A Sustainable Resource Management Model Towards High Availability and Security for Cloud Environments”",
-    link: "",
-    venue: "IEEE Transactions on Sustainable Computing",
-    publisher: "IEEE",
-    otherDetails: "[SCI]",
-    highlights: "",
-    category: "journal",
-    year: "",
-  },
-
-  // Deepika Saxena, Ishu Gupta, Rishabh Gupta, Ashutosh Kumar Singh, and Xiaoqing Wen, “An AI-Driven VM Threat Prediction Model for Multi-Risks Analysis Based Cloud Cybersecurity ", IEEE Transactions on Dependable and Secure Computing Special Issue (SCI)
-  {
-    authors: [
-      "Deepika Saxena",
-      " Ishu Gupta",
-      " Rishabh Gupta",
-      "Ashutosh Kumar Singh",
-      "Xiaoqing Wen",
-    ],
-    title:
-      "“An AI-Driven VM Threat Prediction Model for Multi-Risks Analysis Based Cloud Cybersecurity”",
-    link: "",
-    venue: "IEEE Transactions on Dependable and Secure Computing Special Issue",
-    publisher: "IEEE",
-    otherDetails: "[SCI]",
-    highlights: "",
-    category: "journal",
-    year: "",
+    year: "2023",
   },
 
   //Deepika Saxena, Ashutosh Kumar Singh, C.N. Lee, and Rajkumar Buyya, “A Sustainable and Secure Load Management Model for Green Cloud Data Centres”, NATURE Scientific Reports (SCI)
@@ -2493,9 +2412,9 @@ export const publicationsConfig = [
     venue: "NATURE Scientific Reports",
     publisher: "NATURE",
     otherDetails: "[SCI]",
-    highlights: "",
+    highlights: "2022",
     category: "journal",
-    year: "",
+    year: "2023",
   },
 
   //Sakshi Chhabra, Ashutosh Kumar Singh “Secure and Energy Efficient Load Balancing Framework for Cloud”, Multimedia Tools and Applications. (SCI)
@@ -2508,9 +2427,8 @@ export const publicationsConfig = [
     otherDetails: "[SCI]",
     highlights: "",
     category: "journal",
-    year: "",
+    year: "2023",
   },
-
   //Ashutosh Kumar Singh and Jatinder Kumar, “A Secure and PrivacyPreserving Data Aggregation and Classification Model for Smart Grid”, Multimedia Tools and Applications. (SCI)
   {
     authors: ["Ashutosh Kumar Singh", "Jatinder Kumar"],
@@ -2522,20 +2440,6 @@ export const publicationsConfig = [
     otherDetails: "[SCI]",
     highlights: "",
     category: "journal",
-    year: "",
-  },
-
-  // Ishu Gupta, Ashutosh Kumar Singh, “SAPM: A Statistical Analysis based Prediction Model for Malicious Entity Identification in Cloud Environment”, IEEE Transactions on Dependable and Secure Computing. (SCI)
-  {
-    authors: ["Ishu Gupta", "Ashutosh Kumar Singh"],
-    title:
-      "“SAPM: A Statistical Analysis based Prediction Model for Malicious Entity Identification in Cloud Environment”",
-    link: "",
-    venue: "IEEE Transactions on Dependable and Secure Computing",
-    publisher: "IEEE",
-    otherDetails: "[SCI]",
-    highlights: "",
-    category: "journal",
-    year: "",
+    year: "2023",
   },
 ];
