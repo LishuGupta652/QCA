@@ -2362,7 +2362,7 @@ export const publicationsConfig = [
     publisher: "Infona",
     otherDetails: "[]",
     highlights: "",
-    category: "",
+    category: "journal",
     year: "2007",
   },
 
