@@ -89,7 +89,7 @@ const COTBlog01 = () => {
           <span className="dateSubmitText">
             Last date of chapter submission:
           </span>
-          <span className="dateVal"> 28.02.2023</span>
+          <span className="dateVal"> 31.03.2023</span>
         </p>
 
         <marquee>
@@ -213,19 +213,19 @@ const COTBlog01 = () => {
           <ul>
             <li>
               Full chapter submission deadline:
-              <span className="dateIndex"> Feb 28, 2023</span>
+              <span className="dateIndex"> 31-03-2023</span>
             </li>
             <li>
               First round decision notification:
-              <span className="dateIndex"> March 15, 2023</span>
+              <span className="dateIndex"> 10-04-2023</span>
             </li>
             <li>
               Revised full chapter submission deadline:
-              <span className="dateIndex"> March 30, 2023</span>
+              <span className="dateIndex"> 25-04-2023</span>
             </li>
             <li>
               Final decision notification:
-              <span className="dateIndex"> April 10, 2023</span>
+              <span className="dateIndex"> 10-05-2023</span>
             </li>
           </ul>
         </div>
