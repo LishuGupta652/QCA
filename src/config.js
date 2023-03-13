@@ -805,7 +805,7 @@ export const publicationsConfig = [
     authors: [
       "Ashutosh Kumar Singh",
       "Deepika Saxena",
-      " Jitendra Kumar",
+      "Jitendra Kumar",
       "Vrinda Gupta",
     ],
     title:
