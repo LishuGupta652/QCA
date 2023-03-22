@@ -120,8 +120,9 @@ export const profileCardConfigs = [
   {
     email: "niharika.academics@gmail.com",
     title: "Dr. Niharika Singh",
-    designation: "Assistant Professor",
-    department: "Bennett University, Greater Noida, India",
+    designation: "Postdoctoral Research Scientist",
+    department:
+      "Spatiotemporal Data Analysis (SDA) Research Group, Department of Computer Science, Exactum, University of Helsinki, Finland",
     siteLink: null,
     scholarLink:
       "https://scholar.google.com/citations?hl=en&user=x2etUsgAAAAJ&view_op=list_works&gmla=AJsN-F5nivhrbuP9avDndSDcfNdDKyDdEDTD99xFgNc8Kzs1Ofe9NWuRgLxD1hbRVsKkZvaoagmloEkw-F9PvAKc7XOIYmF_-bvJ44tFxgGl5xCNwxgXYhQ",
