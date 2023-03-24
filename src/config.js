@@ -227,7 +227,7 @@ export const publicationsConfig = [
   },
   {
     authors: [
-      "P.W.C. Prasad",
+      "P. W. Chandana Prasad",
       "Lau Siong Hoe",
       "Ashutosh Kumar Singh",
       "Mohammed Suriyanatha",
@@ -243,7 +243,7 @@ export const publicationsConfig = [
   },
   {
     authors: [
-      "P.W.C. Prasad",
+      "P. W. Chandana Prasad",
       "K.V.R, Ravi",
       "Ashutosh Kumar Singh",
       "Sharmila Kanna",
@@ -327,7 +327,7 @@ export const publicationsConfig = [
       "Trailokya Nath Sasamal",
       "Ashutosh Kumar Singh",
       "Anand Mohan",
-      "D. K. Pradhan",
+      "Dhiraj K. Pradhan",
     ],
     title: '"Reversible Logic: An Introduction"',
     link: "",
@@ -399,7 +399,7 @@ export const publicationsConfig = [
     year: "2020",
   },
   {
-    authors: ["Ravi Kumar P.", "Ashutosh Kumar Singh", "Anand Mohan"],
+    authors: ["Ravi Kumar", "Ashutosh Kumar Singh", "Anand Mohan"],
     title:
       '"Review of Link Structure Based Ranking Algorithms and Hanging Pages"',
     link: "",
@@ -431,14 +431,14 @@ export const publicationsConfig = [
     year: "2022",
   },
 
-  //Rishabh Gupta, Ishu Gupta, Deepika Saxena, Ashutosh Kumar Singh, Chung-Nan Lee, “An IoT-Centric Data Protection Method for Preserving Security and Privacy in Cloud”, IEEE Systems Journal, (SCI, impact factor = 3.931).
+  //Rishabh Gupta, Ishu Gupta, Deepika Saxena, Ashutosh Kumar Singh, Chung Nan Lee , “An IoT-Centric Data Protection Method for Preserving Security and Privacy in Cloud”, IEEE Systems Journal, (SCI, impact factor = 3.931).
   {
     authors: [
       "Rishabh Gupta",
       "Ishu Gupta",
       "Deepika Saxena",
       "Ashutosh Kumar Singh",
-      "Chung-Nan Lee",
+      "Chung Nan Lee",
     ],
     title:
       '"An IoT-Centric Data Protection Method for Preserving Security and Privacy in Cloud"',
@@ -467,7 +467,7 @@ export const publicationsConfig = [
 
   //Ashutosh Kumar Singh and Smruti Rekha Swain and Chung Nan Lee, “A Metaheuristic Virtual Machine Placement Framework towards Power Efficiency of Sustainable Cloud Environment”, Journal of Soft Computing, Springer (SCI, impact factor = 3.732)
   {
-    authors: ["Ashutosh Kumar Singh", "RSmruti Rekha Swain", "Chung Nan Lee"],
+    authors: ["Ashutosh Kumar Singh", "Smruti Rekha Swain", "Chung Nan Lee"],
     title:
       "“A Metaheuristic Virtual Machine Placement Framework towards Power Efficiency of Sustainable Cloud Environment”",
     link: "",
@@ -620,12 +620,12 @@ export const publicationsConfig = [
     year: "2022",
   },
 
-  //Ishu Gupta, Ashutosh Kumar Singh, C. N. Lee, Rajkumar Buyya, “Secure Data Storage and Sharing Techniques for Data Protection in Cloud Environments: A Systematic Review, Analysis, and Future Directions”, IEEE Access, vol. 10, pp. 71247-71277, Jul 2022. (SCI, impact factor = 3.367) DOI: 10.1109/ACCESS.2022.3188110
+  //Ishu Gupta, Ashutosh Kumar Singh, Chung Nan Lee , Rajkumar Buyya, “Secure Data Storage and Sharing Techniques for Data Protection in Cloud Environments: A Systematic Review, Analysis, and Future Directions”, IEEE Access, vol. 10, pp. 71247-71277, Jul 2022. (SCI, impact factor = 3.367) DOI: 10.1109/ACCESS.2022.3188110
   {
     authors: [
       "Ishu Gupta",
       "Ashutosh Kumar Singh",
-      "C. N. Lee",
+      "Chung Nan Lee",
       "Rajkumar Buyya",
     ],
     title:
@@ -774,7 +774,7 @@ export const publicationsConfig = [
       "Utkarsh Saini",
       "Rohit Patidar",
       "Rishabh Gupta",
-      "ASakshi Chhabra",
+      "Sakshi Chhabra",
       "Ashutosh Kumar Singh",
     ],
     title: '"Data Privacy Preservation Model using Noise Concept in Cloud"',
@@ -1313,7 +1313,7 @@ export const publicationsConfig = [
 
   //Ishu Gupta, Ashutosh Kumar Singh, “Dynamic Threshold based Information Leaker Identification Scheme”, Information Processing Letters, vol. 147, pp. 69-73, Jul. 2019. (SCI, impact factor = 0.959) DOI: 10.1016/j.ipl.2019.03.005
   {
-    authors: ["shu Gupta", "Ashutosh Kumar Singh"],
+    authors: ["Ishu Gupta", "Ashutosh Kumar Singh"],
     title: '“Dynamic Threshold based Information Leaker Identification Scheme"',
     link: "DOI: 10.1109/MDAT.2019.2919017",
     venue: "Information Processing Letters",
@@ -1339,14 +1339,14 @@ export const publicationsConfig = [
     year: "2019",
   },
 
-  //Hari Mohan Gaur, Ashutosh Kumar Singh, Anand Mohan, D K Pradhan, “Computational Analysis and Comparison of Reversible Gates for Design and Test of Logic Circuits,” International J. of Electronics, Taylor & Francis, vol. 106, pp. 1679-1693, Online, Apr. 2019. (SCI, impact factor = 1.336) DOI: 10.1080/00207217.2019.1608587
+  //Hari Mohan Gaur, Ashutosh Kumar Singh, Anand Mohan, Dhiraj K. Pradhan, “Computational Analysis and Comparison of Reversible Gates for Design and Test of Logic Circuits,” International J. of Electronics, Taylor & Francis, vol. 106, pp. 1679-1693, Online, Apr. 2019. (SCI, impact factor = 1.336) DOI: 10.1080/00207217.2019.1608587
 
   {
     authors: [
       "Hari Mohan Gaur",
       "Ashutosh Kumar Singh",
       "Anand Mohan",
-      "D K Pradhan",
+      "Dhiraj K. Pradhan",
     ],
     title:
       '“Computational Analysis and Comparison of Reversible Gates for Design and Test of Logic Circuits"',
@@ -1754,9 +1754,9 @@ export const publicationsConfig = [
     year: "2017",
   },
 
-  // Alex Goh Kwang Leng, Ravi Kumar P., Ashutosh Kumar Singh, “Distrust Seed Set Propagation Algorithm to Detect Web Spam”, Journal of Intelligent Information Systems, vol. 49, iss. 2, pp. 213–235, Oct. 2017. (SCI, impact factor = 1.888) DOI: 10.1007/s10844-016-0439-y
+  // Alex Goh Kwang Leng, Ravi Kumar , Ashutosh Kumar Singh, “Distrust Seed Set Propagation Algorithm to Detect Web Spam”, Journal of Intelligent Information Systems, vol. 49, iss. 2, pp. 213–235, Oct. 2017. (SCI, impact factor = 1.888) DOI: 10.1007/s10844-016-0439-y
   {
-    authors: ["Alex Goh Kwang Leng", "Ravi Kumar P", "Ashutosh Kumar Singh"],
+    authors: ["Alex Goh Kwang Leng", "Ravi Kumar", "Ashutosh Kumar Singh"],
     title: '“Distrust Seed Set Propagation Algorithm to Detect Web Spam"',
     link: "DOI: 10.1007/s10844-016-0439-y",
     venue: "Journal of Intelligent Information Systems",
@@ -1871,10 +1871,10 @@ export const publicationsConfig = [
     category: "journal",
     year: "2016",
   },
-  //Ravi Kumar P., Alex Goh Kwang Leng, Ashutosh Kumar Singh, Anand Mohan, “Efficient Methodologies to Determine the Relevancy of Hanging Pages Using Stability Analysis”, Cybernetics and Systems: An International Journal, vol. 47, iss. 5, pp. 1-17, Jun. 2016. (SCI, impact factor = 1.879) DOI: 10.1080/01969722.2016.1187030
+  //Ravi Kumar, Alex Goh Kwang Leng, Ashutosh Kumar Singh, Anand Mohan, “Efficient Methodologies to Determine the Relevancy of Hanging Pages Using Stability Analysis”, Cybernetics and Systems: An International Journal, vol. 47, iss. 5, pp. 1-17, Jun. 2016. (SCI, impact factor = 1.879) DOI: 10.1080/01969722.2016.1187030
   {
     authors: [
-      "Ravi Kumar P.",
+      "Ravi Kumar",
       "Alex Goh Kwang Leng",
       "Ashutosh Kumar Singh",
       "Anand Mohan",
@@ -1930,7 +1930,7 @@ export const publicationsConfig = [
     category: "journal",
     year: "2016",
   },
-  //Ravi Kumar P., Ashutosh Kumar Singh, Anand Mohan, “A New Algorithm for Detection of Link Spam Contributed by Zero-out Link Pages”, Turkish Journal of Electrical Engineering and Computer Science, vol. 24, pp. 2106- 2123, Apr. 2016. (SCI, impact factor = 0.806) DOI: 10.3906/elk-1401-202
+  //Ravi Kumar , Ashutosh Kumar Singh, Anand Mohan, “A New Algorithm for Detection of Link Spam Contributed by Zero-out Link Pages”, Turkish Journal of Electrical Engineering and Computer Science, vol. 24, pp. 2106- 2123, Apr. 2016. (SCI, impact factor = 0.806) DOI: 10.3906/elk-1401-202
   {
     authors: ["Ravi Kumar", "Ashutosh Kumar Singh", "Anand Mohan"],
     title:
@@ -1958,9 +1958,9 @@ export const publicationsConfig = [
     year: "2016",
   },
 
-  //Ravi Kumar P., Ashutosh Kumar Singh, Anand Mohan, “Efficient Methodologies to overcome the Effects of Hanging Pages in Search Engine Optimisation”, International Journal of Web Engineering and Technology, vol. 10, no. 2, pp. 129-151, 2015. (SCOPUS Indexed) DOI: 10.1504/IJWET.2015.072335
+  //Ravi Kumar , Ashutosh Kumar Singh, Anand Mohan, “Efficient Methodologies to overcome the Effects of Hanging Pages in Search Engine Optimisation”, International Journal of Web Engineering and Technology, vol. 10, no. 2, pp. 129-151, 2015. (SCOPUS Indexed) DOI: 10.1504/IJWET.2015.072335
   {
-    authors: ["Ravi Kumar P", "Ashutosh Kumar Singh", "Anand Mohan"],
+    authors: ["Ravi Kumar ", "Ashutosh Kumar Singh", "Anand Mohan"],
     title:
       "“Efficient Methodologies to overcome the Effects of Hanging Pages in Search Engine Optimisation”",
     link: "DOI: 10.1504/IJWET.2015.072335",
@@ -2086,11 +2086,11 @@ export const publicationsConfig = [
     year: "2014",
   },
 
-  //Alex Goh Kwang Leng, Ravi Kumar P., Ashutosh Kumar Singh, Anand Mohan, “TPRank: Contend Web Spam with Trust Propagation”, Cybernetics and Systems: An International Journal, vol. 45, iss 4, pp. 307-323, Apr. 2014. (SCI, impact factor = 1.879) DOI: 10.1080/01969722.2014.887938
+  //Alex Goh Kwang Leng, Ravi Kumar , Ashutosh Kumar Singh, Anand Mohan, “TPRank: Contend Web Spam with Trust Propagation”, Cybernetics and Systems: An International Journal, vol. 45, iss 4, pp. 307-323, Apr. 2014. (SCI, impact factor = 1.879) DOI: 10.1080/01969722.2014.887938
   {
     authors: [
       "Alex Goh Kwang Leng",
-      "Ravi Kumar P",
+      "Ravi Kumar ",
       "Ashutosh Kumar Singh",
       "Anand Mohan",
     ],
@@ -2104,9 +2104,9 @@ export const publicationsConfig = [
     year: "2014",
   },
 
-  //Alex Goh Kwang Leng, Ravi Kumar P., Ashutosh Kumar Singh, “Link-Based Web Spam Detection using Weight Properties”, Journal of Intelligent Information Systems, Springer, US, pp. 1-17, Mar. 2014. (SCI, impact factor = 1.888) DOI: 10.1007/s10844-014-0310-y
+  //Alex Goh Kwang Leng, Ravi Kumar , Ashutosh Kumar Singh, “Link-Based Web Spam Detection using Weight Properties”, Journal of Intelligent Information Systems, Springer, US, pp. 1-17, Mar. 2014. (SCI, impact factor = 1.888) DOI: 10.1007/s10844-014-0310-y
   {
-    authors: ["Alex Goh Kwang Leng", "Ravi Kumar P", "Ashutosh Kumar Singh"],
+    authors: ["Alex Goh Kwang Leng", "Ravi Kumar ", "Ashutosh Kumar Singh"],
     title: "“Link-Based Web Spam Detection using Weight Properties”",
     link: "DOI: 10.1007/s10844-014-0310-y",
     venue: "Journal of Intelligent Information Systems",
@@ -2131,9 +2131,9 @@ export const publicationsConfig = [
     category: "journal",
     year: "2014",
   },
-  //N. Raj, Ashutosh Kumar Singh, A. K. Gupta, “Low Voltage Bulk-Driven Selfbiased Cascode Current Mirror with Bandwidth Enhancement”, Electronics Letters, vol. 50, pp. 23-25, Jan. 2014. (SCI, impact factor = 1.314) DOI: 10.1049/el.2013.3600
+  //Nikhil Raj, Ashutosh Kumar Singh, Anil Kumar Gupta, “Low Voltage Bulk-Driven Selfbiased Cascode Current Mirror with Bandwidth Enhancement”, Electronics Letters, vol. 50, pp. 23-25, Jan. 2014. (SCI, impact factor = 1.314) DOI: 10.1049/el.2013.3600
   {
-    authors: ["N. Raj", "Ashutosh Kumar Singh", "A. K. Gupta"],
+    authors: ["Nikhil Raj", "Ashutosh Kumar Singh", "Anil Kumar Gupta"],
     title:
       "“Low Voltage Bulk-Driven Selfbiased Cascode Current Mirror with Bandwidth Enhancement”",
     link: "DOI: 10.1049/el.2013.3600",
@@ -2145,7 +2145,7 @@ export const publicationsConfig = [
     year: "2014",
   },
 
-  //Ravi Kumar P, Alex Goh Kwang Leng, Ashutosh Kumar Singh, “Application of Markov Chain in the PageRank Algorithm”, Pertanika Journal of Science and Technology, pp. 541-554, vol. 21, 2013. (SCOPUS Indexed)
+  //Ravi Kumar , Alex Goh Kwang Leng, Ashutosh Kumar Singh, “Application of Markov Chain in the PageRank Algorithm”, Pertanika Journal of Science and Technology, pp. 541-554, vol. 21, 2013. (SCOPUS Indexed)
   {
     authors: ["Ravi Kumar", " Alex Goh Kwang Leng", "Ashutosh Kumar Singh"],
     title: "“Application of Markov Chain in the PageRank Algorithm”",
@@ -2182,9 +2182,9 @@ export const publicationsConfig = [
     category: "journal",
     year: "2012",
   },
-  //Ashutosh Kumar Singh, Ravi Kumar P, Alex Goh Kwang Leng, “Efficient Methodologies to Handle Hanging Pages using Virtual Node”, Cybernetics and Systems: An International Journal, vol. 42, pp. 621-635, Dec 2011. (SCI, impact factor = 1.879, Bintulu Development Authority Best Postgraduate Research Paper Award) DOI: 10.1080/01969722.2011.634679
+  //Ashutosh Kumar Singh, Ravi Kumar , Alex Goh Kwang Leng, “Efficient Methodologies to Handle Hanging Pages using Virtual Node”, Cybernetics and Systems: An International Journal, vol. 42, pp. 621-635, Dec 2011. (SCI, impact factor = 1.879, Bintulu Development Authority Best Postgraduate Research Paper Award) DOI: 10.1080/01969722.2011.634679
   {
-    authors: ["Ashutosh Kumar Singh", "Ravi Kumar P", "Alex Goh Kwang Leng"],
+    authors: ["Ashutosh Kumar Singh", "Ravi Kumar ", "Alex Goh Kwang Leng"],
     title:
       "“Efficient Methodologies to Handle Hanging Pages using Virtual Node”",
     link: "DOI: 10.1080/01969722.2011.634679",
@@ -2213,9 +2213,9 @@ export const publicationsConfig = [
     category: "journal",
     year: "2010",
   },
-  //Ravi Kumar P. and Ashutosh Kumar Singh, “Web Structure Mining Exploring Hyperlinks and Algorithms for Information Retrieval”, American Journal of Applied Sciences, vol. 7, pp. 840-845, 2010. (SCOPUS Indexed, Bintulu Development Authority Best Postgraduate Research Paper Award) DOI: 10.3844/ajassp.2010.840.845
+  //Ravi Kumar  and Ashutosh Kumar Singh, “Web Structure Mining Exploring Hyperlinks and Algorithms for Information Retrieval”, American Journal of Applied Sciences, vol. 7, pp. 840-845, 2010. (SCOPUS Indexed, Bintulu Development Authority Best Postgraduate Research Paper Award) DOI: 10.3844/ajassp.2010.840.845
   {
-    authors: ["Ravi Kumar P.", "Ashutosh Kumar Singh"],
+    authors: ["Ravi Kumar ", "Ashutosh Kumar Singh"],
     title:
       "“Web Structure Mining Exploring Hyperlinks and Algorithms for Information Retrieval”",
     link: "DOI: 10.3844/ajassp.2010.840.845",
@@ -2226,15 +2226,15 @@ export const publicationsConfig = [
     category: "journal",
     year: "2010",
   },
-  //Ashutosh Kumar Singh, Asish Bera, H. Rahaman, J. Mathew, and D. K. Pradhan, “Error Detecting Dual Basis Bit Parallel Systolic Multiplication Architecture over GF(2m)”, Journal of Electronic Science and Technology, vol. 7, no. 4, pp. 336-342, Dec. 2009. DOI: 10.1109/CAS-ICTD.2009.4960812
+  //Ashutosh Kumar Singh, Asish Bera, Hafizur Rahaman, Jimson Mathew, and Dhiraj K. Pradhan, “Error Detecting Dual Basis Bit Parallel Systolic Multiplication Architecture over GF(2m)”, Journal of Electronic Science and Technology, vol. 7, no. 4, pp. 336-342, Dec. 2009. DOI: 10.1109/CAS-ICTD.2009.4960812
 
   {
     authors: [
       "Ashutosh Kumar Singh",
       "Asish Bera",
-      "H. Rahaman",
-      "J. Mathew",
-      "D. K. Pradhan",
+      "Hafizur Rahaman",
+      "Jimson Mathew",
+      "Dhiraj K. Pradhan",
     ],
     title:
       "“Error Detecting Dual Basis Bit Parallel Systolic Multiplication Architecture over GF(2m)”",
@@ -2247,9 +2247,9 @@ export const publicationsConfig = [
     year: "2009",
   },
 
-  //Ashutosh Kumar Singh, Ravi Kumar P. “A Comparative Study of Page Ranking Algorithms for Information Retrieval”, International Journal of Computer, Electrical, Automation, Control and Information Engineering, vol. 3, no. 4, pp. 1154-1165, 2009. (SCOPUS Indexed)
+  //Ashutosh Kumar Singh, Ravi Kumar  “A Comparative Study of Page Ranking Algorithms for Information Retrieval”, International Journal of Computer, Electrical, Automation, Control and Information Engineering, vol. 3, no. 4, pp. 1154-1165, 2009. (SCOPUS Indexed)
   {
-    authors: ["Ashutosh Kumar Singh", "Ravi Kumar P"],
+    authors: ["Ashutosh Kumar Singh", "Ravi Kumar "],
     title:
       "“A Comparative Study of Page Ranking Algorithms for Information Retrieval”",
     link: "",
@@ -2276,13 +2276,13 @@ export const publicationsConfig = [
     year: "2009",
   },
 
-  // H. Rahaman, J. Mathew, Ashutosh Kumar Singh, D. K Pradhan, Biplab K. Sikadar, “Transition Fault Testability in Bit Parallel Multipliers over GF(2m)”, WSEAS Transaction on Circuits and Systems, vol. 7, iss. 12, pp. 1049-1059, Dec. 2008. (SCOPUS Indexed)
+  // Hafizur Rahaman, Jimson Mathew, Ashutosh Kumar Singh, Dhiraj K. Pradhan, Biplab K. Sikadar, “Transition Fault Testability in Bit Parallel Multipliers over GF(2m)”, WSEAS Transaction on Circuits and Systems, vol. 7, iss. 12, pp. 1049-1059, Dec. 2008. (SCOPUS Indexed)
   {
     authors: [
-      "H. Rahaman",
-      "J. Mathew",
+      "Hafizur Rahaman",
+      "Jimson Mathew",
       "Ashutosh Kumar Singh",
-      "D. K Pradhan",
+      "Dhiraj K. Pradhan",
       "Biplab K. Sikadar",
     ],
     title:
@@ -2334,12 +2334,12 @@ export const publicationsConfig = [
     year: "2008",
   },
 
-  //Abusaleh M. Jabir, Dhiraj K. Pradhan, Ashutosh K. Singh Rajaprabhu T. L., “A Technique for Representing Multiple Output Binary Functions with Applications to Verification and Simulation”, IEEE Transaction on Computer, vol. 56, no. 8, pp. 1133-1145, Aug. 2007. (SCI, impact factor = 2.663) DOI: 10.1109/TC.2007.1056
+  //Abusaleh M. Jabir, Dhiraj K. Pradhan, Ashutosh Kumar Singh Rajaprabhu T. L., “A Technique for Representing Multiple Output Binary Functions with Applications to Verification and Simulation”, IEEE Transaction on Computer, vol. 56, no. 8, pp. 1133-1145, Aug. 2007. (SCI, impact factor = 2.663) DOI: 10.1109/TC.2007.1056
   {
     authors: [
       "Abusaleh M. Jabir",
       "Dhiraj K. Pradhan",
-      "Ashutosh K. Singh",
+      "Ashutosh Kumar Singh",
       "Rajaprabhu T. L.",
     ],
     title:
@@ -2353,9 +2353,14 @@ export const publicationsConfig = [
     year: "2007",
   },
 
-  //H. V. Singh, A. K. Singh, SK Balasubramanian, A Mohan, “Achieving enhanced perceptual quality of stego-images for secure multimedia transmission”, Image Processing & Communications, vol. 12, pp 47-52, 2007.
+  //Harsh Vikarm Singh, Ashutosh Kumar Singh, SK Balasubramanian, Anand Mohan, “Achieving enhanced perceptual quality of stego-images for secure multimedia transmission”, Image Processing & Communications, vol. 12, pp 47-52, 2007.
   {
-    authors: ["H. V. Singh", " A. K. Singh", " SK Balasubramanian", "A Mohan"],
+    authors: [
+      "Harsh Vikarm Singh",
+      " Ashutosh Kumar Singh",
+      " SK Balasubramanian",
+      "Anand Mohan",
+    ],
     title:
       "“Achieving enhanced perceptual quality of stego-images for secure multimedia transmission”",
     link: "DOI: 10.1109/TC.2007.1056",
@@ -2399,12 +2404,12 @@ export const publicationsConfig = [
     year: "2023",
   },
 
-  //Deepika Saxena, Ashutosh Kumar Singh, C.N. Lee, and Rajkumar Buyya, “A Sustainable and Secure Load Management Model for Green Cloud Data Centres”, NATURE Scientific Reports (SCI)
+  //Deepika Saxena, Ashutosh Kumar Singh,Chung Nan Lee, and Rajkumar Buyya, “A Sustainable and Secure Load Management Model for Green Cloud Data Centres”, NATURE Scientific Reports (SCI)
   {
     authors: [
       "Deepika Saxena",
       "Ashutosh Kumar Singh",
-      " C.N. Lee",
+      " Chung Nan Lee",
       "Rajkumar Buyya",
     ],
     title:
