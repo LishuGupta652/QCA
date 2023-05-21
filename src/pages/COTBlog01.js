@@ -87,9 +87,9 @@ const COTBlog01 = () => {
 
         <p className="dateSubmit">
           <span className="dateSubmitText">
-            Last date of chapter submission:
+            Last date of chapter submission (final extension):
           </span>
-          <span className="dateVal"> 20.05.2023</span>
+          <span className="dateVal"> 20.06.2023</span>
         </p>
 
         <marquee>
@@ -213,15 +213,15 @@ const COTBlog01 = () => {
           <ul>
             <li>
               Full chapter submission deadline:
-              <span className="dateIndex"> 20-05-2023</span>
+              <span className="dateIndex"> 20-06-2023</span>
             </li>
             <li>
               First round decision notification:
-              <span className="dateIndex"> 05-June-2023</span>
+              <span className="dateIndex"> 25-June-2023</span>
             </li>
             <li>
               Revised full chapter submission deadline:
-              <span className="dateIndex"> 28-06-2023</span>
+              <span className="dateIndex"> 10-07-2023</span>
             </li>
             <li>
               Final decision notification:
@@ -273,7 +273,7 @@ const COTBlog01 = () => {
                 for regular research papers, NOT APA style.
               </li>
               <li>
-                Article of 15-20 pages should be submitted for a single chapter.
+                Article of 12-20 pages should be submitted for a single chapter.
               </li>
               <li>
                 Authors must provide a chapter abstract (no more than 150 words
