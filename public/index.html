@@ -1,43 +1,49 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <link rel="shortcut icon" href="%PUBLIC_URL%/logo.png" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="skyblue" />
+    <meta name="description" content="Quantum cloud and AI" />
+    <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
+    <!-- Primary Meta Tags -->
+    <meta
+      name="description"
+      content="Quantum Machine Learning Cloud Computing"
+    />
 
-<head>
-  <meta charset="utf-8" />
-  <link rel="shortcut icon" href="%PUBLIC_URL%/logo.png" />
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <meta name="theme-color" content="skyblue" />
-  <meta name="description" content="Quantum cloud and AI" />
-  <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
-  <!-- Primary Meta Tags -->
-  <meta name="description" content="Quantum Machine Learning Cloud Computing" />
+    <title>QMC | Quantum Machine Learning Cloud Computing</title>
 
-  <title>QMC | Quantum Machine Learning Cloud Computing</title>
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+      }
 
-  <style>
-    * {
-      margin: 0;
-      padding: 0;
-    }
+      .loading-suspense {
+        display: grid;
+        width: 100vw;
+        height: 100vh;
+        background-color: #2a2727;
+        color: #fff;
+        font-size: 2rem;
+        place-items: center;
+        z-index: 10;
+      }
+    </style>
+  </head>
 
-    .loading-suspense {
-      display: grid;
-      width: 100vw;
-      height: 100vh;
-      background-color: #2a2727;
-      color: #fff;
-      font-size: 2rem;
-      place-items: center;
-      z-index: 10;
-    }
-  </style>
-</head>
+  <body>
+    <script
+      async
+      src="https://platform.twitter.com/widgets.js"
+      charset="utf-8"
+    ></script>
 
-<body>
-  <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
-  <noscript>You need to enable JavaScript to run this app.</noscript>
-  <div id="root">
-    <div class="loading-suspense">Loading ...</div>
-  </div>
-</body>
-
+    <noscript>You need to enable JavaScript to run this app.</noscript>
+    <div id="root">
+      <div class="loading-suspense">Loading ...</div>
+    </div>
+  </body>
 </html>

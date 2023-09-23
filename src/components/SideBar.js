@@ -21,19 +21,11 @@ const SideBarStyled = styled.div`
 const SideBar = () => {
   return (
     <SideBarStyled>
-      <FacebookProvider>
-        <Page
-          href="https://www.facebook.com/ashutosh.kumarsingh.127"
-          tabs="timeline"
-        />
-      </FacebookProvider>
-
       <div className="twitter-bar">
-        <TwitterTimelineEmbed
-          sourceType="profile"
-          screenName="ProfAKSinghNIT"
-          options={{ height: 400 }}
-        />
+        <a
+          class="twitter-timeline"
+          href="https://twitter.com/ProfAKSinghNIT?ref_src=twsrc%5Etfw"
+        ></a>
       </div>
     </SideBarStyled>
   );
