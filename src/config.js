@@ -59,8 +59,8 @@ export const profileCardConfigs = [
   {
     email: "13deepikasaxena@gmail.com",
     title: "Dr. Deepika Saxena",
-    designation: "Postdoc Research Associate",
-    department: "FIAS Goethe University Frankfurt, Germany",
+    designation: "Associate Professor",
+    department: "The University of Aizu, Japan",
     siteLink: null,
     scholarLink:
       "https://scholar.google.com/citations?user=NajK_n8AAAAJ&hl=en&oi=ao",
@@ -89,8 +89,9 @@ export const profileCardConfigs = [
   {
     email: "leoharimohan84@gmail.com",
     title: "Dr. Hari Mohan Gaur",
-    designation: "Assistant Professor",
-    department: "Bennett University, Greater Noida, India",
+    designation: "Post Doctoral Associate",
+    department:
+      "Institute of Computer Science, Goethe University (Campus Riedberg) Frankfurt am Main, Germany",
     siteLink: null,
     scholarLink:
       "https://scholar.google.co.in/citations?user=kwaR2-cAAAAJ&hl=en",
@@ -127,6 +128,16 @@ export const profileCardConfigs = [
     scholarLink:
       "https://scholar.google.com/citations?hl=en&user=x2etUsgAAAAJ&view_op=list_works&gmla=AJsN-F5nivhrbuP9avDndSDcfNdDKyDdEDTD99xFgNc8Kzs1Ofe9NWuRgLxD1hbRVsKkZvaoagmloEkw-F9PvAKc7XOIYmF_-bvJ44tFxgGl5xCNwxgXYhQ",
     image: "niharika.jpg",
+  },
+  {
+    email: "kishuguptares@gmail.com",
+    title: "Dr. Kishu Gupta",
+    designation: "",
+    department: "National Institute of Technology, Kurukshetra, INDIA",
+    siteLink: null,
+    scholarLink:
+      "https://scholar.google.com/citations?hl=en&authuser=1&user=qbDKlpIAAAAJ",
+    image: "kishu_gupta.jpg",
   },
 ];
 

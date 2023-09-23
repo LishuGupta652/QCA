@@ -2,12 +2,8 @@ import React from "react";
 import styled from "styled-components";
 import Footer from "../components/Footer";
 import Header from "../components/Header";
-import SideBar from "../components/SideBar";
 import ProfileCardTeam from "../components/Team/ProfileCardTeams";
-import Template from "../components/Template";
 import { profileCardConfigs } from "../config";
-import { Container } from "../theme/global.styled";
-
 const TeamsStyled = styled.div`
   width: 90%;
   margin: 0 auto;
