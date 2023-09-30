@@ -7,6 +7,7 @@ import ResearchCard from "../components/Home/ResearchCard";
 import ResearchTheme from "../components/Home/ResearchTheme";
 import NewsHome from "../components/News/NewsHome";
 import Template from "../components/Template";
+import Timeline from "../components/Timeline";
 
 import { Container } from "../theme/global.styled";
 
@@ -22,6 +23,8 @@ const Home = () => {
           <NewsHome count={4} />
           <ResearchCard />
           <ResearchTheme />
+
+          {/* <Timeline /> */}
         </Container>
       </Template>
     </HomeStyled>
