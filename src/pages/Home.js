@@ -19,10 +19,9 @@ const Home = () => {
           <HomeBanner />
           <HomeAbout />
           <ProfileCard />
+          <NewsHome count={4} />
           <ResearchCard />
           <ResearchTheme />
-
-          <NewsHome count={4} />
         </Container>
       </Template>
     </HomeStyled>

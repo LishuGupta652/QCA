@@ -2,7 +2,6 @@ import React from "react";
 import styled from "styled-components";
 import Footer from "./Footer";
 import Header from "./Header";
-import SideBar from "./SideBar";
 
 const TemplateGridStyled = styled.div`
   display: grid;
@@ -11,7 +10,7 @@ const TemplateGridStyled = styled.div`
 
   grid-template-areas:
     "header header header header header header header header header header header header"
-    "main main main main main main main main main sidebar  sidebar sidebar"
+    "main main main main main main main main main main main main"
     "footer footer footer footer footer footer footer footer footer footer footer footer ";
 
   .main {
@@ -37,7 +36,6 @@ const Template = (props) => {
     <TemplateGridStyled>
       <Header />
       <div className="main">{props.children}</div>
-      <SideBar />
       <Footer />
     </TemplateGridStyled>
   );

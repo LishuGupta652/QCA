@@ -1,6 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import styled from "styled-components";
+import Footer from "../components/Footer";
 import Header from "../components/Header";
 import { Container } from "../theme/global.styled";
 
@@ -15,6 +16,9 @@ const NewsStyled = styled.div`
 
       font-size: 1.2rem;
     }
+  }
+  .article {
+    min-height: 72vh;
   }
 `;
 
@@ -38,27 +42,30 @@ export const NewsList = [
     Technology, Bennett University, India as Assistant Professor.
   </>,
   <>
-  Dr. Ishu Gupta joined Department of Conputer Science and Engineering, National Sun Yat-Sen University, Taiwan as Post-doc Research Associate.
+    Dr. Ishu Gupta joined Department of Conputer Science and Engineering,
+    National Sun Yat-Sen University, Taiwan as Post-doc Research Associate.
   </>,
 ];
 
 const News = () => {
   return (
-    <NewsStyled>
+    <>
       <Header />
+      <NewsStyled>
+        <Container>
+          <h1>News</h1>
 
-      <Container>
-        <h1>News</h1>
-
-        <div className="article">
-          <ol>
-            {NewsList.map((item, index) => (
-              <li key={index}>{item}</li>
-            ))}
-          </ol>
-        </div>
-      </Container>
-    </NewsStyled>
+          <div className="article">
+            <ol>
+              {NewsList.map((item, index) => (
+                <li key={index}>{item}</li>
+              ))}
+            </ol>
+          </div>
+        </Container>
+      </NewsStyled>
+      <Footer />
+    </>
   );
 };
 

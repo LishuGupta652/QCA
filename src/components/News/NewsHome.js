@@ -24,7 +24,7 @@ const NewsHomeStyled = styled.div`
     /* style button */
     background-color: #ee5253;
     color: white;
-    padding: 14px 20px;
+    padding: 8px 10px;
     margin: 8px 0;
     border: none;
     cursor: pointer;

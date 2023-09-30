@@ -8,6 +8,9 @@ const FooterStyled = styled.div`
   padding: 1rem 0;
   font-size: 1.2rem;
   font-weight: 500;
+  height: 100%;
+  background-color: #454545;
+  color: white;
   transition: all 0.3s ease-in-out;
 
   @media (max-width: 768px) {
