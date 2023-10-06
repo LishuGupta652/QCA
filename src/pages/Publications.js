@@ -35,7 +35,7 @@ const PublicationsStyled = styled.div`
   }
   .reset {
     color: #4caf50;
-    text-decoration: underline ;
+    text-decoration: underline;
     cursor: pointer;
   }
   .soon {
@@ -65,7 +65,6 @@ const Publications = () => {
     setSelectedYear("All");
     setSelectedAuthor("All");
     setSelectedCategory("All");
-
   };
 
   const sortPublications = (pub) => {
@@ -76,49 +75,62 @@ const Publications = () => {
 
   const handleFilterChange = (e, type) => {
     const value = e.target.value;
-    console.log("value ", value, " type " , type)
-    
+    console.log("value ", value, " type ", type);
+
     if (type === "year") {
       setSelectedYear(value);
-    } 
+    }
     if (type === "author") {
       setSelectedAuthor(value);
-    } 
+    }
     if (type === "category") {
       setSelectedCategory(value);
     }
 
-    console.log("selectedYear ", selectedYear, " selectedAuthor " , selectedAuthor, " selectedCategory ", selectedCategory)
-        
+    console.log(
+      "selectedYear ",
+      selectedYear,
+      " selectedAuthor ",
+      selectedAuthor,
+      " selectedCategory ",
+      selectedCategory
+    );
+
     let filteredPublications = publicationsConfig;
-    if(selectedYear !== "All" && type !== "year") {
-    filteredPublications = filteredPublications.filter((pub) => pub.year === selectedYear)
+    if (selectedYear !== "All" && type !== "year") {
+      filteredPublications = filteredPublications.filter(
+        (pub) => pub.year === selectedYear
+      );
     }
-    if(selectedAuthor !== "All" && type !== "author") {
-    filteredPublications = filteredPublications.filter((pub) => pub.authors.includes(selectedAuthor))
+    if (selectedAuthor !== "All" && type !== "author") {
+      filteredPublications = filteredPublications.filter((pub) =>
+        pub.authors.includes(selectedAuthor)
+      );
     }
-    if(selectedCategory !== "All" && type !== "category") {
-    filteredPublications = filteredPublications.filter((pub) => pub.category === selectedCategory)
-    }
-
-    if(type === "year") {
-      filteredPublications = filteredPublications.filter((pub) => pub.year === value)
-    }
-    if(type === "author") {
-      filteredPublications = filteredPublications.filter((pub) => pub.authors.includes(value))
-    }
-    if(type === "category") {
-      filteredPublications = filteredPublications.filter((pub) => pub.category === value)
+    if (selectedCategory !== "All" && type !== "category") {
+      filteredPublications = filteredPublications.filter(
+        (pub) => pub.category === selectedCategory
+      );
     }
 
-
-
-    console.log(filteredPublications)
+    if (type === "year") {
+      filteredPublications = filteredPublications.filter(
+        (pub) => pub.year === value
+      );
+    }
+    if (type === "author") {
+      filteredPublications = filteredPublications.filter((pub) =>
+        pub.authors.includes(value)
+      );
+    }
+    if (type === "category") {
+      filteredPublications = filteredPublications.filter(
+        (pub) => pub.category === value
+      );
+    }
 
     setPublications(filteredPublications);
-  
-  }
-
+  };
 
   useEffect(() => {
     setBooks(
@@ -167,7 +179,7 @@ const Publications = () => {
     setYears(yearsToSelect);
     setAuthors(authorsToSelect);
     setCategories(categoriesToSelect);
-  }
+  };
 
   // for Initial Load
   useEffect(() => {
@@ -231,12 +243,21 @@ const Publications = () => {
         </div>
 
         <div className="error">
-          {
-            books.length === 0 && bookChapters.length === 0 && journals.length === 0 && conferences.length===0 && otherPublications.length === 0 && 
-            <div>
-                <h1>No Publication found with current filter please <span className="reset" onClick={resetPublications}>Reset</span> filter</h1>
-            </div>
-          }
+          {books.length === 0 &&
+            bookChapters.length === 0 &&
+            journals.length === 0 &&
+            conferences.length === 0 &&
+            otherPublications.length === 0 && (
+              <div>
+                <h1>
+                  No Publication found with selected Criteria please{" "}
+                  <span className="reset" onClick={resetPublications}>
+                    Reset
+                  </span>{" "}
+                  filter
+                </h1>
+              </div>
+            )}
         </div>
 
         <ol>

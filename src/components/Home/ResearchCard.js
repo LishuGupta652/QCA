@@ -2,6 +2,7 @@ import React from "react";
 import styled from "styled-components";
 import { RESEARCH_1, RESEARCH_2 } from "../../config";
 import ImageCarousel from "../ImageCarousel";
+import ResearchTheme from "./ResearchTheme";
 
 const ResearchCardStyled = styled.div`
   .img-grid {
@@ -20,17 +21,63 @@ const ResearchCardStyled = styled.div`
       }
     }
   }
+
+  .flex {
+    display: flex;
+    gap: 1rem;
+  }
 `;
+
+const ResearchData = [
+  {
+    image: require("../../img/recentResearch/FT.jpg"),
+    title: "Fault-Tolerant Elastic Resource Management",
+    link: "https://doi.org/10.1109/TNSM.2022.3170379",
+    id: 1,
+  },
+  {
+    image: require("../../img/recentResearch/EQNN.jpg"),
+    title: "Quantum Approach to Forecast Cloud Workloads",
+    link: "https://doi.org/10.1109/TPDS.2021.3079341",
+    id: 2,
+  },
+  {
+    image: require("../../img/recentResearch/HAMM.jpg"),
+    title: "Significance Rank-Driven High Availability",
+    link: "https://doi.org/10.1109/TSC.2022.3206417",
+    id: 3,
+  },
+];
+
+const BookData = [
+  {
+    image: require("../../img/recentResearch/quantumDot.jpg"),
+    title:
+      "Quantum-Dot Cellular Automata Based Digital Logic Circuits: A Design Perspective",
+    link: "https://link.springer.com/book/10.1007/978-981-15-1823-2",
+    id: 1,
+  },
+  {
+    image: require("../../img/recentResearch/Design.jpg"),
+    title: "Design and Testing of Reversible Logic",
+    link: "https://link.springer.com/book/10.1007/978-981-13-8821-7#editorsandaffiliations",
+    id: 2,
+  },
+];
 
 const ResearchCard = () => {
   return (
     <ResearchCardStyled className="home-reasearch">
       <h1>Research</h1>
       <p>{RESEARCH_1}</p>
+      <ResearchTheme />
 
       <p>{RESEARCH_2}</p>
 
-      <ImageCarousel />
+      <div className="flex">
+        <ImageCarousel data={ResearchData} fit={"cover"} />
+        <ImageCarousel data={BookData} fit={"contain"} setHeight={true} />
+      </div>
     </ResearchCardStyled>
   );
 };

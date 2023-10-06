@@ -61,8 +61,6 @@ const ResearchThemeStyled = styled.div`
 const ResearchTheme = () => {
   return (
     <ResearchThemeStyled className="research-theme">
-      <h1>Research Themes</h1>
-
       <div className="cards">
         <Card
           title="Quantum Computing"

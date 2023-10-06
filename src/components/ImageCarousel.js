@@ -5,20 +5,25 @@ import styled from "styled-components";
 
 const ImageCarouselStyled = styled.div`
   width: 100%;
-  margin-top: 40px;
+  margin: 20px 0 60px 0;
 
   .legend {
     color: white;
   }
 
-  li *{
+  li * {
     color: white;
+  }
+
+  img {
+    object-fit: ${(props) => (props.fit ? props.fit : "contain")};
+    height: ${(props) => (props.setHeight ? "460px" : "auto")};
   }
 `;
 
-const ImageCarousel = () => {
+const ImageCarousel = ({ data, fit, setHeight }) => {
   return (
-    <ImageCarouselStyled>
+    <ImageCarouselStyled fit={fit} setHeight={setHeight}>
       <Carousel
         width="600px"
         dynamicHeight="300px"
@@ -29,18 +34,18 @@ const ImageCarousel = () => {
         infiniteLoop
         swipeable
       >
-        <div>
-          <img src={require("../img/recentResearch/FT.jpg")}  />
-          <p className="legend"><a href="https://doi.org/10.1109/TNSM.2022.3170379" target="_blank" rel="noopener noreferrer">Fault-Tolerant Elastic Resource Management</a></p>
-        </div>
-        <div>
-          <img src={require("../img/recentResearch/EQNN.jpg")}  />
-          <p className="legend"><a href="https://doi.org/10.1109/TPDS.2021.3079341" target="_blank" rel="noopener noreferrer">Quantum Approach to Forecast Cloud Workloads</a></p>
-        </div>
-        <div>
-          <img src={require("../img/recentResearch/HAMM.jpg")}  />
-          <p className="legend"><a href="https://doi.org/10.1109/TSC.2022.3206417" target="_blank" rel="noopener noreferrer">Significance Rank-Driven High Availability</a></p>
-        </div>
+        {data?.map((item) => {
+          return (
+            <div>
+              <img src={item?.image} />
+              <p className="legend">
+                <a href={item?.link} target="_blank" rel="noopener noreferrer">
+                  {item?.title}
+                </a>
+              </p>
+            </div>
+          );
+        })}
       </Carousel>
     </ImageCarouselStyled>
   );
