@@ -23,6 +23,8 @@ const HeaderStyled = styled.header`
     list-style: none;
     justify-content: space-between;
     align-items: center;
+    flex-wrap: wrap;
+
     width: 100%;
     max-width: 800px;
 
@@ -58,7 +60,9 @@ const Header = () => {
                 <li>
                   <Link to="/team">Team</Link>
                 </li>
-                <li>Research</li>
+                <li>
+                  <Link to="/research">Research</Link>
+                </li>
                 <li>
                   <Link to="/publications">Publications</Link>
                 </li>

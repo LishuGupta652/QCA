@@ -26,6 +26,12 @@ const ResearchCardStyled = styled.div`
     display: flex;
     gap: 1rem;
   }
+
+  .title {
+    text-align: ${({ isTitleCenter }) => (isTitleCenter ? "center" : "left")};
+
+    margin: 2rem 0;
+  }
 `;
 
 const ResearchData = [
@@ -65,10 +71,13 @@ const BookData = [
   },
 ];
 
-const ResearchCard = () => {
+const ResearchCard = ({ isTitleCenter }) => {
   return (
-    <ResearchCardStyled className="home-reasearch">
-      <h1>Research</h1>
+    <ResearchCardStyled
+      className="home-reasearch"
+      isTitleCenter={isTitleCenter}
+    >
+      <h1 className="title">Research</h1>
       <p>{RESEARCH_1}</p>
       <ResearchTheme />
 
