@@ -95,7 +95,7 @@ export const profileCardConfigs = [
       "Gachon University, South Korea",
     siteLink: "",
     scholarLink: "https://scholar.google.com/citations?user=RTQ8nKEAAAAJ&hl=en",
-    image: "sakshi.jpeg",
+    image: "sakshi.jpg",
   },
   {
     email: "jitendra@nitt.edu",
