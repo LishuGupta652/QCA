@@ -62,9 +62,9 @@ const ProfileCardTeam = ({
               {title}
             </a>{" "}
           </h3>
-          <h4>
+          <h6>
             {designation && <span>({designation})</span>}
-          </h4>
+          </h6>
           <p className="department">{department}</p>
           <div className="email">
             <a href={`mailto:${email}`}>{email}</a>
