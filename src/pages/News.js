@@ -22,27 +22,6 @@ const NewsStyled = styled.div`
   }
 `;
 
-2023: [
-  
-  <>
-    <span className="call_for_papers">Call for papers (special issue)</span> on {" "} <a href="https://www.journals.elsevier.com/computers-and-electrical-engineering%20/call-for-papers/explainable-artificial-intelligence-xai-methods-applications-and-challenges-vsi-xai">
-    eXplainable Artificial Intelligence (XAI): Methods, Applications, and Challenges (VSI-xai)
-    </a> in <a href="https://www.sciencedirect.com/journal/computers-and-electrical-engineering">Computers and Electrical Engineering</a>, Elsevier (SCIE Indexed, IF=4.152)
-  </>,
-  <>
-    <span className="call_for_papers">Call for papers (special track)</span> on {" "} <a href="https://rtip2r-conference.org/2023/resources/Cyber%20Medical%20Systems.pdf">
-      Cyber Medical Systems: Personalized Healthcare
-    </a> in <a href="https://rtip2r-conference.org/2023/index.html">The 6th International Conference on Recent Trends in Image Processing & Pattern Recognition (RTIP2R)</a>, University in Derby (United Kingdom)
-  </>,
-  
-  <>
-    <span className="research_paper">Research Paper</span> entitled <i>Performance Analysis of Machine Learning Centered
-      Workload Prediction Models for Cloud</i> is accepted for publication in <i>IEEE
-        Transactions on Parallel and Distributed Systems</i>
-  </>,
-  
-],
-
 export const NewsList = [
   <>
     Call for papers (special section) on {" "} <a href="https://www.journals.elsevier.com/computers-and-electrical-engineering%20/call-for-papers/explainable-artificial-intelligence-xai-methods-applications-and-challenges-vsi-xai">
@@ -53,7 +32,13 @@ export const NewsList = [
   Research Paper entitled <i>Performance Analysis of Machine Learning Centered
     Workload Prediction Models for Cloud</i> is accepted for publication in <i>IEEE
       Transactions on Parallel and Distributed Systems</i>
-</>,
+  </>,
+  <>
+  Dr. Deepika Saxena has joined has joined The University of Aizu, Japan as Associate Professor.
+  </>,
+  <>
+  Dr. Rishabh Gupta has joined The University of Aizu, Japan as Post-Doc Research Associate.
+  </>,
   <>
     Call for papers (special track) on {" "} <a href="https://rtip2r-conference.org/2023/resources/Cyber%20Medical%20Systems.pdf">
       Cyber Medical Systems: Personalized Healthcare
