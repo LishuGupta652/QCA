@@ -93,7 +93,7 @@ export const profileCardConfigs = [
     designation: "Research Professor",
     department:
       "Gachon University, South Korea",
-    siteLink: "",
+    siteLink: null,
     scholarLink: "https://scholar.google.com/citations?user=RTQ8nKEAAAAJ&hl=en",
     image: "sakshi.jpg",
   },
