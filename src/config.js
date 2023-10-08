@@ -112,7 +112,7 @@ export const profileCardConfigs = [
     title: "Dr. Hari Mohan Gaur",
     designation: "Post Doctoral Associate",
     department:
-      "Institute of Computer Science, Goethe University (Campus Riedberg) Frankfurt am Main, Germany",
+      "Goethe University (Campus Riedberg) Frankfurt, Germany",
     siteLink: null,
     scholarLink:
       "https://scholar.google.co.in/citations?user=kwaR2-cAAAAJ&hl=en",
@@ -142,7 +142,7 @@ export const profileCardConfigs = [
     email: "abhishek.it@email.bbau.ac.in",
     title: "Dr. Abhishek Verma",
     designation: "Assistant Professor",
-    department: "Babasaheb Bhimrao Ambedkar University (A Central University) Lucknow, India",
+    department: "BBAU (A Central University) Lucknow, India",
     siteLink: "https://sites.google.com/view/dr-abhishek-verma",
     scholarLink: "https://scholar.google.co.in/citations?user=k5PD81gAAAAJ",
     image: "abhishek.png",
@@ -152,7 +152,7 @@ export const profileCardConfigs = [
     title: "Dr. Niharika Singh",
     designation: "Postdoctoral Research Scientist",
     department:
-      "Spatiotemporal Data Analysis (SDA) Research Group, Department of Computer Science, Exactum, University of Helsinki, Finland",
+      "University of Helsinki, Finland",
     siteLink: null,
     scholarLink:
       "https://scholar.google.com/citations?hl=en&user=x2etUsgAAAAJ&view_op=list_works&gmla=AJsN-F5nivhrbuP9avDndSDcfNdDKyDdEDTD99xFgNc8Kzs1Ofe9NWuRgLxD1hbRVsKkZvaoagmloEkw-F9PvAKc7XOIYmF_-bvJ44tFxgGl5xCNwxgXYhQ",
@@ -162,7 +162,7 @@ export const profileCardConfigs = [
     email: "dr.vinaytosh@gmu.ac.ae",
     title: "Dr. Vinaytosh Mishra",
     designation: "Associate Professor",
-    department: "College of Healthcare Management and Economics, Gulf Medical University, Ajman (UAE)",
+    department: "Gulf Medical University, Ajman (UAE)",
     siteLink: "https://gmu.ac.ae/dr-vinaytosh-mishra/",
     scholarLink: "https://scholar.google.com/citations?user=Os2Jf3MAAAAJ&hl=en",
     image: "vinaytosh.jpg",
