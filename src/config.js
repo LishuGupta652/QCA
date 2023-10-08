@@ -81,8 +81,8 @@ export const profileCardConfigs = [
   {
     email: "ishugupta23@gmail.com",
     title: "Dr. Ishu Gupta",
-    designation: "",
-    department: `International Institute of Information Technology, Banglore`,
+    designation: "Ramanujan Faculty Fellow",
+    department: "International Institute of Information Technology, Banglore",
     siteLink: "https://sites.google.com/view/ishugupta",
     scholarLink: "https://scholar.google.com/citations?user=7Z457joAAAAJ&hl=en",
     image: "ishu.jpg",
