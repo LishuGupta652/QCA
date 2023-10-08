@@ -57,7 +57,7 @@ export const profileCardConfigs = [
     siteLink: null,
     scholarLink:
       "https://scholar.google.com/citations?hl=en&authuser=1&user=qbDKlpIAAAAJ",
-    image: "kishu.jpg",
+    image: "kishu.JPG",
   },
   {
     email: "rishabhgpt66@gmail.com",
