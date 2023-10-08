@@ -57,7 +57,7 @@ export const profileCardConfigs = [
     siteLink: null,
     scholarLink:
       "https://scholar.google.com/citations?hl=en&authuser=1&user=qbDKlpIAAAAJ",
-    image: "kishu_gupta.jpg",
+    image: "kishu.jpg",
   },
   {
     email: "rishabhgpt66@gmail.com",
@@ -86,6 +86,16 @@ export const profileCardConfigs = [
     siteLink: "https://sites.google.com/view/ishugupta",
     scholarLink: "https://scholar.google.com/citations?user=7Z457joAAAAJ&hl=en",
     image: "ishu.jpg",
+  },
+  {
+    email: "sakshichhabra555@gmail.com",
+    title: "Dr. Sakshi Patni",
+    designation: "Research Professor",
+    department:
+      "Gachon University, South Korea",
+    siteLink: "",
+    scholarLink: "https://scholar.google.com/citations?user=RTQ8nKEAAAAJ&hl=en",
+    image: "sakshi.jpeg",
   },
   {
     email: "jitendra@nitt.edu",
@@ -129,7 +139,15 @@ export const profileCardConfigs = [
       "https://scholar.google.com/citations?user=NdLBylIAAAAJ&hl=en&oi=ao",
     image: "aaisha.jpg",
   },
-
+  {
+    email: "abhishek.it@email.bbau.ac.in",
+    title: "Dr. Abhishek Verma",
+    designation: "Assistant Professor",
+    department: "Babasaheb Bhimrao Ambedkar University (A Central University) Lucknow, India",
+    siteLink: "https://sites.google.com/view/dr-abhishek-verma",
+    scholarLink: "https://scholar.google.co.in/citations?user=k5PD81gAAAAJ",
+    image: "abhishek.png",
+  },
   {
     email: "niharika.academics@gmail.com",
     title: "Dr. Niharika Singh",
