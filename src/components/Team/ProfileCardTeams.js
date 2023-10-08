@@ -61,8 +61,10 @@ const ProfileCardTeam = ({
             <a href={siteLink} target="_blank" rel="noopener noreferrer">
               {title}
             </a>{" "}
-            {designation && <span>({designation})</span>}
           </h3>
+          <h4>
+            {designation && <span>({designation})</span>}
+          </h4>
           <p className="department">{department}</p>
           <div className="email">
             <a href={`mailto:${email}`}>{email}</a>
