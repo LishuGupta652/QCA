@@ -33,6 +33,10 @@ const ProfileCardTeamStyled = styled.div`
         font-size: 0.8rem;
         color: blue;
       }
+      .designation {
+        font-size: 0.8rem;
+        font-style: italic;
+      }
       .scholar img {
         width: 30px;
         padding: 0px 5px;
@@ -62,9 +66,7 @@ const ProfileCardTeam = ({
               {title}
             </a>{" "}
           </h3>
-          <h5>
-            {designation && <span>({designation})</span>}
-          </h5>
+          <p className="designation">{designation}</p>
           <p className="department">{department}</p>
           <div className="email">
             <a href={`mailto:${email}`}>{email}</a>
