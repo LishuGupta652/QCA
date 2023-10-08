@@ -158,6 +158,24 @@ export const profileCardConfigs = [
       "https://scholar.google.com/citations?hl=en&user=x2etUsgAAAAJ&view_op=list_works&gmla=AJsN-F5nivhrbuP9avDndSDcfNdDKyDdEDTD99xFgNc8Kzs1Ofe9NWuRgLxD1hbRVsKkZvaoagmloEkw-F9PvAKc7XOIYmF_-bvJ44tFxgGl5xCNwxgXYhQ",
     image: "niharika.jpg",
   },
+  {
+    email: "dr.vinaytosh@gmu.ac.ae",
+    title: "Dr. Vinaytosh Mishra",
+    designation: "Associate Professor",
+    department: "College of Healthcare Management and Economics, Gulf Medical University, Ajman (UAE)",
+    siteLink: "https://gmu.ac.ae/dr-vinaytosh-mishra/",
+    scholarLink: "https://scholar.google.com/citations?user=Os2Jf3MAAAAJ&hl=en",
+    image: "vinaytosh.jpg",
+  },
+  {
+    email: "glkhann@curtin.edu.my",
+    title: "Dr. Garenth Lim King Hann",
+    designation: "Professor",
+    department: "Curtin University, Malaysia",
+    siteLink: "https://engsci.curtin.edu.my/departments/electrical-and-computer-engineering/staff/associate-prof-dr-garenth-lim-king-hann/",
+    scholarLink: "https://scholar.google.com.my/citations?user=Lcy-CeUAAAAJ&hl=en",
+    image: "garenth.jpg",
+  },
 ];
 
 // export const PublicationsCategory = [

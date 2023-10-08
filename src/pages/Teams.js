@@ -28,7 +28,7 @@ const Teams = () => {
     <>
       <Header />
       <TeamsStyled>
-        <h1></h1>
+        <h1>Students & Collaborators</h1>
 
         <div className="flex">
           {profileCardConfigs.map((profileCardConfig) => {
