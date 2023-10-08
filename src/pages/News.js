@@ -40,9 +40,7 @@ export const NewsList = [
   Dr. Rishabh Gupta has joined The University of Aizu, Japan as Post-Doc Research Associate.
   </>,
   <>
-    Call for papers (special track) on {" "} <a href="https://rtip2r-conference.org/2023/resources/Cyber%20Medical%20Systems.pdf">
-      Cyber Medical Systems: Personalized Healthcare
-    </a> in <a href="https://rtip2r-conference.org/2023/index.html">The 6th International Conference on Recent Trends in Image Processing & Pattern Recognition (RTIP2R)</a>, University in Derby (United Kingdom)
+    Call for papers <a href="https://rtip2r-conference.org/2023/index.html">The 6th International Conference on Recent Trends in Image Processing & Pattern Recognition (RTIP2R)</a>, University in Derby (United Kingdom)
   </>,
   <>
     Call for book chapters on{" "}
