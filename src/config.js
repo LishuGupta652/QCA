@@ -88,16 +88,6 @@ export const profileCardConfigs = [
     image: "ishu.jpg",
   },
   {
-    email: "sakshichhabra555@gmail.com",
-    title: "Dr. Sakshi Patni",
-    designation: "Research Professor",
-    department:
-      "Gachon University, South Korea",
-    siteLink: null,
-    scholarLink: "https://scholar.google.com/citations?user=RTQ8nKEAAAAJ&hl=en",
-    image: "sakshi.jpg",
-  },
-  {
     email: "jitendra@nitt.edu",
     title: "Dr. Jitendra Kumar",
     designation: "Assistant Professor",
@@ -138,15 +128,6 @@ export const profileCardConfigs = [
     scholarLink:
       "https://scholar.google.com/citations?user=NdLBylIAAAAJ&hl=en&oi=ao",
     image: "aaisha.jpg",
-  },
-  {
-    email: "abhishek.it@email.bbau.ac.in",
-    title: "Dr. Abhishek Verma",
-    designation: "Assistant Professor",
-    department: "Babasaheb Bhimrao Ambedkar University (A Central University) Lucknow, India",
-    siteLink: "https://sites.google.com/view/dr-abhishek-verma",
-    scholarLink: "https://scholar.google.co.in/citations?user=k5PD81gAAAAJ",
-    image: "abhishek.png",
   },
   {
     email: "niharika.academics@gmail.com",
