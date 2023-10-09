@@ -66,7 +66,9 @@ const Header = () => {
                 <li>
                   <Link to="/publications">Publications</Link>
                 </li>
-                <li>Resources</li>
+                  <li>
+                  <Link to="/Resource">Resources</Link>
+                  </li>
               </ul>
             </nav>
           </Flex>
