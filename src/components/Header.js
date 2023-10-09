@@ -67,7 +67,7 @@ const Header = () => {
                   <Link to="/publications">Publications</Link>
                 </li>
                   <li>
-                  <Link to="/Resource">Resources</Link>
+                  <Link to="/resource">Resources</Link>
                   </li>
               </ul>
             </nav>
