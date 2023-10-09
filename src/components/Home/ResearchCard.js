@@ -1,6 +1,7 @@
 import React from "react";
 import styled from "styled-components";
 import { RESEARCH_1, RESEARCH_2 } from "../../config";
+import GridImage3 from "../GridImage3";
 import ImageCarousel from "../ImageCarousel";
 import ResearchTheme from "./ResearchTheme";
 
@@ -86,6 +87,7 @@ const ResearchCard = ({ isTitleCenter }) => {
       <div className="flex">
         <ImageCarousel data={ResearchData} fit={"cover"} />
         <ImageCarousel data={BookData} fit={"contain"} setHeight={true} />
+        {/* <GridImage3 /> */}
       </div>
     </ResearchCardStyled>
   );
