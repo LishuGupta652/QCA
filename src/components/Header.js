@@ -155,15 +155,11 @@ const HeaderStyled = styled.header`
       display: none;
       background-color: #ababab;
       position: absolute;
-
-      right: 0;
-
       left: 0;
-
+      right: 0;
+      top: 0;
       text-align: center;
-
       z-index: 1000;
-      padding: 16px 0;
     }
 
     .menu li:hover {
