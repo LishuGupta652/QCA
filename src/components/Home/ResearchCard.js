@@ -6,6 +6,7 @@ import ImageCarousel from "../ImageCarousel";
 import ResearchTheme from "./ResearchTheme";
 
 const ResearchCardStyled = styled.div`
+  width: 100%;
   .img-grid {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
@@ -86,7 +87,7 @@ const ResearchCard = ({ isTitleCenter }) => {
 
       <div className="flex">
         <ImageCarousel data={ResearchData} fit={"cover"} />
-        <ImageCarousel data={BookData} fit={"contain"} setHeight={true} />
+        {/* <ImageCarousel data={BookData} fit={"contain"} setHeight={true} /> */}
         {/* <GridImage3 /> */}
       </div>
     </ResearchCardStyled>

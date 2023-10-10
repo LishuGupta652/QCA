@@ -19,7 +19,7 @@ const ResearchThemeStyled = styled.div`
     margin: 0 auto;
     display: grid;
     gap: 1rem;
-    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(auto, 350px));
   }
 
   .card {

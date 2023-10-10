@@ -2010,7 +2010,6 @@ export const journals = [
     category: "journal",
     year: "2023",
   },
-
   //Sakshi Chhabra, Ashutosh Kumar Singh “Secure and Energy Efficient Load Balancing Framework for Cloud”, Multimedia Tools and Applications. (SCI)
   {
     authors: ["Sakshi Chhabra", "Ashutosh Kumar Singh"],
