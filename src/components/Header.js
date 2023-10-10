@@ -228,30 +228,26 @@ const Header = () => {
                 </label>
 
                 <div class="menu">
-                  <li>
-                    <Link to="/">Home</Link>
-                  </li>
-                  <li>
-                    <Link to="/news">News</Link>
-                  </li>
-                  <li>
-                    <Link to="/team">Team</Link>
-                  </li>
-                  <li>
-                    <Link to="/research">Research</Link>
-                  </li>
-                  <li>
-                    <Link to="/publications">Publications</Link>
-                  </li>
-                  <li>
-                    <Link to="/resource">Resources</Link>
-                  </li>
+                  <Link to="/">
+                    <li>Home</li>
+                  </Link>
+                  <Link to="/news">
+                    <li>News</li>
+                  </Link>
+                  <Link to="/team">
+                    <li>Team</li>
+                  </Link>
+                  <Link to="/research">
+                    <li>Research</li>
+                  </Link>
+                  <Link to="/publications">
+                    <li>Publications</li>
+                  </Link>
+                  <Link to="/resource">
+                    <li>Resources</li>
+                  </Link>
                 </div>
               </ul>
-              {/* 
-              <ul>
-
-              </ul> */}
             </nav>
           </Flex>
         </Container>
