@@ -20,6 +20,10 @@ const ResearchThemeStyled = styled.div`
     display: grid;
     gap: 1rem;
     grid-template-columns: repeat(auto-fit, minmax(auto, 350px));
+
+    @media (max-width: 768px) {
+      justify-content: center;
+    }
   }
 
   .card {
