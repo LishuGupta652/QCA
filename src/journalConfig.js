@@ -1233,7 +1233,6 @@ export const journals = [
     year: "2018",
   },
 
-  ,
   //Jitendra Kumar, Ashutosh Kumar Singh, “Workload Prediction in Cloud using Artificial Neural Network and Adaptive Differential Evolution”, Future  Generation Computer Systems, vol. 81, pp. 41-52, Apr. 2018. (SCI, impact factor = 7.187) DOI: 10.1016/j.future.2017.10.047
   {
     authors: ["Jitendra Kumar", "Ashutosh Kumar Singh"],
