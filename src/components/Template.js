@@ -20,13 +20,12 @@ const TemplateGridStyled = styled.div`
   min-height: 100vh;
 
   @media (max-width: 768px) {
-    grid-template-columns: auto;
-    grid-template-rows: 80px auto auto 100px;
+    grid-template-columns: 100vw;
+    grid-template-rows: 80px auto 100px;
 
     grid-template-areas:
       "header"
       "main"
-      "sidebar"
       "footer";
   }
 `;

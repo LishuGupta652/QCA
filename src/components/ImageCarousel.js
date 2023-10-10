@@ -5,7 +5,6 @@ import styled from "styled-components";
 
 const ImageCarouselStyled = styled.div`
   width: 100%;
-  margin: 20px 0 60px 0;
 
   .legend {
     color: white;
@@ -19,14 +18,18 @@ const ImageCarouselStyled = styled.div`
     object-fit: ${(props) => (props.fit ? props.fit : "contain")};
     height: ${(props) => (props.setHeight ? "460px" : "auto")};
   }
+
+  .slider-wrapper {
+    max-width: 480px;
+    width: 100%;
+    margin: 0 auto;
+  }
 `;
 
 const ImageCarousel = ({ data, fit, setHeight }) => {
   return (
     <ImageCarouselStyled fit={fit} setHeight={setHeight}>
       <Carousel
-        width="600px"
-        dynamicHeight="300px"
         autoPlay
         showThumbs={false}
         onSwipeMove
