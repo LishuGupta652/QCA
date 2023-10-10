@@ -7,6 +7,11 @@ const ProfileCardStyled = styled.div`
   align-items: center;
   margin: 60px 0;
 
+  @media (max-width: 768px) {
+    flex-direction: column;
+    margin: 30px 0;
+  }
+
   .left-circle {
     width: 250px;
     height: 100px;
