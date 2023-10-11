@@ -28,9 +28,9 @@ export const NewsList = [
     eXplainable Artificial Intelligence (XAI): Methods, Applications, and Challenges (VSI-xai)
     </a> in <a href="https://www.sciencedirect.com/journal/computers-and-electrical-engineering">Computers and Electrical Engineering</a>, Elsevier (SCIE Indexed, IF=4.152)
   </>,
-  <>
-  Dr. Hari Mohan Gaur joined Goethe University (Campus Riedberg) Frankfurt, Germany as Post Doctoral Associate.
-  </>,
+  <>Research Paper "<i>A Comprehensive and Comparative Analysis of QCA based Circuit Designs for next generation computation</i>" 
+  is accepted for publication in <i>ACM Computing Surveys</i> [SCIE, Impact Factor: 16.6]
+  </>
   <>
   Research Paper "<i>Performance Analysis of Machine Learning Centered
     Workload Prediction Models for Cloud</i>" is accepted for publication in <i>IEEE
@@ -47,6 +47,9 @@ export const NewsList = [
   <>
     Research Paper "<i>SeCoM: An Outsourced Cloud-Based Secure Communication Model for Advanced Privacy Preserving Data Computing and Protection</i>"
     is accepted for publication in <i>IEEE Systems Journal</i>
+  </>,
+  <>
+  Dr. Hari Mohan Gaur joined Goethe University (Campus Riedberg) Frankfurt, Germany as Post Doctoral Associate.
   </>,
   <>
   Dr. Deepika Saxena joined The University of Aizu, Japan as Associate Professor.
