@@ -32,20 +32,20 @@ export const NewsList = [
   Dr. Hari Mohan Gaur joined Goethe University (Campus Riedberg) Frankfurt, Germany as Post Doctoral Associate.
   </>,
   <>
-  Research Paper entitled "<i>Performance Analysis of Machine Learning Centered
+  Research Paper "<i>Performance Analysis of Machine Learning Centered
     Workload Prediction Models for Cloud</i>" is accepted for publication in <i>IEEE
       Transactions on Parallel and Distributed Systems</i>
   </>,
   <>
-    Research Paper entitled "<i>An AI-Driven VM Threat Prediction Model for Multi-Risks Analysis-Based Cloud Cybersecurity</i>"
+    Research Paper "<i>An AI-Driven VM Threat Prediction Model for Multi-Risks Analysis-Based Cloud Cybersecurity</i>"
     is accepted for publication in <i> IEEE Transactions on Systems, Man, and Cybernetics: Systems</i>
   </>,
   <>
-    Research Paper entitled "<i>Emerging VM Threat Prediction and Dynamic Workload Estimation for Secure Resource Management in Industrial Clouds </i>"
+    Research Paper "<i>Emerging VM Threat Prediction and Dynamic Workload Estimation for Secure Resource Management in Industrial Clouds </i>"
     is accepted for publication in <i> IEEE Transactions on Automation Science and Engineering</i>
   </>,
   <>
-    Research Paper entitled "<i>SeCoM: An Outsourced Cloud-Based Secure Communication Model for Advanced Privacy Preserving Data Computing and Protection</i>"
+    Research Paper "<i>SeCoM: An Outsourced Cloud-Based Secure Communication Model for Advanced Privacy Preserving Data Computing and Protection</i>"
     is accepted for publication in <i>IEEE Systems Journal</i>
   </>,
   <>
