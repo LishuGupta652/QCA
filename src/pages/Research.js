@@ -16,7 +16,11 @@ const Research = () => {
         <ResearchCard isTitleCenter />
 
         <h2>Research Projects</h2>
-        
+        <ol>
+          <li> Defence Research and Development Organization Funding - 
+              Intelligent Real Time Situation Awareness and Detection Support System for Indian Defence  [2016-2018]
+          </li>
+        </ol>
       </Container>
       <Footer />
     </>
