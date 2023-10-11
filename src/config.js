@@ -116,7 +116,7 @@ export const profileCardConfigs = [
     siteLink: null,
     scholarLink:
       "https://scholar.google.co.in/citations?user=kwaR2-cAAAAJ&hl=en",
-    image: "TNS.png",
+    image: "hari.jpg",
   },
   {
     email: "tnsasamal.ece@nitkkr.ac.in",
@@ -126,7 +126,7 @@ export const profileCardConfigs = [
     siteLink: "https://nitkkr.ac.in/?author=212",
     scholarLink:
       "https://scholar.google.co.in/citations?user=30qdWlMAAAAJ&hl=en",
-    image: "nikhil.jpg",
+    image: "TNS.png",
   },
   {
     email: "nikhilquick@gmail.com",
