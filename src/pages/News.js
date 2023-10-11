@@ -30,7 +30,7 @@ export const NewsList = [
   </>,
   <>Research Paper "<i>A Comprehensive and Comparative Analysis of QCA based Circuit Designs for next generation computation</i>" 
   is accepted for publication in <i>ACM Computing Surveys</i> [SCIE, Impact Factor: 16.6]
-  </>
+  </>,
   <>
   Research Paper "<i>Performance Analysis of Machine Learning Centered
     Workload Prediction Models for Cloud</i>" is accepted for publication in <i>IEEE
