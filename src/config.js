@@ -116,7 +116,17 @@ export const profileCardConfigs = [
     siteLink: null,
     scholarLink:
       "https://scholar.google.co.in/citations?user=kwaR2-cAAAAJ&hl=en",
-    image: "hari.jpg",
+    image: "TNS.png",
+  },
+  {
+    email: "tnsasamal.ece@nitkkr.ac.in",
+    title: "Dr. Trailokya Nath Sasamal",
+    designation: "Assistant Professor",
+    department: "National Institute of Technology Kurukshetra, India",
+    siteLink: "https://nitkkr.ac.in/?author=212",
+    scholarLink:
+      "https://scholar.google.co.in/citations?user=30qdWlMAAAAJ&hl=en",
+    image: "nikhil.jpg",
   },
   {
     email: "nikhilquick@gmail.com",
