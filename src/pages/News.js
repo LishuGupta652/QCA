@@ -28,7 +28,7 @@ export const NewsList = [
     eXplainable Artificial Intelligence (XAI): Methods, Applications, and Challenges (VSI-xai)
     </a> in <a href="https://www.sciencedirect.com/journal/computers-and-electrical-engineering">Computers and Electrical Engineering</a>, Elsevier (SCIE Indexed, IF=4.152)
   </>,
-  <>Research Paper "<i>A Comprehensive and Comparative Analysis of QCA based Circuit Designs for next generation computation</i>" 
+  <>Research Paper "<i><a href="https://doi.org/10.1145/3622932">A Comprehensive and Comparative Analysis of QCA based Circuit Designs for next generation computation</a></i>" 
   is accepted for publication in <i>ACM Computing Surveys</i> [SCIE, Impact Factor: 16.6]
   </>,
   <>
