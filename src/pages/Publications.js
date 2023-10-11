@@ -193,10 +193,6 @@ const Publications = () => {
       <Container>
         <h1>Publications</h1>
 
-        <h3 className="soon">
-          <span>Updates Coming Soon</span>
-        </h3>
-
         <div className="filters">
           {/* create option to select year */}
           <select
