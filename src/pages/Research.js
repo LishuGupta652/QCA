@@ -14,8 +14,10 @@ const Research = () => {
       <Header />
       <Container>
         <ResearchCard isTitleCenter />
+
+        <h2>Research Projects</h2>
+        
       </Container>
-      <h2>Research Projects</h2>
       <Footer />
     </>
   );
