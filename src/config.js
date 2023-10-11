@@ -219,7 +219,7 @@ export const profileCardConfigs = [
     department: "Unitersity of Melbourne, Australia",
     siteLink: "http://buyya.com/",
     scholarLink: "https://scholar.google.com/citations?user=7xN6JqYAAAAJ&hl=en",
-    image: "Buyya.jpg",
+    image: "Buyya.jpeg",
   },
 ];
 

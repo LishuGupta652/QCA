@@ -29,32 +29,30 @@ export const NewsList = [
     </a> in <a href="https://www.sciencedirect.com/journal/computers-and-electrical-engineering">Computers and Electrical Engineering</a>, Elsevier (SCIE Indexed, IF=4.152)
   </>,
   <>
-  Dr. Hari Mohan Gaur has joined has joined Goethe University (Campus Riedberg) Frankfurt, Germany as Post Doctoral Associate.
+  Dr. Hari Mohan Gaur joined Goethe University (Campus Riedberg) Frankfurt, Germany as Post Doctoral Associate.
   </>,
   <>
-  Research Paper entitled <i>Performance Analysis of Machine Learning Centered
-    Workload Prediction Models for Cloud</i> is accepted for publication in <i>IEEE
+  Research Paper entitled "<i>Performance Analysis of Machine Learning Centered
+    Workload Prediction Models for Cloud</i>" is accepted for publication in <i>IEEE
       Transactions on Parallel and Distributed Systems</i>
   </>,
   <>
-    Research Paper entitled
-    <i>An AI-Driven VM Threat Prediction Model for Multi-Risks Analysis-Based Cloud Cybersecurity </i>
+    Research Paper entitled "<i>An AI-Driven VM Threat Prediction Model for Multi-Risks Analysis-Based Cloud Cybersecurity</i>"
     is accepted for publication in <i> IEEE Transactions on Systems, Man, and Cybernetics: Systems</i>
   </>,
   <>
-    Research Paper entitled
-    <i> Emerging VM Threat Prediction and Dynamic Workload Estimation for Secure Resource Management in Industrial Clouds </i>
+    Research Paper entitled "<i>Emerging VM Threat Prediction and Dynamic Workload Estimation for Secure Resource Management in Industrial Clouds </i>"
     is accepted for publication in <i> IEEE Transactions on Automation Science and Engineering</i>
   </>,
   <>
-    Research Paper entitled <i>SeCoM: An Outsourced Cloud-Based Secure Communication Model for Advanced Privacy Preserving Data Computing and Protection</i> 
+    Research Paper entitled "<i>SeCoM: An Outsourced Cloud-Based Secure Communication Model for Advanced Privacy Preserving Data Computing and Protection</i>"
     is accepted for publication in <i>IEEE Systems Journal</i>
   </>,
   <>
-  Dr. Deepika Saxena has joined The University of Aizu, Japan as Associate Professor.
+  Dr. Deepika Saxena joined The University of Aizu, Japan as Associate Professor.
   </>,
   <>
-  Dr. Rishabh Gupta has joined The University of Aizu, Japan as Post-Doc Research Associate.
+  Dr. Rishabh Gupta joined The University of Aizu, Japan as Post-Doc Research Associate.
   </>,
   <>
     Call for papers <a href="https://rtip2r-conference.org/2023/index.html">The 6th International Conference on Recent Trends in Image Processing & Pattern Recognition (RTIP2R)</a>, University in Derby (United Kingdom)
@@ -66,15 +64,15 @@ export const NewsList = [
     </Link>
   </>,
   <>
-    Dr. Sakshi Patni has received a Post-Doc offer from Department of Conputer
+    Dr. Sakshi Patni received a Post-Doc offer from Department of Conputer
     Science and Engineering, National Sun Yat-Sen University, Taiwan.
   </>,
   <>
-    Ms. Deepika Saxena has joined Frankfurt Institute of Advanced Studies,
+    Ms. Deepika Saxena joined Frankfurt Institute of Advanced Studies,
     Goethe University, Frankfurt, Germany as Post-Doc Research Associate.
   </>,
   <>
-    Dr. Hari Mohan Gaur has joined School of Computer Science, Engineering, and
+    Dr. Hari Mohan Gaur joined School of Computer Science, Engineering, and
     Technology, Bennett University, India as Assistant Professor.
   </>,
   <>
