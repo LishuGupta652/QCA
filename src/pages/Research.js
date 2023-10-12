@@ -17,6 +17,9 @@ const Research = () => {
 
         <h2>Research Projects</h2>
         <ol>
+          <li>
+            Funded by MPCST, Govt. of Madhya Pradesh - Theoretical Investigation and Analysis of Different Architectures of Quantum Computing for Cyber Physical Systems [2023-2025]
+          </li>
           <li> Funded by Defence Research and Development Organization, Govt. of India - 
             Intelligent Real Time Situation Awareness and Detection Support System for Indian Defence  [2016-2018]
           </li>

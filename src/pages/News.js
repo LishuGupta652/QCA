@@ -24,11 +24,16 @@ const NewsStyled = styled.div`
 
 export const NewsList = [
   <>
+  Research Grant from MPCST, Govt. of Madhya Pradesh received for a R&D project on
+  Theoretical Investigation and Analysis of Different Architectures of
+  Quantum Computing for Cyber Physical Systems
+  </>,
+  <>
     Call for papers (special section) on {" "} <a href="https://www.journals.elsevier.com/computers-and-electrical-engineering%20/call-for-papers/explainable-artificial-intelligence-xai-methods-applications-and-challenges-vsi-xai">
     eXplainable Artificial Intelligence (XAI): Methods, Applications, and Challenges (VSI-xai)
     </a> in <a href="https://www.sciencedirect.com/journal/computers-and-electrical-engineering">Computers and Electrical Engineering</a>, Elsevier (SCIE Indexed, IF=4.152)
   </>,
-  <>Research Paper "<i><a href="https://doi.org/10.1145/3622932">A Comprehensive and Comparative Analysis of QCA based Circuit Designs for next generation computation</a></i>" 
+  <>Research Paper <i><a href="https://doi.org/10.1145/3622932">A Comprehensive and Comparative Analysis of QCA based Circuit Designs for next generation computation</a></i> 
   is accepted for publication in <i>ACM Computing Surveys</i> [SCIE, Impact Factor: 16.6]
   </>,
   <>
