@@ -73,7 +73,7 @@ export const profileCardConfigs = [
     title: "Dr. Deepika Saxena",
     designation: "Associate Professor",
     department: "The University of Aizu, Japan",
-    siteLink: null,
+    siteLink: "https://u-aizu.ac.jp/research/faculty/detail?cd=90155&lng=en",
     scholarLink:
       "https://scholar.google.com/citations?user=NajK_n8AAAAJ&hl=en&oi=ao",
     image: "deepika.jpg",
@@ -190,7 +190,7 @@ export const profileCardConfigs = [
     email: "cnlee@mail.cse.nsysu.edu.tw",
     title: "Dr. Chung-Nan Lee",
     designation: "Distinguished Professor",
-    department: "Unitersity of Melbourne, Australia",
+    department: "National Sun Yat-Sen University, Taiwan",
     siteLink: "https://edith.cse.nsysu.edu.tw/Lab_Director.html",
     scholarLink: "https://scholar.google.com.tw/citations?user=w0b4_w1_-ycC&hl=zh-TW",
     image: "CNLEE.png",

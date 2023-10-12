@@ -36,12 +36,6 @@ const Research = () => {
           Funded by Multimedia University, Malaysia - Application of Decision Diagrams in Synthesis, Design and Testing of VLSI [2003-2004]
           </li>
         </ol>
-
-        
-
-
-
-
       </Container>
       <Footer />
     </>
