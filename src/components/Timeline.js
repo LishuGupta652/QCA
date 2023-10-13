@@ -189,7 +189,7 @@ const Timeline = () => {
   return (
     <>
       <TimelineStyled>
-        <h1>Timeline</h1>
+        <h1></h1>
         <ul>
           <li className="first">
             <div class="date">2002</div>
