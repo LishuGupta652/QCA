@@ -23,7 +23,7 @@ const Home = () => {
           <NewsHome count={4} />
           <ResearchCard />
 
-          {/* <Timeline /> */}
+          <Timeline />
         </Container>
       </Template>
     </HomeStyled>
