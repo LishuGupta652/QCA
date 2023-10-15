@@ -192,26 +192,22 @@ const Timeline = () => {
         <h1></h1>
         <ul>
           <li className="thesisAward">
-            <div class="date">2023</div>
-            <div class="title">Best PhD Thesis</div>
-            <div class="descr">
-              Dr. Deepika Saxena was awarded with Best PhD Thesis Award by EuroSim-2023. 
-              
-              Thesis Title: ""
-              Supervisor: Prof. Ashutosh Kumar Singh
+            <div class="date">Best PhD Thesis Award</div>
+            <div class="title">Dr. Deepika Saxena</div>
+            <div class="descr">             
+              Thesis Title: "" <br></br>
+              Supervisor: Prof. Ashutosh Kumar Singh<br></br>
+              Awarding Agency: EuroSim-2023<br></br>
+              Organizers: The Dutch Benelux Simulation Society<br></br>
             </div>
           </li>
           <li className="paperAward">
-            <div class="date">2019</div>
-            <div class="title">Best Paper Award</div>
+            <div class="date">Best Paper Award</div>
+            <div class="title">Dr. Jitendra Kumar</div>
             <div class="descr">
-              
-              Paper Title: Cloud Resource Demand Prediction using Differential Evolution based Learning
-
-              Authors: Jitendra Kumar and Ashutosh Kumar Singh
-
-              Conference: Seventh International Conference on Smart Computing and Communications 2019
-
+              Paper Title: Cloud Resource Demand Prediction using Differential Evolution based Learning <br></br>
+              Authors: Jitendra Kumar and Ashutosh Kumar Singh <br></br>
+              Awarding Agency: Seventh International Conference on Smart Computing and Communications 2019 <br></br>
               Organizers: Curtin University, Malaysia
             </div>
           </li>
