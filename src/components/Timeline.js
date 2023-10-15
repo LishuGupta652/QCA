@@ -21,19 +21,19 @@ const TimelineStyled = styled.div`
     margin-inline: auto;
   }
 
-  .first {
+  .paperAward {
     --accent-color: #41516c;
   }
-  .second {
+  .thesisAward {
     --accent-color: #fbca3e;
   }
-  .third {
+  .projectSanction {
     --accent-color: #e24a68;
   }
-  .fourth {
+  .book {
     --accent-color: #1b5f8c;
   }
-  .fifth {
+  .memberAward {
     --accent-color: #4cadad;
   }
 
@@ -191,47 +191,28 @@ const Timeline = () => {
       <TimelineStyled>
         <h1></h1>
         <ul>
-          <li className="first">
-            <div class="date">2002</div>
-            <div class="title">Title 1</div>
+          <li className="thesisAward">
+            <div class="date">2023</div>
+            <div class="title">Best PhD Thesis</div>
             <div class="descr">
-              Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quas
-              itaque hic quibusdam fugiat est numquam harum, accusamus suscipit
-              consequatur laboriosam!
+              Dr. Deepika Saxena was awarded with Best PhD Thesis Award by EuroSim-2023. 
+              
+              Thesis Title: ""
+              Supervisor: Prof. Ashutosh Kumar Singh
             </div>
           </li>
-          <li className="second">
-            <div class="date">2007</div>
-            <div class="title">Title 2</div>
+          <li className="paperAward">
+            <div class="date">2019</div>
+            <div class="title">Best Paper Award</div>
             <div class="descr">
-              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quos
-              adipisci nobis nostrum vero nihil veniam.
-            </div>
-          </li>
-          <li className="third">
-            <div class="date">2012</div>
-            <div class="title">Title 3</div>
-            <div class="descr">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga
-              minima consequuntur soluta placeat iure totam commodi repellendus
-              ea delectus, libero fugit quod reprehenderit, sequi quo, et
-              dolorum saepe nulla hic.
-            </div>
-          </li>
-          <li className="fourth">
-            <div class="date">2017</div>
-            <div class="title">Title 4</div>
-            <div class="descr">
-              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Impedit,
-              cumque.
-            </div>
-          </li>
-          <li className="fifth">
-            <div class="date">2022</div>
-            <div class="title">Title 5</div>
-            <div class="descr">
-              Lorem, ipsum dolor sit amet consectetur adipisicing elit. Odit,
-              non.
+              
+              Paper Title: Cloud Resource Demand Prediction using Differential Evolution based Learning
+
+              Authors: Jitendra Kumar and Ashutosh Kumar Singh
+
+              Conference: Seventh International Conference on Smart Computing and Communications 2019
+
+              Organizers: Curtin University, Malaysia
             </div>
           </li>
         </ul>
