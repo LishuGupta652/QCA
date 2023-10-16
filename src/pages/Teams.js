@@ -6,6 +6,7 @@ import ProfileCardTeam from "../components/Team/ProfileCardTeams";
 import { profileCardConfigs } from "../config";
 import { Tab, Tabs, TabList, TabPanel } from "react-tabs";
 import "react-tabs/style/react-tabs.css";
+import CollaboratorCard from "../components/Team/CollaboratorCard";
 
 const TeamsStyled = styled.div`
   width: 90%;
@@ -23,6 +24,11 @@ const TeamsStyled = styled.div`
     grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
 
     line-height: 1.7;
+  }
+
+  .react-tabs__tab--selected {
+    background-color: rgba(253, 203, 110, 0.5);
+    color: black;
   }
 `;
 
@@ -53,7 +59,7 @@ const Teams = () => {
             <div className="flex">
               {profileCardConfigs.map((profileCardConfig) => {
                 return (
-                  <ProfileCardTeam
+                  <CollaboratorCard
                     {...profileCardConfig}
                     key={profileCardConfig?.title}
                   />
