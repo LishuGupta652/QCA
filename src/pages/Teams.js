@@ -3,7 +3,7 @@ import styled from "styled-components";
 import Footer from "../components/Footer";
 import Header from "../components/Header";
 import ProfileCardTeam from "../components/Team/ProfileCardTeams";
-import { profileCardConfigs } from "../config";
+import { CollaboratorConfig, profileCardConfigs } from "../config";
 import { Tab, Tabs, TabList, TabPanel } from "react-tabs";
 import "react-tabs/style/react-tabs.css";
 import CollaboratorCard from "../components/Team/CollaboratorCard";
@@ -11,6 +11,7 @@ import CollaboratorCard from "../components/Team/CollaboratorCard";
 const TeamsStyled = styled.div`
   width: 90%;
   margin: 0 auto;
+  min-height: calc(100vh - 160px);
 
   h1 {
     text-align: center;
@@ -57,7 +58,7 @@ const Teams = () => {
           </TabPanel>
           <TabPanel>
             <div className="flex">
-              {profileCardConfigs.map((profileCardConfig) => {
+              {CollaboratorConfig.map((profileCardConfig) => {
                 return (
                   <CollaboratorCard
                     {...profileCardConfig}

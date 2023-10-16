@@ -91,7 +91,7 @@ export const profileCardConfigs = [
     email: "sakshichhabra555@gmail.com",
     title: "Dr. Sakshi Patni",
     designation: "Research Professor",
-    department:  "Gachon University, South Korea",
+    department: "Gachon University, South Korea",
     siteLink: null,
     scholarLink: "https://scholar.google.com/citations?user=RTQ8nKEAAAAJ&hl=en",
     image: "sakshi.jpeg",
@@ -111,8 +111,7 @@ export const profileCardConfigs = [
     email: "leoharimohan84@gmail.com",
     title: "Dr. Hari Mohan Gaur",
     designation: "Post Doctoral Associate",
-    department:
-      "Goethe University (Campus Riedberg) Frankfurt, Germany",
+    department: "Goethe University (Campus Riedberg) Frankfurt, Germany",
     siteLink: null,
     scholarLink:
       "https://scholar.google.co.in/citations?user=kwaR2-cAAAAJ&hl=en",
@@ -161,8 +160,7 @@ export const profileCardConfigs = [
     email: "niharika.academics@gmail.com",
     title: "Dr. Niharika Singh",
     designation: "Postdoctoral Research Scientist",
-    department:
-      "University of Helsinki, Finland",
+    department: "University of Helsinki, Finland",
     siteLink: null,
     scholarLink:
       "https://scholar.google.com/citations?hl=en&user=x2etUsgAAAAJ&view_op=list_works&gmla=AJsN-F5nivhrbuP9avDndSDcfNdDKyDdEDTD99xFgNc8Kzs1Ofe9NWuRgLxD1hbRVsKkZvaoagmloEkw-F9PvAKc7XOIYmF_-bvJ44tFxgGl5xCNwxgXYhQ",
@@ -182,8 +180,10 @@ export const profileCardConfigs = [
     title: "Dr. Garenth Lim King Hann",
     designation: "Professor",
     department: "Curtin University, Malaysia",
-    siteLink: "https://engsci.curtin.edu.my/departments/electrical-and-computer-engineering/staff/associate-prof-dr-garenth-lim-king-hann/",
-    scholarLink: "https://scholar.google.com.my/citations?user=Lcy-CeUAAAAJ&hl=en",
+    siteLink:
+      "https://engsci.curtin.edu.my/departments/electrical-and-computer-engineering/staff/associate-prof-dr-garenth-lim-king-hann/",
+    scholarLink:
+      "https://scholar.google.com.my/citations?user=Lcy-CeUAAAAJ&hl=en",
     image: "garenth.jpg",
   },
   {
@@ -192,7 +192,8 @@ export const profileCardConfigs = [
     designation: "Distinguished Professor",
     department: "National Sun Yat-Sen University, Taiwan",
     siteLink: "https://edith.cse.nsysu.edu.tw/Lab_Director.html",
-    scholarLink: "https://scholar.google.com.tw/citations?user=w0b4_w1_-ycC&hl=zh-TW",
+    scholarLink:
+      "https://scholar.google.com.tw/citations?user=w0b4_w1_-ycC&hl=zh-TW",
     image: "CNLEE.png",
   },
   {
@@ -201,7 +202,8 @@ export const profileCardConfigs = [
     designation: "Professor",
     department: "Kyushu Institute of Technology, Japan",
     siteLink: "https://www.vlab.cse.kyutech.ac.jp/~wen/index.htm",
-    scholarLink: "https://scholar.google.co.in/citations?user=NvPAWYQAAAAJ&hl=en",
+    scholarLink:
+      "https://scholar.google.co.in/citations?user=NvPAWYQAAAAJ&hl=en",
     image: "Wen.jpg",
   },
   {
@@ -210,7 +212,39 @@ export const profileCardConfigs = [
     designation: "Full Professor",
     department: "Technical University of Berlin, Germany",
     siteLink: "https://schmiste.github.io/",
-    scholarLink: "https://scholar.google.co.in/citations?user=o3Mh4FwAAAAJ&hl=en",
+    scholarLink:
+      "https://scholar.google.co.in/citations?user=o3Mh4FwAAAAJ&hl=en",
+    image: "Stefan.jpg",
+  },
+  {
+    email: "thanos.vasilakos@uia.no",
+    title: "Dr. Athanasios V. Vasilakos",
+    designation: "Distinguished Professor",
+    department: "Unitersity of Agder, Norway",
+    siteLink: "https://cair.uia.no/people/athanasios-v-vasilakos/",
+    scholarLink: "https://scholar.google.com/citations?user=_yWPQWoAAAAJ&hl=en",
+    image: "Vasilakos.jpg",
+  },
+  {
+    email: "rbuyya@unimelb.edu.au",
+    title: "Dr. Rajkumar Buyya",
+    designation: "Professor",
+    department: "Unitersity of Melbourne, Australia",
+    siteLink: "http://buyya.com/",
+    scholarLink: "https://scholar.google.com/citations?user=7xN6JqYAAAAJ&hl=en",
+    image: "Buyya.jpeg",
+  },
+];
+
+export const CollaboratorConfig = [
+  {
+    email: "stefan.schmid@tu-berlin.de",
+    title: "Dr. Stefan Schmid",
+    designation: "Full Professor",
+    department: "Technical University of Berlin, Germany",
+    siteLink: "https://schmiste.github.io/",
+    scholarLink:
+      "https://scholar.google.co.in/citations?user=o3Mh4FwAAAAJ&hl=en",
     image: "Stefan.jpg",
   },
   {

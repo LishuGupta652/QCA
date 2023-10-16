@@ -1,47 +1,48 @@
 import React from "react";
 import styled from "styled-components";
 
-const ProfileCardTeamStyled = styled.div`
-  background-color: #f5f5f5;
-  border-radius: 10px;
-
-  .profile_card {
+const CollaboratorCardTeamStyled = styled.div`
+  .container {
+    position: relative;
+    width: 50%;
     display: flex;
-    align-items: center;
     justify-content: center;
     align-items: center;
-    .profile_card_image {
-    }
-    img {
-      width: 120px;
-      object-fit: cover;
-    }
+    margin: 0px auto;
+  }
 
-    .profile_card_info {
-      width: 400px;
-      height: 100%;
-      background-color: #f5f5f5;
-      padding: 30px;
+  .image {
+    opacity: 1;
+    transition: 0.5s ease;
+    backface-visibility: hidden;
+    width: 100%;
+    width: 100%;
+  }
 
-      h3 {
-        font-size: 1rem;
-      }
-      .department {
-        font-size: 0.8rem;
-      }
-      .email {
-        font-size: 0.8rem;
-        color: blue;
-      }
-      .designation {
-        font-size: 0.8rem;
-        font-style: italic;
-      }
-      .scholar img {
-        width: 30px;
-        padding: 0px 5px;
-      }
-    }
+  .middle {
+    transition: 0.5s ease;
+    opacity: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    text-align: center;
+  }
+
+  .container:hover .image {
+    opacity: 0.3;
+  }
+
+  .container:hover .middle {
+    opacity: 1;
+  }
+
+  .text {
+    background-color: rgba(255, 203, 2);
+    color: white;
+    font-size: 16px;
+    padding: 16px 32px;
   }
 `;
 
@@ -55,36 +56,20 @@ const CollaboratorCard = ({
   image,
 }) => {
   return (
-    <ProfileCardTeamStyled>
-      <div className="profile_card">
-        <div className="profile_card_image">
-          <img src={require(`../../img/teams/${image}`)} alt="" />
-        </div>
-        <div className="profile_card_info">
-          <h3>
-            <a href={siteLink} target="_blank" rel="noopener noreferrer">
-              {title}
-            </a>{" "}
-          </h3>
-          <p className="designation">{designation}</p>
-          <p className="department">{department}</p>
-          <div className="email">
-            <a href={`mailto:${email}`}>{email}</a>
-
-            {scholarLink && (
-              <a
-                href={scholarLink}
-                target="_blank"
-                rel="noopener noreferrer"
-                className="scholar"
-              >
-                <div className="div">Google Scholar </div>
-              </a>
-            )}
-          </div>
+    <CollaboratorCardTeamStyled>
+      <div className="container">
+        <img
+          className="image"
+          src={require(`../../img/teams/${image}`)}
+          alt={image}
+        />
+        <div className="middle">
+          <a href={siteLink} target="_blank" rel="noopener noreferrer">
+            <div className="text">John Doe</div>
+          </a>
         </div>
       </div>
-    </ProfileCardTeamStyled>
+    </CollaboratorCardTeamStyled>
   );
 };
 export default CollaboratorCard;
