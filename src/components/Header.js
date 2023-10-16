@@ -70,7 +70,11 @@ const HeaderStyled = styled.header`
   }
 
   .highlight {
-    color: rgba(253, 203, 11);
+    color: rgba(255, 203, 2);
+
+    background-color: rgba(253, 203, 110, 0.3);
+
+    border-radius: 5px;
   }
   .menu li:hover {
     background-color: rgba(253, 203, 110, 0.5);
