@@ -79,7 +79,7 @@ const ResearchCard = ({ isTitleCenter }) => {
       className="home-reasearch"
       isTitleCenter={isTitleCenter}
     >
-      <h1 className="title">Research</h1>
+      {!isTitleCenter && <h1 className="title">Research</h1>}
       <p>{RESEARCH_1}</p>
       <ResearchTheme />
 

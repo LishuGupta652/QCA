@@ -191,8 +191,6 @@ const Publications = () => {
       <Header />
 
       <Container>
-        <h1>Publications</h1>
-
         <div className="filters">
           {/* create option to select year */}
           <select
