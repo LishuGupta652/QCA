@@ -17,6 +17,7 @@ const HeaderStyled = styled.header`
 
   .logo img {
     width: 120px;
+    height: 75px;
   }
 
   nav ul {
