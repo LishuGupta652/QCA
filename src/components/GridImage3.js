@@ -71,35 +71,35 @@ const GridImageStyled = styled.div`
 const GridImage3 = () => {
   return (
     <GridImageStyled>
-      <div class="grid">
-        <div class="item" tabindex="0">
+      <div className="grid">
+        <div className="item" tabindex="0">
           <img
             src={require("../img/recentResearch/quantumDot.jpg")}
             alt="random"
           />
         </div>
-        <div class="item" tabindex="0">
+        <div className="item" tabindex="0">
           2
         </div>
-        <div class="item" tabindex="0">
+        <div className="item" tabindex="0">
           3
         </div>
-        <div class="item" tabindex="0">
+        <div className="item" tabindex="0">
           4
         </div>
-        <div class="item" tabindex="0">
+        <div className="item" tabindex="0">
           5
         </div>
-        <div class="item" tabindex="0">
+        <div className="item" tabindex="0">
           6
         </div>
-        <div class="item" tabindex="0">
+        <div className="item" tabindex="0">
           7
         </div>
-        <div class="item" tabindex="0">
+        <div className="item" tabindex="0">
           8
         </div>
-        <div class="item" tabindex="0">
+        <div className="item" tabindex="0">
           9
         </div>
       </div>

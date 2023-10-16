@@ -1,5 +1,5 @@
 import React from "react";
-import { APP_NAME, HEADLINE_1 } from "../../config";
+import { HEADLINE_1 } from "../../config";
 
 const HomeAbout = () => {
   return (

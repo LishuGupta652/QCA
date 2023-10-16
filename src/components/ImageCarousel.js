@@ -39,8 +39,8 @@ const ImageCarousel = ({ data, fit, setHeight }) => {
       >
         {data?.map((item) => {
           return (
-            <div>
-              <img src={item?.image} />
+            <div key={item?.title || item}>
+              <img src={item?.image} alt={item?.title} />
               <p className="legend">
                 <a href={item?.link} target="_blank" rel="noopener noreferrer">
                   {item?.title}

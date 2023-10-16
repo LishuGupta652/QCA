@@ -14,6 +14,7 @@ const HeaderStyled = styled.header`
   width: 100%;
   z-index: 1000;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+  height: 80px;
 
   .logo img {
     width: 120px;
@@ -68,6 +69,9 @@ const HeaderStyled = styled.header`
     font-size: 18px;
   }
 
+  .highlight {
+    color: rgba(253, 203, 11);
+  }
   .menu li:hover {
     background-color: rgba(253, 203, 110, 0.5);
 
@@ -217,31 +221,67 @@ const Header = () => {
               </Link>
             </div>
             <nav>
-              <ul class="nav-links">
+              <ul className="nav-links">
                 <input type="checkbox" id="checkbox_toggle" />
 
-                <label for="checkbox_toggle" class="hamburger">
+                <label htmlFor="checkbox_toggle" className="hamburger">
                   &#9776;
                 </label>
 
-                <div class="menu">
+                <div className="menu">
                   <Link to="/">
-                    <li>Home</li>
+                    <li
+                      className={location?.pathname === "/" ? "highlight" : ""}
+                    >
+                      Home
+                    </li>
                   </Link>
                   <Link to="/news">
-                    <li>News</li>
+                    <li
+                      className={
+                        location?.pathname === "/news" ? "highlight" : ""
+                      }
+                    >
+                      News
+                    </li>
                   </Link>
                   <Link to="/team">
-                    <li>Team</li>
+                    <li
+                      className={
+                        location?.pathname === "/team" ? "highlight" : ""
+                      }
+                    >
+                      Team
+                    </li>
                   </Link>
                   <Link to="/research">
-                    <li>Research</li>
+                    <li
+                      className={
+                        location?.pathname === "/research" ? "highlight" : ""
+                      }
+                    >
+                      Research
+                    </li>
                   </Link>
                   <Link to="/publications">
-                    <li>Publications</li>
+                    <li
+                      className={
+                        location?.pathname === "/publications"
+                          ? "highlight"
+                          : ""
+                      }
+                    >
+                      Publications
+                    </li>
                   </Link>
                   <Link to="/resource">
-                    <li>Resources</li>
+                    <li
+                      className={
+                        location?.pathname === "/resource" ? "highlight" : ""
+                      }
+                    >
+                      Resources
+                    </li>
                   </Link>
                 </div>
               </ul>

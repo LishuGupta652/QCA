@@ -22,7 +22,6 @@ const Home = () => {
           <ProfileCard />
           <NewsHome count={4} />
           <ResearchCard />
-
           <Timeline />
         </Container>
       </Template>

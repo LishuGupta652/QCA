@@ -2,6 +2,7 @@ import React from "react";
 import styled from "styled-components";
 
 const TimelineStyled = styled.div`
+  margin-top: 60px;
   --color: rgba(30, 30, 30);
   --bgColor: rgba(245, 245, 245);
   h1 {
@@ -192,9 +193,9 @@ const Timeline = () => {
         <h1></h1>
         <ul>
           <li className="thesisAward">
-            <div class="date">Best PhD Thesis Award</div>
-            <div class="title">Dr. Deepika Saxena</div>
-            <div class="descr">             
+            <div className="date">Best PhD Thesis Award</div>
+            <div className="title">Dr. Deepika Saxena</div>
+            <div className="descr">
               Thesis Title: "" <br></br>
               Supervisor: Prof. Ashutosh Kumar Singh<br></br>
               Awarding Agency: EuroSim-2023<br></br>
@@ -202,12 +203,14 @@ const Timeline = () => {
             </div>
           </li>
           <li className="paperAward">
-            <div class="date">Best Paper Award</div>
-            <div class="title">Dr. Jitendra Kumar</div>
-            <div class="descr">
-              Paper Title: Cloud Resource Demand Prediction using Differential Evolution based Learning <br></br>
+            <div className="date">Best Paper Award</div>
+            <div className="title">Dr. Jitendra Kumar</div>
+            <div className="descr">
+              Paper Title: Cloud Resource Demand Prediction using Differential
+              Evolution based Learning <br></br>
               Authors: Jitendra Kumar and Ashutosh Kumar Singh <br></br>
-              Awarding Agency: Seventh International Conference on Smart Computing and Communications 2019 <br></br>
+              Awarding Agency: Seventh International Conference on Smart
+              Computing and Communications 2019 <br></br>
               Organizers: Curtin University, Malaysia
             </div>
           </li>
