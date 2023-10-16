@@ -203,7 +203,9 @@ const Publications = () => {
           >
             <option value="All">Select Year</option>
             {years.map((year) => (
-              <option value={year}>{year}</option>
+              <option value={year} key={year}>
+                {year}
+              </option>
             ))}
           </select>
 
@@ -216,7 +218,9 @@ const Publications = () => {
           >
             <option value="All">Select Author</option>
             {authors.map((author) => (
-              <option value={author}>{author}</option>
+              <option value={author} key={author}>
+                {author}
+              </option>
             ))}
           </select>
 
@@ -229,7 +233,9 @@ const Publications = () => {
           >
             <option value="All">Select Category</option>
             {categories.map((category) => (
-              <option value={category}>{category}</option>
+              <option value={category} key={category}>
+                {category}
+              </option>
             ))}
           </select>
 
@@ -261,7 +267,7 @@ const Publications = () => {
             <div className="publish book">
               <h2>Books</h2>
               {books.map((book, i) => {
-                return <PublicationViewer key={book.title + i} {...book} />;
+                return <PublicationViewer key={book.title} {...book} />;
               })}
             </div>
           )}
@@ -270,10 +276,7 @@ const Publications = () => {
               <h2>Book Chapters</h2>
               {bookChapters.map((bookChapter, i) => {
                 return (
-                  <PublicationViewer
-                    key={bookChapter.title + i}
-                    {...bookChapter}
-                  />
+                  <PublicationViewer key={bookChapter.title} {...bookChapter} />
                 );
               })}
             </div>
@@ -282,9 +285,7 @@ const Publications = () => {
             <div className="publish journal">
               <h2>Journals</h2>
               {journals.map((journal, i) => {
-                return (
-                  <PublicationViewer key={journal.title + i} {...journal} />
-                );
+                return <PublicationViewer key={journal.title} {...journal} />;
               })}
             </div>
           )}
@@ -293,10 +294,7 @@ const Publications = () => {
               <h2>Conferences</h2>
               {conferences.map((conference, i) => {
                 return (
-                  <PublicationViewer
-                    key={conference.title + i}
-                    {...conference}
-                  />
+                  <PublicationViewer key={conference.title} {...conference} />
                 );
               })}
             </div>
@@ -307,7 +305,7 @@ const Publications = () => {
               {otherPublications.map((otherPublication, i) => {
                 return (
                   <PublicationViewer
-                    key={otherPublication.title + i}
+                    key={otherPublication.title}
                     {...otherPublication}
                   />
                 );
@@ -360,7 +358,7 @@ const PublicationViewer = ({
       <li>
         <span className="author">
           {authors.map((author) => {
-            return <span>{author}, </span>;
+            return <span key={author}>{author}, </span>;
           })}
         </span>
         <span className="title">

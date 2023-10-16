@@ -32,7 +32,12 @@ const Teams = () => {
 
         <div className="flex">
           {profileCardConfigs.map((profileCardConfig) => {
-            return <ProfileCardTeam {...profileCardConfig} />;
+            return (
+              <ProfileCardTeam
+                {...profileCardConfig}
+                key={profileCardConfig?.title}
+              />
+            );
           })}
         </div>
       </TeamsStyled>
