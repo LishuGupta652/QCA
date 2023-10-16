@@ -4,6 +4,9 @@ import Footer from "../components/Footer";
 import Header from "../components/Header";
 import ProfileCardTeam from "../components/Team/ProfileCardTeams";
 import { profileCardConfigs } from "../config";
+import { Tab, Tabs, TabList, TabPanel } from "react-tabs";
+import "react-tabs/style/react-tabs.css";
+
 const TeamsStyled = styled.div`
   width: 90%;
   margin: 0 auto;
@@ -14,7 +17,7 @@ const TeamsStyled = styled.div`
   }
   .flex {
     max-width: 1400px;
-    margin: 0 auto;
+    margin: 50px auto;
     display: grid;
     gap: 1rem;
     grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
@@ -28,18 +31,37 @@ const Teams = () => {
     <>
       <Header />
       <TeamsStyled>
-        <h1>Students & Collaborators</h1>
+        <Tabs>
+          <TabList>
+            <Tab style={{ width: "50%", fontSize: "20px" }}>Students</Tab>
+            <Tab style={{ width: "50%", fontSize: "20px" }}>Collaborators</Tab>
+          </TabList>
 
-        <div className="flex">
-          {profileCardConfigs.map((profileCardConfig) => {
-            return (
-              <ProfileCardTeam
-                {...profileCardConfig}
-                key={profileCardConfig?.title}
-              />
-            );
-          })}
-        </div>
+          <TabPanel>
+            <div className="flex">
+              {profileCardConfigs.map((profileCardConfig) => {
+                return (
+                  <ProfileCardTeam
+                    {...profileCardConfig}
+                    key={profileCardConfig?.title}
+                  />
+                );
+              })}
+            </div>
+          </TabPanel>
+          <TabPanel>
+            <div className="flex">
+              {profileCardConfigs.map((profileCardConfig) => {
+                return (
+                  <ProfileCardTeam
+                    {...profileCardConfig}
+                    key={profileCardConfig?.title}
+                  />
+                );
+              })}
+            </div>
+          </TabPanel>
+        </Tabs>
       </TeamsStyled>
       <Footer />
     </>
