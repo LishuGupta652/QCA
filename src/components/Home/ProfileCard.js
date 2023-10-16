@@ -72,7 +72,7 @@ const ProfileCard = () => {
     <ProfileCardStyled className="profile-card">
       <img src={require("../../img/prof.png")} alt={`${AUTHOR_NAME}`} />
       <div className="right">
-        <p>
+        <div>
           <span className="author_name" style={{ marginRight: 10 }}>
             {AUTHOR_NAME}
           </span>
@@ -101,7 +101,7 @@ const ProfileCard = () => {
               <img src={webOfScience} alt="irins" loading="lazy" />
             </a>
           </div>
-        </p>
+        </div>
       </div>
     </ProfileCardStyled>
   );
