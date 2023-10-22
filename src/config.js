@@ -265,6 +265,37 @@ export const CollaboratorConfig = [
     scholarLink: "https://scholar.google.com/citations?user=7xN6JqYAAAAJ&hl=en",
     image: "Buyya.jpeg",
   },
+  {
+    email: "glkhann@curtin.edu.my",
+    title: "Dr. Garenth Lim King Hann",
+    designation: "Professor",
+    department: "Curtin University, Malaysia",
+    siteLink:
+      "https://engsci.curtin.edu.my/departments/electrical-and-computer-engineering/staff/associate-prof-dr-garenth-lim-king-hann/",
+    scholarLink:
+      "https://scholar.google.com.my/citations?user=Lcy-CeUAAAAJ&hl=en",
+    image: "garenth.jpg",
+  },
+  {
+    email: "cnlee@mail.cse.nsysu.edu.tw",
+    title: "Dr. Chung-Nan Lee",
+    designation: "Distinguished Professor",
+    department: "National Sun Yat-Sen University, Taiwan",
+    siteLink: "https://edith.cse.nsysu.edu.tw/Lab_Director.html",
+    scholarLink:
+      "https://scholar.google.com.tw/citations?user=w0b4_w1_-ycC&hl=zh-TW",
+    image: "CNLEE.png",
+  },
+  {
+    email: "wen@cse.kyutech.ac.jp",
+    title: "Dr. Xiaoging Wen",
+    designation: "Professor",
+    department: "Kyushu Institute of Technology, Japan",
+    siteLink: "https://www.vlab.cse.kyutech.ac.jp/~wen/index.htm",
+    scholarLink:
+      "https://scholar.google.co.in/citations?user=NvPAWYQAAAAJ&hl=en",
+    image: "Wen.jpg",
+  },
 ];
 
 // export const PublicationsCategory = [

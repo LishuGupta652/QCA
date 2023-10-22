@@ -4,7 +4,8 @@ import styled from "styled-components";
 const CollaboratorCardTeamStyled = styled.div`
   .container {
     position: relative;
-    width: 50%;
+    width: 100%;
+    height: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -16,7 +17,8 @@ const CollaboratorCardTeamStyled = styled.div`
     transition: 0.5s ease;
     backface-visibility: hidden;
     width: 100%;
-    width: 100%;
+    height: 100%;
+    object-fit: cover;
   }
 
   .middle {
@@ -39,9 +41,11 @@ const CollaboratorCardTeamStyled = styled.div`
   }
 
   .text {
-    background-color: rgba(255, 203, 2);
+    background-color: rgba(231, 76, 60, 0.7);
     color: white;
-    font-size: 16px;
+    font-size: 12px;
+    letter-spacing: 1px;
+    line-height: 1.5;
     padding: 16px 32px;
   }
 `;
@@ -65,7 +69,7 @@ const CollaboratorCard = ({
         />
         <div className="middle">
           <a href={siteLink} target="_blank" rel="noopener noreferrer">
-            <div className="text">John Doe</div>
+            <div className="text">{title} (Visit)</div>
           </a>
         </div>
       </div>

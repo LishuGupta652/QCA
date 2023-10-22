@@ -14,6 +14,7 @@ const HeaderStyled = styled.header`
   z-index: 1000;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
   height: 80px;
+  z-index: 10000;
 
   .logo img {
     width: 120px;
@@ -37,7 +38,6 @@ const HeaderStyled = styled.header`
     }
   }
 
-  z-index: 10000;
   * {
     z-index: 10000;
   }
@@ -63,24 +63,18 @@ const HeaderStyled = styled.header`
 
   .menu {
     display: flex;
-
     gap: 1em;
-
     font-size: 18px;
   }
 
   .highlight {
-    color: rgba(255, 203, 2);
-
-    background-color: rgba(253, 203, 110, 0.3);
-
+    color: rgba(231, 76, 60);
+    background-color: rgba(231, 76, 60, 0.3);
     border-radius: 5px;
   }
   .menu li:hover {
-    background-color: rgba(253, 203, 110, 0.5);
-
+    background-color: rgba(231, 76, 60, 0.5);
     border-radius: 5px;
-
     transition: 0.3s ease;
   }
 
