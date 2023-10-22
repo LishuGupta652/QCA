@@ -49,6 +49,8 @@ const TeamsStyled = styled.div`
       width: 100%;
       max-height: 400px;
       object-fit: cover;
+      object-position: 20% 25%;
+
       border-radius: 10px;
       height: auto;
       margin: 1rem 0;
