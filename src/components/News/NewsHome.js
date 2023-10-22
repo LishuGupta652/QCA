@@ -1,7 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import styled from "styled-components";
-import { NewsList } from "../../pages/News";
+import { NewsList, NewsListByYearMap } from "../../pages/News";
 
 const NewsHomeStyled = styled.div`
   margin: 60px 0;
@@ -40,14 +40,19 @@ const NewsHomeStyled = styled.div`
 `;
 
 const NewsHome = ({ count = 3 }) => {
-  const newsList = NewsList.slice(0, count);
+  const newsListValues = Object.values(NewsListByYearMap)
+    .flat()
+    .slice(0, count);
+
+  console.log(newsListValues);
+
   return (
     <NewsHomeStyled>
       <h1>Updates</h1>
 
       <marquee direction="up">
         <ol>
-          {newsList.map((item, index) => (
+          {newsListValues.map((item, index) => (
             <li key={index}>{item}</li>
           ))}
         </ol>

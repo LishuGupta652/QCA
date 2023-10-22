@@ -82,7 +82,7 @@ const Research = ({ isTitleCenter }) => {
                 <div className="projectCard">
                   {project.title}
                   <br />
-                  <span>{project.fundingAgency}</span>
+                  <span>Funded by {project.fundingAgency}</span>
                   <span>{project.duration}</span>
                 </div>
               </li>
