@@ -38,6 +38,22 @@ const TeamsStyled = styled.div`
     background-color: rgba(231, 76, 60, 0.5);
     color: black;
   }
+
+  .teamDirector {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    img {
+      width: 100%;
+      max-height: 400px;
+      object-fit: cover;
+      border-radius: 10px;
+      height: auto;
+      margin: 1rem 0;
+    }
+  }
 `;
 
 const Teams = () => {
@@ -46,6 +62,14 @@ const Teams = () => {
       <Header />
       <TeamsStyled>
         <Container>
+          <div className="teamDirector">
+            <h1>Team Director</h1>
+
+            <img
+              src={require(`../img/teams/lab_director.jpg`)}
+              alt="Lab Director"
+            />
+          </div>
           <Tabs>
             <TabList>
               <Tab style={{ width: "50%", fontSize: "20px" }}>Students</Tab>
