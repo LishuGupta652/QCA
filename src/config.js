@@ -166,6 +166,9 @@ export const profileCardConfigs = [
       "https://scholar.google.com/citations?hl=en&user=x2etUsgAAAAJ&view_op=list_works&gmla=AJsN-F5nivhrbuP9avDndSDcfNdDKyDdEDTD99xFgNc8Kzs1Ofe9NWuRgLxD1hbRVsKkZvaoagmloEkw-F9PvAKc7XOIYmF_-bvJ44tFxgGl5xCNwxgXYhQ",
     image: "niharika.jpg",
   },
+];
+
+export const CollaboratorConfig = [
   {
     email: "dr.vinaytosh@gmu.ac.ae",
     title: "Dr. Vinaytosh Mishra",
@@ -233,68 +236,6 @@ export const profileCardConfigs = [
     siteLink: "http://buyya.com/",
     scholarLink: "https://scholar.google.com/citations?user=7xN6JqYAAAAJ&hl=en",
     image: "Buyya.jpeg",
-  },
-];
-
-export const CollaboratorConfig = [
-  {
-    email: "stefan.schmid@tu-berlin.de",
-    title: "Dr. Stefan Schmid",
-    designation: "Full Professor",
-    department: "Technical University of Berlin, Germany",
-    siteLink: "https://schmiste.github.io/",
-    scholarLink:
-      "https://scholar.google.co.in/citations?user=o3Mh4FwAAAAJ&hl=en",
-    image: "Stefan.jpg",
-  },
-  {
-    email: "thanos.vasilakos@uia.no",
-    title: "Dr. Athanasios V. Vasilakos",
-    designation: "Distinguished Professor",
-    department: "Unitersity of Agder, Norway",
-    siteLink: "https://cair.uia.no/people/athanasios-v-vasilakos/",
-    scholarLink: "https://scholar.google.com/citations?user=_yWPQWoAAAAJ&hl=en",
-    image: "Vasilakos.jpg",
-  },
-  {
-    email: "rbuyya@unimelb.edu.au",
-    title: "Dr. Rajkumar Buyya",
-    designation: "Professor",
-    department: "Unitersity of Melbourne, Australia",
-    siteLink: "http://buyya.com/",
-    scholarLink: "https://scholar.google.com/citations?user=7xN6JqYAAAAJ&hl=en",
-    image: "Buyya.jpeg",
-  },
-  {
-    email: "glkhann@curtin.edu.my",
-    title: "Dr. Garenth Lim King Hann",
-    designation: "Professor",
-    department: "Curtin University, Malaysia",
-    siteLink:
-      "https://engsci.curtin.edu.my/departments/electrical-and-computer-engineering/staff/associate-prof-dr-garenth-lim-king-hann/",
-    scholarLink:
-      "https://scholar.google.com.my/citations?user=Lcy-CeUAAAAJ&hl=en",
-    image: "garenth.jpg",
-  },
-  {
-    email: "cnlee@mail.cse.nsysu.edu.tw",
-    title: "Dr. Chung-Nan Lee",
-    designation: "Distinguished Professor",
-    department: "National Sun Yat-Sen University, Taiwan",
-    siteLink: "https://edith.cse.nsysu.edu.tw/Lab_Director.html",
-    scholarLink:
-      "https://scholar.google.com.tw/citations?user=w0b4_w1_-ycC&hl=zh-TW",
-    image: "CNLEE.png",
-  },
-  {
-    email: "wen@cse.kyutech.ac.jp",
-    title: "Dr. Xiaoging Wen",
-    designation: "Professor",
-    department: "Kyushu Institute of Technology, Japan",
-    siteLink: "https://www.vlab.cse.kyutech.ac.jp/~wen/index.htm",
-    scholarLink:
-      "https://scholar.google.co.in/citations?user=NvPAWYQAAAAJ&hl=en",
-    image: "Wen.jpg",
   },
 ];
 
