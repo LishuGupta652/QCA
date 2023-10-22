@@ -13,7 +13,7 @@ const ResourcesStyled = styled.div`
     margin: 10px;
   }
   h2 {
-    background-color: rgba(253, 203, 110, 0.2);
+    background-color: rgba(231, 76, 60, 0.2);
     margin: 10px 0;
     padding: 10px;
     border-radius: 5px;
