@@ -69,7 +69,7 @@ const CollaboratorCard = ({
         />
         <div className="middle">
           <a href={siteLink} target="_blank" rel="noopener noreferrer">
-            <div className="text">{title} (Visit)</div>
+            <div className="text">{title}</div>
           </a>
         </div>
       </div>
