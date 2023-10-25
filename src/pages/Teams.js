@@ -65,7 +65,7 @@ const Teams = () => {
       <TeamsStyled>
         <Container>
           <div className="teamDirector">
-            <h1>Team Director</h1>
+            <h1>Lab Director</h1>
 
             <img
               src={require(`../img/teams/lab_director.jpg`)}
@@ -74,7 +74,7 @@ const Teams = () => {
           </div>
           <Tabs>
             <TabList>
-              <Tab style={{ width: "50%", fontSize: "20px" }}>Students</Tab>
+              <Tab style={{ width: "50%", fontSize: "20px" }}>Members</Tab>
               <Tab style={{ width: "50%", fontSize: "20px" }}>
                 Collaborators
               </Tab>
