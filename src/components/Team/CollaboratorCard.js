@@ -46,7 +46,7 @@ const CollaboratorCardTeamStyled = styled.div`
     font-size: 12px;
     letter-spacing: 1px;
     line-height: 1.5;
-    padding: 16px 32px;
+    padding: 5px;
   }
 `;
 
