@@ -19,7 +19,7 @@ const GalleryStyled = styled.div`
 
   .flex2 {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
     grid-gap: 15px;
     margin: 50px auto;
   }
