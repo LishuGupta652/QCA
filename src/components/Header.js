@@ -261,6 +261,15 @@ const Header = () => {
                       Research
                     </li>
                   </Link>
+                  <Link to="/gallery">
+                    <li
+                      className={
+                        location?.pathname === "/gallery" ? "highlight" : ""
+                      }
+                    >
+                      Gallery
+                    </li>
+                  </Link>
                   <Link to="/publications">
                     <li
                       className={

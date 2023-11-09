@@ -68,8 +68,12 @@ const CollaboratorCard = ({
           alt={image}
         />
         <div className="middle">
-          <a href={siteLink} target="_blank" rel="noopener noreferrer">
-            <div className="text">{title}</div>
+          <a
+            href={siteLink ? siteLink : ""}
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <div className="text">{title ? title : ""}</div>
           </a>
         </div>
       </div>

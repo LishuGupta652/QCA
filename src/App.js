@@ -18,6 +18,7 @@ import COTBlog01 from "./pages/COTBlog01";
 import News from "./pages/News";
 import Research from "./pages/Research";
 import Resource from "./pages/Resource";
+import Gallery from "./pages/Gallery";
 
 const StyledApp = styled.div`
   background-color: ${(props) => props.theme.colors.background};
@@ -44,6 +45,7 @@ function App() {
                 <Route path="/news" element={<News />} />
                 <Route path="/research" element={<Research />} />
                 <Route path="/resource" element={<Resource />} />
+                <Route path="/gallery" element={<Gallery />} />
                 <Route path="/publications" element={<Publications />} />
                 <Route path="/cloud-of-things-blog01" element={<COTBlog01 />} />
                 <Route path="*" element={<NotFound />} />

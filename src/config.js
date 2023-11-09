@@ -239,6 +239,30 @@ export const CollaboratorConfig = [
   },
 ];
 
+export const GalleryConfig = [
+  {
+    title: "Dr. Vinaytosh Mishra",
+    siteLink: "https://gmu.ac.ae/dr-vinaytosh-mishra/",
+    image: "vinaytosh.jpg",
+  },
+  {
+    title: "Dr. Garenth Lim King Hann",
+    siteLink:
+      "https://engsci.curtin.edu.my/departments/electrical-and-computer-engineering/staff/associate-prof-dr-garenth-lim-king-hann/",
+    image: "garenth.jpg",
+  },
+  {
+    title: "Dr. Chung-Nan Lee",
+    siteLink: "https://edith.cse.nsysu.edu.tw/Lab_Director.html",
+    image: "CNLEE.png",
+  },
+  {
+    title: "Dr. Xiaoging Wen",
+    siteLink: "https://www.vlab.cse.kyutech.ac.jp/~wen/index.htm",
+    image: "Wen.jpg",
+  },
+];
+
 // export const PublicationsCategory = [
 //   "book",
 //   "book chapter",
