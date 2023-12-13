@@ -36,6 +36,13 @@ const NewsStyled = styled.div`
 export const NewsListByYearMap = {
   2023: [
     <>
+      2022 Best Paper Award by IEEE Transactions on Cloud Computing. <br />
+      Deepika Saxena, Ashutosh Kumar Singh and Rajkumar Buyya, 
+      "OP-MLB: An Online VM Prediction-Based Multi-Objective Load Balancing Framework for Resource Management 
+      at Cloud Data Center" IEEE Transactions on Cloud Computing , vol. 10, no. 04, pp. 2804 - 2816, 
+      October - December, 2022, doi: http://doi.ieeecomputersociety.org/10.1109/TCC.2021.3059096
+    </>,
+    <>
       Research Grant from MPCST, Govt. of Madhya Pradesh received for a R&D
       project on Theoretical Investigation and Analysis of Different
       Architectures of Quantum Computing for Cyber Physical Systems
