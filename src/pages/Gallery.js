@@ -46,6 +46,24 @@ const GalleryStyled = styled.div`
       margin: 1rem 0;
     }
   }
+
+  button {
+    background-color: rgba(231, 76, 60, 0.2);
+    margin: 20px 0;
+    padding: 10px 30px;
+    border-radius: 5px;
+    color: #454545;
+    margin-top: 30px;
+    cursor: pointer;
+
+    :hover {
+      background-color: rgba(231, 76, 60, 0.3);
+    }
+
+    a {
+      color: inherit;
+    }
+  }
 `;
 
 const Gallery = () => {
@@ -64,6 +82,10 @@ const Gallery = () => {
               );
             })}
           </div>
+
+          <a href="https://drive.google.com/" target="_blank" rel="noreferrer">
+            <button>See More</button>
+          </a>
         </Container>
       </GalleryStyled>
       <Footer />
