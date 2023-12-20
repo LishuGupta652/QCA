@@ -83,7 +83,7 @@ const Gallery = () => {
             })}
           </div>
 
-          <a href="https://drive.google.com/" target="_blank" rel="noreferrer">
+          <a href="https://photos.app.goo.gl/DVL7ZDbSptS6E6hL8" target="_blank" rel="noreferrer">
             <button>See More</button>
           </a>
         </Container>
